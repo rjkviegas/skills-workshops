@@ -8,9 +8,10 @@
 
 ## Starter (15 minutes)
 
-Build out a rudimentary calculator _without using classes_. An example is available on the `example` branch for this directory.
+Create a public repo and initialize RSpec within.
+Build out a rudimentary calculator _without using classes_. An example is available on the master branch for this directory.
 
-During this, you should define (and elicit definitions for):
+While building, you should define (and elicit definitions for):
 
 - **Behaviour:** things a program does, largely synonymous with methods in a program.
 - **Encapsulation:** a way to wrap and group common behaviour so your program is more organised.
@@ -42,7 +43,9 @@ Students should wrap the bare methods you wrote into a class structure. They can
 
 ## Plenary (15 minutes)
 
-Choose two students' examples to share, and critique them. Then either demonstrate your solution, or use the `plenary` branch for this directory.
+Choose two students' examples to share, and critique them. Then either demonstrate your solution, or use the [`plenary`](https://github.com/makersacademy/skills-workshops/tree/plenary) branch for this directory.
+
+> Extension: Encourage students to add a comment at the top of a class definition file saying what the responsibility of the class is. Stick to the following rules: the comment must start with 'understands', it must not reference itself (i.e. a calculator could not 'understands doing calculations' or 'understands being a calculator'), and it should reference the _behaviour_ of the object, not its state.
 
 Below is a set of user stories wrapped into classes for the plenary:
 
