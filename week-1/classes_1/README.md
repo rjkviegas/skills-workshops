@@ -2,7 +2,7 @@
 
 ## Instructions
 
-1. Clone this repository using `git clone <repo url>`.
+1. Clone the starter repository using `git clone <repo url>`.
 1. Install any project dependencies using `bundle install`.
 
 > You may have to run `gem install bundler` to install Bundler first.

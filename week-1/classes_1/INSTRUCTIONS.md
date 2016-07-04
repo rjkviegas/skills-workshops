@@ -1,5 +1,7 @@
 # Classes 1: Introducing Encapsulation (1h)
 
+A video of this workshop is available [here](https://www.youtube.com/watch?v=PuydUGyM9AQ&list=PLc4BYny7PXeR5ZLHCY_oPU2I97aPtS8jm&index=1).
+
 ## Learning Objectives:
 
 - Define 'behaviour' as 'the things a program does'
