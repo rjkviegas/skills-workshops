@@ -16,8 +16,8 @@ Build out a rudimentary calculator _without using classes_. An example is availa
 While building, you should define (and elicit definitions for):
 
 - **Behaviour:** things a program does, largely synonymous with methods in a program.
-- **Encapsulation:** a way to wrap and group common behaviour so your program is more modular.
-- **Class:** The Object-Oriented way to wrap common behaviour.
+- **Encapsulation:** a way to wrap and group commonly used behaviour so your program is more modular.
+- **Class:** The Object-Oriented way to wrap commonly used behaviour.
 
 ###### User Stories
 
