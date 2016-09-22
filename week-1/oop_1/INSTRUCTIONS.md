@@ -47,30 +47,9 @@ Students should wrap the bare methods you wrote into a class structure. They can
 
 Choose two students' examples to share, and critique them. Then either demonstrate your solution, or use the [`plenary`](https://github.com/makersacademy/skills-workshops/tree/plenary) branch for this directory.
 
+### Possible reasonable solutions
+
+* Arithmetic class and Printer class.
+* monkey-patching Fixnum.
+
 > Extension: Encourage students to add a comment at the top of a class definition file saying what the responsibility of the class is. Stick to the following rules: the comment must start with 'understands', it must not reference itself (i.e. a calculator could not 'understands doing calculations' or 'understands being a calculator'), and it should reference the _behaviour_ of the object, not its state.
-
-Below is a set of user stories wrapped into classes for the plenary:
-
-#### Behaviour
-
-##### `Arithmetic`
-
-```
-As a mathematician
-So I can add numbers
-I want to add two numbers on my calc
-```
-
-```
-As a mathematician
-So I can subtract
-I want to subtract two numbers on my calc
-```
-
-##### `Printer`
-
-```
-As mathematician
-So I can enjoy the output of the calculator
-I want a pretty output
-```
