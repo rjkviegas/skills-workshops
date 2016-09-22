@@ -52,4 +52,6 @@ Choose two students' examples to share, and critique them. Then either demonstra
 * Arithmetic class and Printer class.
 * monkey-patching Fixnum.
 
-> Extension: Encourage students to add a comment at the top of a class definition file saying what the responsibility of the class is. Stick to the following rules: the comment must start with 'understands', it must not reference itself (i.e. a calculator could not 'understands doing calculations' or 'understands being a calculator'), and it should reference the _behaviour_ of the object, not its state.
+### Extension
+
+Encourage students to add a comment at the top of a class definition file saying what the responsibility of the class is. Stick to the following rules: the comment must start with 'understands', it must not reference itself (i.e. a calculator could not 'understands doing calculations' or 'understands being a calculator'), and it should reference the _behaviour_ of the object, not its state.
