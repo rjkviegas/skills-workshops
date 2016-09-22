@@ -44,17 +44,17 @@
 
 ### Extra collaboration (optional)
 
-16. Bob. Create a file called `lunch.txt` and add what you plan to have for lunch.
+1. Bob. Create a file called `lunch.txt` and add what you plan to have for lunch.
 
-17. Bob. Commit your changes to a new `lunch` branch.
+2. Bob. Commit your changes to a new `lunch` branch.
 
-18. Bob. Push the `lunch` branch to Alice's `meals` repository.
+3. Bob. Push the `lunch` branch to Alice's `meals` repository.
 
-19. Alice. Pull the `lunch` branch down to your machine.
+4. Alice. Pull the `lunch` branch down to your machine.
 
-20. Alice. Merge the `lunch` branch into the `master` branch.
+5. Alice. Merge the `lunch` branch into the `master` branch.
 
-21. Alice. Push the `master` branch to your `meals` GitHub repository.
+6. Alice. Push the `master` branch to your `meals` GitHub repository.
 
 ## Plenary (15 mins)
 
