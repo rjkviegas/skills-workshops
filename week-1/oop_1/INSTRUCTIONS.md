@@ -10,8 +10,13 @@ A video of this workshop is available [here](https://www.youtube.com/watch?v=Puy
 
 ## Starter (15 minutes)
 
-Create a public repo and initialize RSpec within.
-Build out a rudimentary calculator _without using classes_. An example is available on the master branch for this directory.
+### Why OO + TDD?
+
+Let's you build large systems by moving in tiny, obvious steps.
+
+### Build a calculator without classes
+
+Create a public repo and initialize RSpec within. Build out a rudimentary calculator _without using classes_. An example is available on the master branch for this directory.
 
 While building, you should define (and elicit definitions for):
 
