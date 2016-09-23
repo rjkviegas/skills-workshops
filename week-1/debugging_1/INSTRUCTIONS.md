@@ -5,7 +5,7 @@ Introduce a debugging process with three bugs of varying difficulty.
 ## Learning Objectives
 
 - Define 'debugging' as the process of eliminating bugs from an expected program output
-- Explain the mantra 
+- Explain the mantra
 - Use the mantra 'Tighten the loop; Get visibility' to resolve bugs of varying difficulty.
 
 ## Starter (15 minutes)
