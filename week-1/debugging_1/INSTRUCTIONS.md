@@ -13,7 +13,7 @@ Introduce a debugging process with three bugs of varying difficulty.
 Use some buggy code of your own. Demonstrate precisely the following two-part process to debug it:
 
 - Tighten the loop (find the _exact line_ the bug is coming from)
-- Get some insight (use `p` to inspect everything in the region of that line)
+- Get visibility (use `p` to inspect everything to help you home in on the exact line)
 
 Essentially, we are trying to convince students out of their 'default approach': trying random or researched things until the problem they're facing goes away. Be very strong with this line:
 
