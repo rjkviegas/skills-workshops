@@ -10,7 +10,7 @@ Introduce a debugging process with three bugs of varying difficulty.
 
 ## Starter (15 minutes)
 
-Use some buggy code of your own. Demonstrate precisely the following two-part process to debug it:
+Start debugging the app.  Fix an easy bug. Demonstrate precisely the following two-part process to debug it:
 
 - Tighten the loop (find the _exact line_ the bug is coming from)
 - Get visibility (use `p` to inspect everything to help you home in on the exact line)
