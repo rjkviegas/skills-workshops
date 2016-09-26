@@ -1,3 +1,3 @@
-def print_rectangle
+def rectangle
   "THIS SHOULD BE A RECTANGLE!"
 end

@@ -1,4 +1,4 @@
-# Print rectangle kata
+# Rectangle kata
 
 * Get into pairs and spend an hour writing Ruby code that fulfils the specification below.
 * Don't forget to write tests!
@@ -24,9 +24,9 @@
 |------------------|
 ```
 
-## `print_rectangle` function
+## `rectangle` function
 
-There's a file at `lib/print_rectangle.rb`.  It contains a function called `print_rectangle`.  The function currently returns `THIS SHOULD BE A RECTANGLE!`.  Change it so it returns a 20x10 rectangle as above.
+There's a file at `lib/rectangle.rb`.  It contains a function called `rectangle`.  The function currently returns `THIS SHOULD BE A RECTANGLE!`.  Change it so it returns a 20x10 rectangle as above.
 
 ## Setup
 
@@ -36,7 +36,7 @@ Get this repo:
 
 Go into the directory for this workshop:
 
-    $ cd week-1/print_rectangle_kata
+    $ cd week-1/rectangle_kata
 
 Install the gems:
 
@@ -46,9 +46,9 @@ Install the gems:
 
 Run the tests:
 
-    $ cd path/to/print_rectangle_kata/
+    $ cd path/to/rectangle_kata/
     $ rspec
 
-There is one test that checks that the `print_rectangle` function returns the expected rectangle.  It's failing at the moment.
+There is one test that checks that the `rectangle` function returns the expected rectangle.  It's failing at the moment.
 
-When you write your code add your own tests into `spec/print_rectangle_spec.rb`.
+When you write your code add your own tests into `spec/rectangle_spec.rb`.
