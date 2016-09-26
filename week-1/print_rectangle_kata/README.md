@@ -28,6 +28,20 @@
 
 There's a file at `lib/print_rectangle.rb`.  It contains a function called `print_rectangle`.  The function currently returns `THIS SHOULD BE A RECTANGLE!`.  Change it so it returns a 20x10 rectangle as above.
 
+## Setup
+
+Get this repo:
+
+    $ git clone git@github.com:makersacademy/skills-workshops.git
+
+Go into the directory for this workshop:
+
+    $ cd week-1/print_rectangle_kata
+
+Install the gems:
+
+    $ bundle install
+
 ## Tests
 
 Run the tests:
