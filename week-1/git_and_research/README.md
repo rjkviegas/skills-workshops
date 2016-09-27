@@ -16,31 +16,35 @@
 
 2. You're going to collaborate on a document that lists your meals.  One of you is Alice. The other is Bob.
 
-3. Alice. On your computer, create a directory called `meals`.
+3. Alice and Bob. Check that, when you enter `git config --global user.email` into your terminal, you see the email address associated with your GitHub account.  If you don't, update it.  (You may need to find out how...)
 
-4. Alice. Inside the `meals` directory, create a file called `breakfast.txt`.
+4. Alice and Bob. Check that, when you enter `git config --global user.name` into your terminal, you see your name.  If you don't, update it.
 
-5. Alice. Write what you had for breakfast into `breakfast.txt`.  For example: `Alice had Chocolate Frosted Sugar Bombs`.
+5. Alice. On your computer, create a directory called `meals`.
 
-6. Alice. Commit your changes.
+6. Alice. Inside the `meals` directory, create a file called `breakfast.txt`.
 
-7. Alice. Create a repository on your GitHub account called `meals`.
+7. Alice. Write what you had for breakfast into `breakfast.txt`.  For example: `Alice had Chocolate Frosted Sugar Bombs`.
 
-8. Alice. Push your code to GitHub.
+8. Alice. Commit your changes.
 
-9. Alice. Add Bob as a collaborator on your `meals` GitHub repository.
+9. Alice. Create a repository on your GitHub account called `meals`.
 
-10. Bob. **On your own computer**, clone Alice's `meals` repository.
+10. Alice. Push your code to GitHub.
 
-11. Bob. Add what you had for breakfast to `breakfast.txt`.
+11. Alice. Add Bob as a collaborator on your `meals` GitHub repository.
 
-12. Bob. Commit your change.
+12. Bob. **On your own computer**, clone (don't fork) Alice's `meals` repository.
 
-13. Bob. Push your changes to Alice's `meals` repository.
+13. Bob. Add what you had for breakfast to `breakfast.txt`.
 
-14. Alice. Check you have a green contribution square for today on your GitHub profile page.
+14. Bob. Commit your change.
 
-15. Bob. Check you have a green contribution square for today on your GitHub profile page.
+15. Bob. Push your changes to Alice's `meals` repository.
+
+16. Alice. Check you have a green contribution square for today on your GitHub profile page.
+
+17. Bob. Check you have a green contribution square for today on your GitHub profile page.
 
 ### Extra collaboration (optional)
 
