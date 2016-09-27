@@ -16,9 +16,9 @@
 
 2. You're going to collaborate on a document that lists your meals.  One of you is Alice. The other is Bob.
 
-3. Alice and Bob. Check that, when you enter `git config --global user.email` into your terminal, you see the email address associated with your GitHub account.  If you don't, update it.  (You may need to find out how...)
+3. Alice and Bob. Check that the email address in the global git config on your machine matches the email address associated with your GitHub account.  If it doesn't, update it.
 
-4. Alice and Bob. Check that, when you enter `git config --global user.name` into your terminal, you see your name.  If you don't, update it.
+4. Alice and Bob. Check that the name in the global git config on your machine is your name.  If it isn't, update it.
 
 5. Alice. On your computer, create a directory called `meals`.
 
