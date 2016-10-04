@@ -1,9 +1,9 @@
 # Concretes and Abstracts
 
-> Separate Out the Things That Change from Those That Stay the Same 
+> Separate Out the Things That Change from Those That Stay the Same
 > – Russ Olsen, Design Patterns in Ruby
 
-This is a workshop to introduce you to the idea of separating things out that stay the same.
+This workshop introduces you to the idea of separating the things that change from the things that stay the same.
 
 ### Instructions
 
@@ -25,6 +25,8 @@ I want to raise an error if I input an unrecognised type
 
 Given that users will interact with the program via `irb`, your job is to implement the following features. **Implement them first in `/terrible`, then in `/great`, and compare the experiences of developing in each.**
 
+**You must use the idioms and styles of the program you have been given.**
+
 ```
 As a user
 So I can be shouty
@@ -36,5 +38,3 @@ As a user
 So I can protect my location
 I want to convert any locations in the input to asterisks (****) in the output
 ```
-
-**You must use the idioms and styles of the program you have been given.**
