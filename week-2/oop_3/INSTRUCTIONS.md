@@ -19,7 +19,7 @@ In a company, there are three executives: Ina, the CEO, Brad, the COO, and Lydia
 
 For another example: introduce [Steve Jobs' definition of delegation in OOP](http://www.edibleapple.com/2011/10/29/steve-jobs-explains-object-oriented-programming/).
 
-## Main (20 minutes)
+## Main (40 minutes)
 
 Instructions are in [the README](README.md). Students refactor a poorly-delegated system to one with a more effective distribution of responsibilities.
 

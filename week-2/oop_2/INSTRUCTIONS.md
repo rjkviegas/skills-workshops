@@ -1,4 +1,4 @@
-# OOP 2: Concretes and Abstracts (55 minutes)
+# OOP 2: Concretes and Abstracts (1 hour)
 
 ## Learning Objectives:
 
@@ -19,7 +19,7 @@ Explain:
 - In programming, we want to move from systems that handle many concrete things to ones that handle more abstract cases
 - We should aim to separate the treatment of concrete things from the separation of abstract things
 
-## Main (30 minutes)
+## Main (40 minutes)
 
 Instructions are in [the README](README.md). Students implement the same set of features in both poor OOP and good OOP environments.
 
