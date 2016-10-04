@@ -35,6 +35,6 @@ I want to be able to upcase all my outputs
 
 ```
 As a user
-So I can protect my location
-I want to convert any locations in the input to asterisks (****) in the output
+So I can save space
+I want to convert any instances of the word "Example" to "e.g."
 ```
