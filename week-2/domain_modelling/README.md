@@ -8,7 +8,9 @@ This is a workshop to practice your domain modelling skill.
 
 * A domain model is a representation of the nouns and verbs that correspond to the world simulated by a program.
 
-* You can design domain models by diagramming.  These diagrams take different forms.  For example, here is a basic diagram of entities and the messages they can receive.
+* You can design a domain model by diagramming.
+
+* Here are some user stories:
 
 ```
 As a person
@@ -28,6 +30,8 @@ So I can rememeber my best score
 I want to be able to print out my score
 ```
 
+* Here is a domain model for these user stories that focuses on the messages (verbs) that are sent between entities (nouns):
+
 ```
 +-----------+         +--------+
 | HeadCount +--flip-->+  Coin  |
@@ -36,17 +40,17 @@ I want to be able to print out my score
 
 ## Why diagram a domain model?
 
-Every OO program has an implicit domain model, whether the programmer has diagrammed it or not.  Designing the domain model by writing code is much slower than doing it by diagramming.  If you diagram, you'll find problems in the domain model without needing to write any code.  The more problems you fix in your domain model on paper, the faster you'll be able to create a well architected program.
+* Every OO program has an implicit domain model, whether the programmer has diagrammed it or not.  Designing the domain model by writing code is much slower than doing it by diagramming.  If you diagram, you'll find problems in the domain model without needing to write any code.  The more problems you fix in your domain model on paper, the faster you'll be able to create a well architected program.
 
-The programmer tries to implement the coin flipping program.  They realise that HeadCount has an extra responsibility: flipping the coin.
+* If a programmer tried to implement the coin flipping program using the domain model above, they'd probably discover that it's a bad model.  For example, where does the score printing logic go? Is it really the responsibility of HeadCount to flip the coin?
 
-Instead of trying to code their way out of trouble, they redesign the domain model on paper.
+* Instead of trying to code their way out of trouble, the programmer could redesign the domain model on paper, then go back to writing code.
 
 ## What does a domain model diagram include?
 
-There are many forms.
+Domain models can take many forms.
 
-* Sequence diagrams. (See coach example.)
+* A sequence diagram. (See coach example.)
 
 * Nouns and verbs using boxes and arrows. (As above.)
 
@@ -62,7 +66,7 @@ Different forms work for different situations.  Experiment!
 
 ## Instructions
 
-* Spend 25 minues implementing the coin flipping program, using the process above.
+* Using the process above, spend 25 minues implementing the coin flipping program.
 
 * For this workshop, so that you can focus on domain modelling and not rspec syntax, don't write tests.
 
