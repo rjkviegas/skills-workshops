@@ -66,11 +66,11 @@ Different forms work for different situations.  Experiment!
 
 ## Instructions
 
-* Using the process above, spend 25 minues implementing the coin flipping program.
+* Using the process above, spend 25 minutes implementing the coin flipping program.
 
 * For this workshop, so that you can focus on domain modelling and not rspec syntax, don't write tests.
 
-* After the 25 minutes is up, spend another 25 minutes implementing the picky picnic user stories.
+* After the 25 minutes is up, spend another 25 minutes implementing the picky picnic user stories using the same domain modelling-driven approach.
 
 ### Picky picnic
 
