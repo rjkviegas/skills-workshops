@@ -1,14 +1,12 @@
 class Van
-  attr_accessor :wheels, :engine
+  attr_accessor :engine
 
-  def initialize(wheels, engine)
-    @wheels = wheels
+  def initialize(engine)
     @engine = engine
   end
 
-  def self.hire(van_driver)
-    wheels = Wheel.new
+  def self.hire
     engine = Engine.new
-    new(wheels, engine)
+    new(engine)
   end
 end

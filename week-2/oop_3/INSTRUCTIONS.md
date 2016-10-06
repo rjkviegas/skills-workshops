@@ -29,6 +29,7 @@ Discuss: What happened during the refactor of the system?
 
 Common themes:
 
+- They diagrammed (hopefully)
 - Some classes were unecessary as they didn't really encapsulate any behaviour
 - Some classes could be made more abstract via delegation
 - The system doesn't actually do very much
