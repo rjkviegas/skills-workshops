@@ -12,7 +12,7 @@ A process model is a diagram/performance/[something else] that demonstrates how 
 
 * Talk through the README with the students up to and including the instructions section.
 
-* Demonstrate modelling the [process for visiting the home page of the `http://cats.com` website](#home-page).
+* Demonstrate modelling the [process for visiting the home page](README.md#home-page) of the `http://cats.com` website.
 
 ## Main (50 minutes)
 
@@ -22,7 +22,7 @@ A process model is a diagram/performance/[something else] that demonstrates how 
 
 * Ask who wants to model their process in another way.  Put them into the appropriate groups.
 
-* Set the students going on modelling the [processes to model](#processes-to-model).
+* Set the students going on modelling the [processes to model](README.md#processes-to-model).
 
 ## Plenary (15 minutes)
 

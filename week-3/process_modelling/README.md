@@ -6,11 +6,11 @@ A process model is a diagram/performance/[something else] that demonstrates how 
 
 ## Why model a process?
 
-* It's a quick way to figure out how a process works.  It's much quicker than trying to write the code that enacts the process.
+* It's a quick way to figure out and cement your understanding of how a process works.  It's much quicker than writing the code that enacts the process.
 
 * It's much easier to iterate on a process model that the code that enacts the process.
 
-* It's much easier to add detail to a process model than add it to code.
+* It's much easier to add detail to a process model than to add it to code.
 
 * It's a great way to communicate and discuss a process with another person.
 
@@ -30,22 +30,24 @@ Many forms!
 
 * Choose one of the forms above.
 
-* Use it to model each of the following processes.
+* Use it to model each of the processes in the [processes to model](README.md#processes-to-model) section below.
 
-* Make sure that your model includes the following:
+* Prioritise the clarity and detail of your model over getting through all the processes listed below.
 
+* Make sure that your models include the following:
+
+  * The order that things happen in.
   * The HTTP requests and the data they carry. (Resources for this at the bottom of this readme.)
   * The HTTP responses and the data they carry. (Resources for this at the bottom of this readme.)
-  * The order things happen in.
-  * Mouse clicks.
   * The movement of requests between client and server.
+  * Mouse clicks.
   * What is displayed in the browser.
 
 ## Processes to model
 
 ### Home page
 
-A user visits the URL `http://cats.com` and is shown this HTML:
+A user visits `http://cats.com` in their browser and is shown this HTML:
 
 ```
 <html>
@@ -71,9 +73,9 @@ A user clicks the `see a cat` link and is shown this HTML:
 
 (Don't forget to model the `cat.jpg` request and response.)
 
-### List page
+### Mailing list page
 
-1. A user clicks the `list` link and is shown this HTML:
+* A user clicks the `list` link and is shown this HTML:
 
 ```
 <html>
@@ -86,9 +88,9 @@ A user clicks the `see a cat` link and is shown this HTML:
 </html>
 ```
 
-2. The user fills in their email address and clicks the submit button.
+* The user fills in their email address and clicks the submit button.
 
-3. The user is sent to the `thanks.html` page and is shown this HTML:
+* The user is sent to the `thanks.html` page and is shown this HTML:
 
 ```
 <html>
