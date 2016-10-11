@@ -17,7 +17,7 @@ In some languages, only some things you can type are expressions.  For example, 
 
 In Ruby, everything you can type is an expression.  Here are some pieces of code.  I've underlined some example expressions using hashes:
 
-```
+```ruby
 def count_sheep(sheep)
   sheep.count
 end
@@ -29,7 +29,7 @@ count_sheep(sheep_names)
 # The `sheep` expression returns [:flossie, :bessie]
 ```
 
-```
+```ruby
 def count_sheep(sheep)
   sheep.count
 end
@@ -41,7 +41,7 @@ count_sheep(sheep_names)
 # The `count_sheep(sheep_names)` expression returns 2
 ```
 
-```
+```ruby
 def count_sheep(sheep)
   sheep.count
   ###########
@@ -53,7 +53,7 @@ count_sheep(sheep_names)
 # The `sheep.count` expression returns 2
 ```
 
-```
+```ruby
 ##########################
 # def count_sheep(sheep) #
 #   sheep.count          #
