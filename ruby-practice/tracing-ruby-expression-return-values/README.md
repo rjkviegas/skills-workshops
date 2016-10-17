@@ -67,7 +67,7 @@ count_sheep(sheep_names)
 # of the `count_sheep` method return?
 ```
 
-## Processes for finding out "what is this?"
+## Processes for tracing Ruby expression return values
 
 * `p` everywhere.  This should be your first instinct when you're trying to understand code.  Don't know what an expression returns? `p` it.
 
