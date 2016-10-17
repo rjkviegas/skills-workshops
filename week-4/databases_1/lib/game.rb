@@ -20,10 +20,10 @@ class Game
   end
 
   def play(printer = Printer.new)
-    save
     printer.print_server(server)
     printer.print_winner(random_player)
     self.server = non_server
+    save
   end
 
   private
