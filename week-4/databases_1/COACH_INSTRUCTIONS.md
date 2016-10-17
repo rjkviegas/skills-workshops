@@ -9,6 +9,11 @@ See the readme.
 ### Starter (15 minutes)
 
 ```ruby
+require 'data_mapper'
+
+DataMapper.setup(:default,
+                 "postgres://localhost/databases_1_starter")
+
 class Person
   include DataMapper::Resource
 
@@ -20,10 +25,16 @@ class Person
   end
 end
 
+DataMapper.finalize
+DataMapper.auto_migrate!
+
 timmy = Person.create(name: "timmy")
 timmy.print_name
 timmy.name = "tim"
 timmy.save
+
+tim = Person.get(1)
+tim.print_name
 ```
 
 ```
