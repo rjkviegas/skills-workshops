@@ -8,7 +8,8 @@ class Game
   belongs_to :server, model: Player
 
   def self.start(player_name_1, player_name_2, player_class: Player)
-    players = [player_class.create(name: player_name_1), player_class.create(name: player_name_2)]
+    players = [player_class.create(name: player_name_1),
+               player_class.create(name: player_name_2)]
     game = new(players: players)
     game.start
     game
