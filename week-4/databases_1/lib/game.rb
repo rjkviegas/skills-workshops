@@ -11,13 +11,12 @@ class Game
     players = [player_class.create(name: player_name_1),
                player_class.create(name: player_name_2)]
     game = new(players: players)
-    game.start
+    game.one_time_only_setup
     game
   end
 
-  def start
-    self.server = get_or_choose_initial_server
-    save
+  def one_time_only_setup
+    set_first_server
   end
 
   def play(printer = Printer.new)
@@ -29,12 +28,13 @@ class Game
 
   private
 
-  def random_player
-    [players.first, players.last].sample
+  def set_first_server
+    self.server = random_player
+    save
   end
 
-  def get_or_choose_initial_server
-    return random_player unless server
+  def random_player
+    [players.first, players.last].sample
   end
 
   def non_server
