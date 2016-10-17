@@ -1,21 +1,11 @@
-# Databases 1 (40 minutes)
+# Diagramming database structure (40 minutes)
 
-An exercise to learn three things:
+## Learning objectives
 
-1. Infer a domain from code
-2. Infer database structure from classes
-3. Diagram database structure
+1. Infer a domain from some code.
+2. Infer the structure of a database from a domain.
+3. Diagram the structure of a database.
 
 ## Instructions
 
-#### Starter (10 minutes)
-
-Collaboratively define the definitions in [this document](definitions.md).
-
-#### Main (20 minutes)
-
-You have two classes that constitute a domain, with a mix of computed and property methods (including relations). You must diagram the underlying database structure of these classes.
-
-#### Plenary (10 minutes)
-
-Come together to discuss the diagrams drawn.
+You have three classes that constitute a domain, with a mix of computed methods, properties and relations. You must diagram the underlying database structure of these classes.
