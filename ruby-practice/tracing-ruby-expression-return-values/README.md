@@ -2,7 +2,7 @@
 
 ## Setup
 
-    $ cd what-is-this
+    $ cd tracing-ruby-expression-return-values/
     $ bundle
 
 ## Run the tests
