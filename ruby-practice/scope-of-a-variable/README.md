@@ -42,10 +42,10 @@ print_favourite_food
 
 #### Favourite drink
 
+```ruby
 # Can favourite_drink be used in the place it's printed?
 # Can drink be used in the place it's printed?
 
-```ruby
 favourite_drink = "Ribena"
 
 def print_drink(drink)
@@ -62,9 +62,9 @@ print_drink(favourite_drink)
 
 #### Magic word
 
+```ruby
 # Can magic_word be used in the place it's printed?
 
-```ruby
 magic_word = "please"
 
 5.times do
