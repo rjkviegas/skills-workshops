@@ -72,7 +72,7 @@ I want to filter students in the list by tag name
 ```
 As a student
 So I can exemplify an XP value
-I want to give feedback daily
+I want to give feedback in the form of a daily rating
 ```
 
 ```
