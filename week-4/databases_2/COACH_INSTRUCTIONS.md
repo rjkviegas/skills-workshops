@@ -61,7 +61,7 @@ Table: students_tags
 ```
 
 ```
-Table: daily_feedbacks
+Table: daily_ratings
 |------|------------|----------|-------------|
 |  id  | student_id |  rating  | created_at  |
 |------|------------|----------|-------------|
@@ -82,10 +82,10 @@ Table: daily_feedbacks
 - Retrieve a list of all the `students_tags` that have that `tag_id`;
 - Fetch all records from the `students` table that appear in the `student_id` column for those `student_tags` you just retrieved.
 
-3. Daily Feedbacks `belong_to` a student. Correspondingly, Students `have_many` Daily Feedbacks.
+3. Daily Ratings `belong_to` a student. Correspondingly, Students `have_many` Daily Ratings.
 
 ## Gotchas
 
-- Students do not need to store the average feedback number: they can calculate that in the model layer, given all the feedbacks they ever made.
+- Students do not need to store the average rating: they can calculate that in the model layer, given all the ratings they ever made.
 - When Model A `has_many` of Model B, _Model A's foreign key appears in Model B's table_.
 - Join tables can be tricky. Trace the information flow in the comment above with a finger to make it clearer.
