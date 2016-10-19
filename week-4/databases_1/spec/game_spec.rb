@@ -13,7 +13,7 @@ RSpec.describe Game do
     end
   end
 
-  describe '#play' do
+  describe '#play_point' do
     let(:player_1) { double :player, name: 'Jeff', id: 999, save_parents: nil }
     let(:player_2) { double :player, name: 'Lydia', id: 999, save_parents: nil }
     let(:printer) { double :printer, print_winner: nil }
@@ -23,8 +23,8 @@ RSpec.describe Game do
       allow(game).to receive_message_chain("players.last") { player_2 }
       allow(game).to receive(:random_player).and_return(player_1)
 
-      expect(printer).to receive(:print_winner).with(player_1)
-      game.play(printer)
+      expect(printer).to receive(:print_point_winner).with(player_1)
+      game.play_point(printer)
     end
   end
 end

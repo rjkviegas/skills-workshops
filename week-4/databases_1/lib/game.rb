@@ -14,8 +14,8 @@ class Game
     game
   end
 
-  def play(printer = Printer.new)
-    printer.print_winner(random_player)
+  def play_point(printer = Printer.new)
+    printer.print_point_winner(random_player)
     save
   end
 
