@@ -1,12 +1,12 @@
-# Clean code in Ruby on a micro level (Ruby practice)
+# Clean code in Ruby, line by line (Ruby practice)
 
-The goal of this workshop is practice writing the cleanest code you can on a micro (line by line) level.  It's harder to maintain high micro code standards when working on a project.  In this workshop, you won't need to worry much about high level code structure.  You'll be able to focus on making each line and method as clean as possible.
+The goal of this workshop is practice writing the cleanest code you can, line by line.  It's harder to maintain high line by line code standards when working on a project.  In this workshop, you won't need to worry much about high level code structure.  You'll be able to focus on making each line and method as clean as possible.
 
 For each exercise, initially focus on getting the tests to pass.  Once they are passing, refactor to make the code as clean as you can.  Even the best programmers write bad code first and refactor it into clean code.
 
-## Clean code on a micro level
+## Clean code, line by line
 
-Here are some guidelines to help you write code that is clean on a micro (line by line) level:
+Here are some guidelines:
 
 * Use proper indentation and idiomatic Ruby style: https://github.com/bbatsov/ruby-style-guide
 
