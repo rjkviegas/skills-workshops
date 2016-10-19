@@ -30,7 +30,7 @@ Table: cohorts
 |  1   |  "May 2016"  |
 ```
 
-> This exercise will involve the use of foreign keys and associations. There may be one or more 'join' tables involved too, to implement many-to-many relationships.
+> You will probably need to use foreign keys and associations. There may be one or more 'join' tables involved too, in order to implement many-to-many relationships.
 
 ### Resources
 
