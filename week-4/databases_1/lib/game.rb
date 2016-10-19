@@ -9,9 +9,7 @@ class Game
   def self.start(player_name_1, player_name_2, player_class: Player)
     players = [player_class.create(name: player_name_1),
                player_class.create(name: player_name_2)]
-    game = new(players: players)
-    game.save
-    game
+    create(players: players)
   end
 
   def play_point(printer = Printer.new)
