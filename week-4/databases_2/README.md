@@ -60,7 +60,7 @@ I want to view all the URLs for images of students' faces
 ```
 As a coach
 So I can mark certain students
-I want to add named tags to students
+I want to tag a student with many named tags
 ```
 
 ```
