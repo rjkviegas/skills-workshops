@@ -41,15 +41,15 @@ I want to get a count of the number of bikes at the docking station
 
 
 
-|-----------------------------------|
-|          Docking Station          |
-|-----------------------------------|
-| Responsibilities |  Collaborators |
-|-----------------------------------|
-|  Release a bike  |      Bike      |
-|    Dock a bike   |                |
-|    Count bikes   |                |
-|-----------------------------------|
+|----------------------------------|
+|         Docking Station          |
+|----------------------------------|
+| Responsibilities | Collaborators |
+|----------------------------------|
+| Release a bike   | Bike          |
+| Dock a bike      |               |
+| Count bikes      |               |
+|----------------------------------|
 
 ```
 
