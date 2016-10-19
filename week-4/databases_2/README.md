@@ -1,5 +1,9 @@
 # Databases 2
 
+Class Responsibility Collaborator cards are one approach to modelling a domain.  See this [example](crc_example.md).
+
+## Learning objectives
+
 An exercise to learn three things:
 
 1. Explain how to use CRC cards to model a domain
@@ -71,4 +75,3 @@ As a coach
 So I can get an overview of feedback
 I want to see an average daily rating for each student
 ```
-
