@@ -39,8 +39,6 @@ I want to get a count of the number of bikes at the docking station
 | Knows if working |                |
 |-----------------------------------|
 
-
-
 |----------------------------------|
 |         Docking Station          |
 |----------------------------------|
@@ -62,7 +60,6 @@ Table: bikes
 |-------------------|-----------------------|
 |   1  |    true    |           1           |
 |-------------------|-----------------------|
-
 
 Table: docking_stations
 |-----|
