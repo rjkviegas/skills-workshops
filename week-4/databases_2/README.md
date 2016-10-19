@@ -14,8 +14,13 @@ An exercise to learn three things:
 
 Following are some user stories.
 
-1. Using [CRC cards](http://agilemodeling.com/artifacts/crcModel.htm), model the domain in an Object-Oriented way. (20 minutes)
-2. Draw out the structure of the database for the model you have built, in the following way (the example is a possible implementation of a `cohorts` table:
+### Use CRC cards to model the domain (20 mins)
+
+Using [CRC cards](http://agilemodeling.com/artifacts/crcModel.htm), model the domain in an Object-Oriented way.
+
+### Create a database structure for the domain model (20 mins)
+
+Draw out the structure of the database for the model you have built, in the following way (the example is a possible implementation of a `cohorts` table):
 
 ```
 Table: cohorts
