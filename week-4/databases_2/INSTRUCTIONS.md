@@ -10,7 +10,7 @@
 
 Demonstrate examples of CRC cards (you can use [this example](crc_example.md)). Collaboratively pull a database structure from the CRC cards in the way suggested in [the student readme](README.md).
 
-### Main (30 minutes)
+### Main (40 minutes)
 
 See [the student readme](README.md) for instructions.
 
