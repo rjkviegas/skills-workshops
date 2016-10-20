@@ -43,5 +43,5 @@ Feel free to add lots more!
 * Controller
 * Browser
 * ERB Ruby class
-* database
+* Database
 * DataMapper gem
