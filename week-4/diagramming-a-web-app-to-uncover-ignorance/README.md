@@ -38,10 +38,10 @@ SELECT * FROM links;
 
 Feel free to add lots more!
 
-* View
-* Browser
 * Model
+* View
 * Controller
+* Browser
 * ERB Ruby class
 * database
 * DataMapper gem
