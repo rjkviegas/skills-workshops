@@ -1,6 +1,8 @@
 # Diagramming a web app to uncover ignorance
 
-Uncovering ignorance is good! It allows you to learn new things by researching or experimenting.
+Uncovering ignorance is good! It allows you to increase your understanding by researching or experimenting.
+
+Diagrams are good! As your understanding increases, you can add more and more detail to them.
 
 ## Instructions
 
