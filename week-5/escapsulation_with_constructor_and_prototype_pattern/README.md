@@ -14,7 +14,7 @@ You'll also write some code that uses this pattern to encapsulate behaviour.
 
 ### Getting visibility
 
-A great way to understand code is to first tighten the loop, then get visibility.  In this workshop, we'll practice getting visibility.  As you go through the workshop, use `console.log()` to inspect the values of:
+A great way to understand code is to get visibility.  One technique for this is to `p` everywhere.   In JavaScript, the equivalent of `p` is `console.log()`. As you go through the workshop, use `console.log()` to see the values of:
 
 * Variables
 * Parameters
