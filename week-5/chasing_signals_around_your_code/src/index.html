@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AJAX demonstration</title>
+</head>
+<body>
+  
+<main>
+  <aside>
+    <button id="control">Load some content!</button>
+  </aside>
+  <article id="content">
+  
+  </article>
+</main>
+
+<script type="text/javascript">
+  var control = document.getElementById('control');
+  var content = document.getElementById('content');
+
+  var fetchContent = function(contentHolder) {
+    // make a request object ready to go
+    var xhttp = new XMLHttpRequest();
+
+    // add an 'event listener' so the request object does stuff
+    // when a certain event happens (here, when the 'readystate' changes)
+    xhttp.onreadystatechange = function() {
+      // checks to see the readystate is right
+      // and the response from the server was 'OK'
+      if (xhttp.readyState == 4 && xhttp.status == 200) {
+        // fill the element with the response
+        contentHolder.innerHTML = xhttp.responseText;
+      }
+    };
+
+    // configure the actual request
+    xhttp.open("GET", "http://localhost:3000/tasks.json", true);
+
+    // send the actual request
+    xhttp.send();
+  };
+
+  // add an event listener to the button so it works
+  control.addEventListener('click', function() {
+    fetchContent(content) ;
+  });
+</script>
+
+</body>
+</html>
