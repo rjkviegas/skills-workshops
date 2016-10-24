@@ -179,7 +179,7 @@ console.log("count is", countModel.count());
 
 // Bonus research project. Can you find the property name below that
 // makes the statement print out `true`?
-// console.log(countModel["???"] === CountModel.prototype);
+// console.log(countModel["REPLACE_ME"] === CountModel.prototype);
 ```
 
 ## User Stories
