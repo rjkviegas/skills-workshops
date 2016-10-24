@@ -43,7 +43,7 @@ Encapsulation consists of two things:
 
 * Paste the code for question 1 (below) into `index.js`.
 
-* Play around with the code using the techniques for getting visibility. Answer the questions that are in comments.
+* Play around with the code using the techniques for getting visibility. Answer the questions that are in comments.  Use the resources listed at the bottom to help you.
 
 * Discuss your answers with your pair partner.
 
@@ -62,20 +62,19 @@ We'll come back together for a short plenary.  We'll show our code and discuss i
 ### Question 1
 
 ```js
-// What happens if you rename CountModel to countmodel? Does this have any ramifications?
+// How does the printed output of the program change if you rename
+// CountModel to countmodel (everywhere it appears)?
 
 function CountModel() {
   this._count = 0;
 };
 
-CountModel.prototype = {
-  count: function() {
-    return this._count;
-  },
+CountModel.prototype.count = function() {
+  return this._count;
+};
 
-  set: function(count) {
-    this._count = count;
-  }
+CountModel.prototype.set = function(count) {
+  this._count = count;
 };
 
 var countModel = new CountModel();
@@ -90,16 +89,15 @@ function CountModel() {
   this._count = 0;
 };
 
-CountModel.prototype = {
-  count: function() {
-    return this._count;
-  },
+CountModel.prototype.count = function() {
+  return this._count;
+};
 
-  // What happens if you rename `set` to `_set` (and change
-  // `countModel.set(5)` below to `countModel._set(5)`)?
-  set: function(count) {
-    this._count = count;
-  }
+// How does the printed output of the program change if you rename
+// `set` to `_set` (and change `countModel.set(5)` below to
+// `countModel._set(5)`)?
+CountModel.prototype.set = function(count) {
+  this._count = count;
 };
 
 var countModel = new CountModel();
@@ -113,19 +111,19 @@ console.log("count is", countModel.count());
 function CountModel() {
   this._count = 0;
 
-  // What happens if you uncomment the line below. Why does this happen?
+  // How does the printed output of the program change if you
+  // uncomment the line below? Why does this happen?
+
   // return {};
 };
 
-CountModel.prototype = {
-  count: function() {
-    return this._count;
-  },
-
-  set: function(count) {
-    this._count = count;
-  }
+CountModel.prototype.count = function() {
+  return this._count;
 };
+
+CountModel.prototype.set = function(count) {
+  this._count = count;
+}
 
 var countModel = new CountModel();
 countModel.set(5);
@@ -139,19 +137,24 @@ function CountModel() {
   this._count = 0;
 };
 
-CountModel.prototype = {
-  count: function() {
-    return this._count;
-  },
-
-  set: function(count) {
-    this._count = count;
-  }
+CountModel.prototype.count = function() {
+  return this._count;
 };
 
-// What happens if you omit the `new` keyword in the next line? Why?
+CountModel.prototype.set = function(count) {
+  this._count = count;
+};
+
 var countModel = new CountModel();
+
+// How does the printed output of the program change if you add this
+// code? Why?
+// countModel.set = function() {
+//   return "hello";
+// };
+
 countModel.set(5);
+
 console.log("count is", countModel.count());
 ```
 
@@ -162,43 +165,12 @@ function CountModel() {
   this._count = 0;
 };
 
-CountModel.prototype = {
-  count: function() {
-    return this._count;
-  },
-
-  set: function(count) {
-    this._count = count;
-  }
+CountModel.prototype.count = function() {
+  return this._count;
 };
 
-var countModel = new CountModel();
-
-// What happens if you add this code? Why?
-// countModel.set = function() {
-//   return "hello";
-// };
-
-countModel.set(5);
-
-console.log("count is", countModel.count());
-```
-
-### Question 6
-
-```js
-function CountModel() {
-  this._count = 0;
-};
-
-CountModel.prototype = {
-  count: function() {
-    return this._count;
-  },
-
-  set: function(count) {
-    this._count = count;
-  }
+CountModel.prototype.set = function(count) {
+  this._count = count;
 };
 
 var countModel = new CountModel();
@@ -206,7 +178,7 @@ countModel.set(5);
 console.log("count is", countModel.count());
 
 // Bonus research project. Can you find the property name below that
-// makes the statement log `true`?
+// makes the statement print out `true`?
 // console.log(countModel["???"] === CountModel.prototype);
 ```
 
