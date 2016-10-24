@@ -20,6 +20,13 @@ A great way to understand code is to get visibility.  One technique for this is 
 * Parameters
 * Function return values
 
+### Encapsulation
+
+Encapsulation consists of two things:
+
+* Grouping behaviour with the data (state) it operates on.
+* Hiding the details of data and implementation from other units.
+
 ### Investigate the CountModel code sample (20 mins)
 
 * Pair up.
