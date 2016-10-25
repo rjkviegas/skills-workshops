@@ -24,7 +24,7 @@ Looking at the data contained in the variables in the code you're trying to unde
 
 A great way of following the flow is to `console.log()` little strings that you recognise.  You can see which ones are printed in which order to figure out what code is running and in which order.
 
-```
+```javascript
 Airport.prototype.land = function(plane) {
   if (plane.isLanded()) {
     console.log("hello1");
@@ -42,7 +42,7 @@ A debugger is a program that runs your program and lets you step through your pr
 
 Add `debugger;` to a line in your program that you **know** runs e.g.:
 
-```
+```javascript
 function sayHi() {
   debugger;
   console.log("hi!");
@@ -61,7 +61,7 @@ Run the program and go to the Sources tab of the Chrome dev tools.  To move thro
 
 Really handy to know what value `this` has in a piece of code.  It changes!
 
-```
+```javascript
 console.log(this);
 ```
 
@@ -69,7 +69,7 @@ console.log(this);
 
 Does this variable contain what I expect?
 
-```
+```javascript
 console.log(airport);
 ```
 
@@ -77,7 +77,7 @@ console.log(airport);
 
 Am I calling the right function?
 
-```
+```javascript
 console.log(airport.land);
 ```
 
@@ -85,7 +85,7 @@ console.log(airport.land);
 
 Is this function returning what I expect?
 
-```
+```javascript
 console.log(airport.land());
 ```
 
@@ -93,7 +93,7 @@ console.log(airport.land());
 
 Does this parameter contain what I expect? What does this parameter even contain?
 
-```
+```javascript
 Airport.prototype.land = function(plane) {
   console.log(plane);
 }
