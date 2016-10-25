@@ -2,7 +2,7 @@
 
 ## Instructions
 
-At a high level, this week is about building the skills that let you learn a new language and its patterns.  In this workshop, you'll practice getting visibility to understand a pattern: encapsulating code with constructors and prototypes.
+At a high level, this week is about building the skills that let you learn a new language and its patterns.  In this workshop, you'll practice getting visibility to understand a pattern: encapsulating code with constructors and prototypes.  And you'll practice using this pattern to encapsulate code.
 
 You'll also write some code that uses this pattern to encapsulate behaviour.
 
