@@ -1,10 +1,8 @@
 # Following the flow and getting visibility in JavaScript
 
-At a high level, this week is about building the skills that let you learn a new language and its patterns.  In this workshop, you'll practice a bunch of different ways of following the flow and getting visibility in JavaScript.
-
 ## Learning objective
 
-Try out new techniques for following the flow and getting visibility.
+At a high level, this week is about building the skills that let you learn a new language and its patterns.  In this workshop, you'll practice a bunch of different ways of following the flow and getting visibility in JavaScript.
 
 ## Following the flow and getting visibility
 
