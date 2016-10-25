@@ -18,11 +18,11 @@
 
 * Do "thumbs" on the learning objectives.
 
-### Main: investigate pattern (20 minutes)
+### Main: investigate pattern (30 minutes)
 
 See the [student readme](README.md) for instructions.
 
-### Main: implement pattern (20 minutes)
+### Main: implement pattern (25 minutes)
 
 See the [student readme](README.md) for instructions.
 

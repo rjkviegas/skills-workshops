@@ -27,7 +27,7 @@ Encapsulation consists of two things:
 * Grouping behaviour with the data (state) it operates on.
 * Hiding the details of data and implementation from other units.
 
-### Investigate the CountModel code sample (20 mins)
+### Investigate the CountModel code sample (30 mins)
 
 * Pair up.
 
@@ -49,7 +49,7 @@ Encapsulation consists of two things:
 
 * Swap driver and navigator.  Continue with the next question.
 
-### Encapsulate some behaviour with the constructor and prototype pattern (20 mins)
+### Encapsulate some behaviour with the constructor and prototype pattern (25 mins)
 
 Use the constructor and prototype pattern to implement the user stories (below).  You can draw on the OO skills you learnt in the first four weeks of the course.  Don't be afraid to diagram! Strive for good encapsulation.
 
