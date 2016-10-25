@@ -2,7 +2,7 @@
 
 ## Instructions
 
-At a high level, this week is about building the skills that let you learn a new language and its patterns.  In this workshop, you'll practice using this process to understand how the `this` keyword works in JavaScript.
+At a high level, this week is about building the skills that let you learn a new language and its patterns.  In this workshop, you'll practice getting visibility to understand a language feature: the `this` keyword.
 
 ### Learning objectives
 
