@@ -4,7 +4,7 @@
 
 ### High level goal for the week
 
-At a high level, this week is about building an effective process for learning unfamiliar language features and patterns.  In this workshop, you'll practice one part of this: following the flow of control of code.
+At a high level, this week is about building the skills that let you learn a new language and its patterns.  In this workshop, you'll practice one part of this: following the flow of control of code.
 
 ### Learning objectives
 
