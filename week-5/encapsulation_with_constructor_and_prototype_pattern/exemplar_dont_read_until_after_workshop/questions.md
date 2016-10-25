@@ -22,9 +22,11 @@ The solution is `console.log(countModel["__proto__"] === CountModel.prototype);`
 
 ```
 function Thing() {
-  var thing = {};
-  thing.__proto__ = Thing.prototype;
-  return thing;
+  // these three lines are run automatically by JS because the `new`
+  // keyword was used, even though they don't appear in your code:
+  // var thing = {};
+  // thing.__proto__ = Thing.prototype;
+  // return thing;
 };
 
 Thing.prototype.setName = function(name) {
@@ -37,15 +39,17 @@ thing.setName("Isla");
 
 What's cool is all three lines inside the constructor above happen automatically.
 
-When `thing.setName("Isla")` is run, JavaScript finds out which `setName` to run.  It looks first on the object itself and finds nothing.  Then it looks on the object at `__proto__`.  `__proto__` points at the Thing.prototype object.  So JavaScript finds the `setName` function and runs it.  This is the essence of prototypal inheritance.
+When `thing.setName("Isla")` is run, JavaScript finds out which `setName` to run.  It looks first on `thing` itself and finds nothing.  Then it looks on the object at `thing.__proto__`.  `thing.__proto__` points at the Thing.prototype object.  So JavaScript finds the `setName` function and runs it.  This is the essence of prototypal inheritance.
 
 Imagine we change the code to this:
 
 ```
 function Thing() {
-  var thing = {};
-  thing.__proto__ = Thing.prototype;
-  return thing;
+  // these three lines are run automatically by JS because the `new`
+  // keyword was used, even though they don't appear in your code:
+  // var thing = {};
+  // thing.__proto__ = Thing.prototype;
+  // return thing;
 };
 
 Thing.prototype.setName = function(name) {
@@ -54,7 +58,7 @@ Thing.prototype.setName = function(name) {
 
 var thing = new Thing();
 
-// add these three lines of code:
+// we've added these three lines of code:
 thing.setName = function(name) {
   return "WHATEVER you're not the boss of me";
 };
