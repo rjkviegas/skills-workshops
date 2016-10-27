@@ -14,7 +14,7 @@
 
 * Explain the process for [following the flow of control](README.md#following-the-flow-of-control)
 
-* Demonstrate following the flow of control for the first couple of [questions](README.md#questions).
+* Demonstrate following the flow of control for the [demo](README.md#demo).
 
 * Do "thumbs" on the learning objectives.
 
