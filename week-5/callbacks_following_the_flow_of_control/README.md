@@ -62,7 +62,7 @@ A developer constantly analyses the flow of control of their code.  Keep trying 
 
 * Swap driver and navigator.  Continue with the next question.
 
-### Plenary (15 mins)
+### Plenary (10 mins)
 
 We'll come back together for a short plenary to discuss our understanding of following the flow of control.
 
