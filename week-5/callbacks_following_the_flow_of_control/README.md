@@ -34,7 +34,9 @@ $(document).click(function() {
 console.log(3);
 ```
 
-2. I run the code.  If the numbers don't get logged in order (1, 2, 3 etc), I examine the code and try to figure out why.  Once I understand, I update my `console.log`s to reflect the correct order.
+2. I run the code to see if the numbers got printed in order (1, 2, 3 etc.).  If they do, my prediction was correct.
+
+3. If my prediction was incorrect, I examine the code and experiment with it to try to figure out why.  Once I understand, I update my `console.log`s to reflect my new prediction and return to step 2.
 
 ### Work through the questions (30 mins)
 
@@ -66,7 +68,7 @@ Follow the process for understanding the flow of control that we used in the dem
 
 ### Question 1
 
-`console.log` a number in each part of the code.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
+`console.log` a number in each part of the code.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, read and experiment with the code to figure out why.  Correct the `console.log`s.
 
 Now fix the code.  It should print out the mouse click event object when the mouse is clicked.
 
