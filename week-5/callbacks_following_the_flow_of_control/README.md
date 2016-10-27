@@ -14,7 +14,7 @@ At a high level, this week is about building the skills that let you learn a new
 
 ### Following the flow of control
 
-* I want to understand this program's flow of control.
+Imagine you want to follow the flow of control in this code.  That is, you want to understand what parts run and in what order they run.
 
 ```js
 $(document).click(function() {
@@ -22,25 +22,37 @@ $(document).click(function() {
 });
 ```
 
-1. Before running the code, I add some `console.log`s.  I log `1` in the bit of code I think will get run first, I log `2` in the bit of code I think will get run second, and so on. For example:
+1. Before running the code, add some `console.log`s.  Log `console.log(1)` in the bit of code you think will get run first, `console.log(2)` in the bit of code you think will get run second, and so on. For example:
 
 ```js
 console.log(1);
 
 $(document).click(function() {
   console.log(2);
+  console.log("hello!");
+  console.log(3);
 });
 
-console.log(3);
+console.log(4);
 ```
 
-2. I run the code to see if the numbers got printed in order (1, 2, 3 etc.).  If they do, my prediction was correct.
+2. Run the code to see if the numbers get printed in order (1, 2, 3 etc.).  If they do, your prediction is correct.
+
+3. If your prediction is incorrect, examine the code and experiment with it to try to figure out why.  Once you have more information, update your `console.log`s to reflect your prediction and return to step 2.
+
 #### Following the flow fast
 
 A developer constantly analyses the flow of control of their code.  Keep trying to improve this skill.  The more adept you are at reading the flow of control without running the code, the faster you'll be.  Build this intuition by making predictions and checking if your prediction is right.
 
+### Demo
 
-3. If my prediction was incorrect, I examine the code and experiment with it to try to figure out why.  Once I understand, I update my `console.log`s to reflect my new prediction and return to step 2.
+I'll follow the flow of control in this code:
+
+```js
+$(document).click(function() {
+  console.log("hello!");
+});
+```
 
 ### Work through the questions (30 mins)
 
@@ -74,16 +86,10 @@ Follow the process for understanding the flow of control that we used in the dem
 
 `console.log` a number in each part of the code.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, read and experiment with the code to figure out why.  Correct the `console.log`s.
 
-Now fix the code.  It should print out the mouse click event object when the mouse is clicked.
-
 ```js
-var clickEvent;
-
-$(document).click(function(event) {
-  clickEvent = event;
+$(document).click(function(clickEvent) {
+  console.log("The click event:", clickEvent);
 });
-
-console.log("Mouse click event object:", clickEvent);
 ```
 
 ### Question 2
@@ -92,77 +98,33 @@ console.log("Mouse click event object:", clickEvent);
 
 ```js
 $.get("https://async-workshops-api.herokuapp.com/people", function(peopleResponse) {
-  console.log(peopleResponse);
+  console.log("People response:", peopleResponse);
 });
 ```
 
 ### Question 3
 
-`console.log` a number in each part of the code.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
+1. `console.log` a number in each part of the code.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
 
-Now fix the code.  It should print out the people returned by the API.
+2. What value does the `people` variable have? What value does the `peopleResponse` variable have? Why are they different?
 
 ```js
-var people;
-
-$.get("https://async-workshops-api.herokuapp.com/people", function(peopleResponse) {
-  people = peopleResponse;
+var people = $.get("https://async-workshops-api.herokuapp.com/people", function(peopleResponse) {
+  return peopleResponse;
 });
-
-console.log(people);
 ```
 
 ### Question 4
 
 `console.log` a number in each part of the code.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
 
-Now fix the code.  It should print out the people returned by the API.
-
-```js
-function getPeople() {
-  return $.get("https://async-workshops-api.herokuapp.com/people", function(peopleResponse) {
-    return peopleResponse;
-  });
-};
-
-console.log(getPeople());
-```
-
-### Question 5
-
-`console.log` a number in each part of the code.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
-
-This code is incomplete.  It should print the names of the people returned by the API.  Try and complete it.
-
-```js
-function listNamesOfPeople(people) {
-  people.forEach(function(person) {
-    console.log(person.name);
-  });
-};
-
-$.get("https://async-workshops-api.herokuapp.com/people");
-```
-
-### Question 6
-
-`console.log` a number in each part of the code.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
-
-(This code is not broken.)
-
 ```js
 $.get("https://async-workshops-api.herokuapp.com/people", function(peopleResponse) {
   peopleResponse.forEach(function(person) {
-    $.get("https://async-workshops-api.herokuapp.com/people/" + person.id, function(personResponse) {
-      console.log(personResponse.favouriteMusic);
-    });
+    console.log(person.name);
   });
 });
 ```
-
-### Question 7
-
-Write code that will `console.log` `alpha` after one second, `bravo` one second later and `charlie` one second after that.  Write the code so that increasing the delay before one `console.log` will, without changing any other code, increase the delay for the subsequent `console.log`s by the same amount. For example, if you change the code to print `alpha` after two seconds, `bravo` and `charlie` should automatically be delayed by that extra second, too.
 
 ## Resources
 
