@@ -166,8 +166,6 @@ Write code that will `console.log` `alpha` after one second, `bravo` one second 
 
 * The more adept you are at reading the flow of control without running the code, the faster you'll be.  Build this intuition by making predictions and checking if your prediction is right.
 
-* To understand more about callbacks, and to get more practice following the flow of control, complete the questions you didn't have time to do in the workshop.
-
 ## Resources
 
 * [Callbacks tutorial](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/)
