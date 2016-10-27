@@ -106,10 +106,10 @@ $.get("https://async-workshops-api.herokuapp.com/people", function(peopleRespons
 
 1. `console.log` a number in each part of the code.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
 
-2. What value does the `people` variable have? What value does the `peopleResponse` variable have? Why are they different?
+2. What value does `getReturnValue` have? What value does `peopleResponse` have? Why are they different?
 
 ```js
-var people = $.get("https://async-workshops-api.herokuapp.com/people", function(peopleResponse) {
+var getReturnValue = $.get("https://async-workshops-api.herokuapp.com/people", function(peopleResponse) {
   return peopleResponse;
 });
 ```
