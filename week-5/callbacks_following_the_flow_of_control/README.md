@@ -35,6 +35,10 @@ console.log(3);
 ```
 
 2. I run the code to see if the numbers got printed in order (1, 2, 3 etc.).  If they do, my prediction was correct.
+#### Following the flow fast
+
+A developer constantly analyses the flow of control of their code.  Keep trying to improve this skill.  The more adept you are at reading the flow of control without running the code, the faster you'll be.  Build this intuition by making predictions and checking if your prediction is right.
+
 
 3. If my prediction was incorrect, I examine the code and experiment with it to try to figure out why.  Once I understand, I update my `console.log`s to reflect my new prediction and return to step 2.
 
@@ -159,12 +163,6 @@ $.get("https://async-workshops-api.herokuapp.com/people", function(peopleRespons
 ### Question 7
 
 Write code that will `console.log` `alpha` after one second, `bravo` one second later and `charlie` one second after that.  Write the code so that increasing the delay before one `console.log` will, without changing any other code, increase the delay for the subsequent `console.log`s by the same amount. For example, if you change the code to print `alpha` after two seconds, `bravo` and `charlie` should automatically be delayed by that extra second, too.
-
-## After the workshop
-
-* A developer constantly analyses the flow of control of their code.  Keep trying to improve this skill.
-
-* The more adept you are at reading the flow of control without running the code, the faster you'll be.  Build this intuition by making predictions and checking if your prediction is right.
 
 ## Resources
 
