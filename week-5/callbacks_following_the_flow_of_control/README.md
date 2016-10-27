@@ -18,7 +18,7 @@ Imagine you want to follow the flow of control in this code.  That is, you want 
 
 ```js
 $(document).click(function() {
-  console.log("hello!");
+  console.log("click!");
 });
 ```
 
@@ -29,7 +29,7 @@ console.log(1);
 
 $(document).click(function() {
   console.log(2);
-  console.log("hello!");
+  console.log("click!");
   console.log(3);
 });
 
@@ -50,7 +50,7 @@ I'll follow the flow of control in this code:
 
 ```js
 $(document).click(function() {
-  console.log("hello!");
+  console.log("click!");
 });
 ```
 
