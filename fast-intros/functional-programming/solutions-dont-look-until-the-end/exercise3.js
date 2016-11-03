@@ -10,8 +10,8 @@ function pluck(array, key) {
   return array.map(function(item) { return item[key]; });
 };
 
-function sum(array) {
-  return array.reduce(function(sum, item) { return sum + item; });
+function sum(numbers) {
+  return numbers.reduce(function(sum, item) { return sum + item; });
 };
 
 function average(array) {
