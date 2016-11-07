@@ -22,7 +22,7 @@ In this workshop, you'll practice one part of this: encapsulating and sharing yo
 
 * Open `SpecRunner.html` in your browser to run the tests.
 
-* TDD a `smiley.js` module.  It should have a function that returns the smiley `:)`.
+* TDD a `smiley.js` module.  It should have a function that takes some text and returns the text with a space and a smiley appended.  e.g. `smiley("hello")` should return `"hello :)"`.
 
 * Rename `interrobang.js` to `interrobangsmiley.js`.  Update the code to use your `smiley.js` function to include a smiley in its output.  For example: `hello??! :)`.
 
