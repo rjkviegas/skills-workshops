@@ -1,0 +1,18 @@
+{
+  "name": "module-pattern-and-reflective-learning-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/http-server/bin/http-server .",
+    "test": "mocha test --watch"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
