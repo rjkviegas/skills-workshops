@@ -20,11 +20,7 @@ In this workshop, you'll practice one part of this: encapsulating and sharing yo
 
 * Clone this repo.
 
-* Run `npm install` to install the dependencies.
-
-* Run `npm test` to run the tests.
-
-* Run `npm start` to run the app.  View it at the URL displayed in your console.
+* Open `SpecRunner.html` in your browser to run the tests.
 
 * TDD a `smiley.js` module.  It should have a function that returns a random smiley like `:)` or `:D`.
 
