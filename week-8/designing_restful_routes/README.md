@@ -10,7 +10,7 @@ In this workshop, you'll learn to use one of these conventions: RESTful routes.
 
 ### Learning objectives
 
-1. Describe REST as a pattern for mapping resources to routess.
+1. Describe REST as a pattern for mapping resources to routes.
 2. Explain how to map operations on a resource to a set of RESTful routes.
 3. Map the objects in a domain to a set of RESTful routes.
 
