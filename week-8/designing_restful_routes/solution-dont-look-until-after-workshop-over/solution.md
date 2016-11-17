@@ -14,6 +14,7 @@ POST       /bookings             bookings#create
 GET        /bookings/:id         bookings#show
 PUT/PATCH  /bookings/:id         bookings#update
 DELETE     /bookings/:id         bookings#destroy
+GET        /bookings             bookings#index
 GET        /bookings/new         bookings#new
 GET        /bookings/:id/edit    bookings#edit
 ```
