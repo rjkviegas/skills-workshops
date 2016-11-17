@@ -18,7 +18,9 @@
 
 * Ask a few students to show their route maps.
 
-* Ask about nesting routes.
+* Ask about difference between rest route convention and how Rails lets the programmer express a lot with a small amount of code.
+
+* Ask about whether the nesting of routes is RESTful.  (It is, but it's not necessary for RESTfulness.)
 
 * If appropriate, discuss the [model solution](solution-dont-look-until-after-workshop-over/solution.md).
 
