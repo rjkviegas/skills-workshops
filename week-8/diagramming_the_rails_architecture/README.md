@@ -24,7 +24,7 @@ Many of the directories and standard files that `rails new` generates should app
 
 We'll do this as a group.
 
-#### Diagram some Rails processes (30 mins)
+### Diagram some Rails processes (30 mins)
 
 In pairs, diagram the two processes below.  Includes as much detail as you can.  Each process can be in a separate diagram.
 
