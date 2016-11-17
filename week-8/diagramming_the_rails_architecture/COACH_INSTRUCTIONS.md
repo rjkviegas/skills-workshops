@@ -6,7 +6,7 @@
 
 * Do "thumbs" on the [learning objectives](README.md#learning-objectives).
 
-* Work with the students to [List all the parts of the Rails architecture (5 mins)](README.md#list-all-the-parts-of-the-rails-architecture-5-mins) on a whiteboard.
+* Work with the students to [list all the parts of the Rails architecture (5 mins)](README.md#list-all-the-parts-of-the-rails-architecture-5-mins) on a whiteboard.
 
 * Get the students to [explain what each part of the Rails architecture does](README.md#explain-what-each-part-of-the-rails-architecture-does-10-mins).
 
