@@ -6,7 +6,7 @@
 
 ## Learning objectives
 
-1. Describe research as an important skill for a junior developer.
+1. Describe researching information as an important skill for a junior developer.
 2. Explain how you go about researching a technical topic.
 3. Collaborate on a Git repository, researching the things you don't know how to do.
 
