@@ -52,7 +52,7 @@ Students should wrap the bare methods you wrote into a class structure. They can
 
 Choose two students' examples to share, and critique them. Then either demonstrate your solution, or use the [`plenary`](https://github.com/makersacademy/skills-workshops/tree/plenary) branch for this directory.
 
-### Possible reasonable solutions
+### Possible reasonable solutions (students, don't look at this until the workshop is over!)
 
 * Arithmetic class and Printer class.
 * monkey-patching Fixnum.
