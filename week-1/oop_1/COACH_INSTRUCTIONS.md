@@ -21,7 +21,7 @@ Create a public repo and initialize RSpec within. Build out a rudimentary calcul
 While building, you should define (and elicit definitions for):
 
 - **Behaviour:** things a program does, largely synonymous with methods in a program.
-- **Encapsulation:** a way to wrap and group commonly used behaviour so your program is more modular.
+- **Encapsulation:** wraps and groups commonly used behaviour so your program is more modular.
 - **Class:** The Object-Oriented way to wrap commonly used behaviour.
 
 #### Calculator user stories
