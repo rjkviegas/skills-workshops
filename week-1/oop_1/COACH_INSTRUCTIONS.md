@@ -18,7 +18,7 @@ Let's you build large systems by moving in tiny, obvious steps.
 
 Create a public repo and initialize RSpec within. Build out a rudimentary calculator _without using classes_. An example is available on the master branch for this directory.
 
-While building, you should define (and elicit definitions for):
+While building, you should elicit definitions for:
 
 - **Behaviour:** things a program does, largely synonymous with methods in a program.
 - **Encapsulation:** wraps and groups commonly used behaviour so your program is more modular.
