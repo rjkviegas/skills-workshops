@@ -9,6 +9,3 @@ end
 def print_answer(answer)
   "The Answer is: #{ answer }"
 end
-
-puts print_answer(add(2, 3))
-puts print_answer(subtract(3, 2))
