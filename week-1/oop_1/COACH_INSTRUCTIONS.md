@@ -21,6 +21,7 @@ Create a public repo and initialize RSpec within. Build out a rudimentary calcul
 While building, you should elicit definitions for:
 
 - **Behaviour:** things a program does, largely synonymous with methods in a program.
+- **Single Responsibility Principle:** a unit in the program should have only one reason to change.
 - **Encapsulation:** wraps and groups related and commonly used behaviour so your program is more modular.
 - **Class:** The Object-Oriented way to wrap commonly used behaviour.
 
