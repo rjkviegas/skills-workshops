@@ -1,7 +1,7 @@
-require_relative 'text_parser'
-require_relative 'html_parser'
-require_relative 'json_parser'
-require_relative 'xml_parser'
+require_relative 'text_formatter'
+require_relative 'html_formatter'
+require_relative 'json_formatter'
+require_relative 'xml_formatter'
 
 # Understands the conversion of strings to abstract types
 class Converter
@@ -10,21 +10,21 @@ class Converter
   end
 
   def convert(type)
-    raise "Unrecognised type" unless known_parser?(type)
-    parser_of_type(type).convert  
+    raise "Unrecognised type" unless known_formatter?(type)
+    formatter_of_type(type).convert
   end
 
   private
 
   attr_reader :string
 
-  PARSERS = { text: TextParser, html: HtmlParser, json: JsonParser, xml: XmlParser }.freeze
+  FORMATTERS = { text: TextFormatter, html: HtmlFormatter, json: JsonFormatter, xml: XmlFormatter }.freeze
 
-  def known_parser?(type)
-    PARSERS.include?(type)
+  def known_formatter?(type)
+    FORMATTERS.include?(type)
   end
 
-  def parser_of_type(type)
-    PARSERS[type].new(string)
+  def formatter_of_type(type)
+    FORMATTERS[type].new(string)
   end
 end

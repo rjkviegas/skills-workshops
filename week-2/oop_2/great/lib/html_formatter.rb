@@ -1,5 +1,5 @@
 # Understands the conversion of strings to HTML
-class HtmlParser
+class HtmlFormatter
   def initialize(string)
     @string = string
   end

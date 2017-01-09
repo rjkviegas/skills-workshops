@@ -1,5 +1,5 @@
 # Understands the conversion of strings to text
-class TextParser
+class TextFormatter
   def initialize(string)
     @string = string
   end

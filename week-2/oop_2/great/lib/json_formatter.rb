@@ -1,6 +1,6 @@
 require 'json'
 # Understands the conversion of strings to JSON
-class JsonParser
+class JsonFormatter
   def initialize(string)
     @string = string
   end

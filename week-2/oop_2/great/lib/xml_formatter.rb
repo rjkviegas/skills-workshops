@@ -1,5 +1,5 @@
 # Understands the conversion of strings to XML
-class XmlParser
+class XmlFormatter
   def initialize(string)
     @string = string
   end
