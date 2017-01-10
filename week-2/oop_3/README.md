@@ -5,6 +5,12 @@
 
 This is a workshop to introduce you to the idea of Object-Oriented delegation.
 
+## Learning Objectives:
+
+- Describe 'delegation' as "the delegation of a responsibility to another class".
+- Explain what is meant by the advice "Delegate, Delegate, Delegate".
+- Implement OOP delegation.
+
 ### Instructions
 
 This project contains two main implementations of a program to get clothes dry-cleaned. One implementation (`/terrible`) demonstrates a poor understanding of the above principle. The other (`/great`) demonstrates a good understanding.
