@@ -26,7 +26,7 @@
 
 ## `rectangle` function
 
-There's a file at `lib/rectangle.rb`.  It contains a function called `rectangle`.  The function currently returns `THIS SHOULD BE A RECTANGLE!`.  Change it so it returns a 20x10 rectangle as above.
+There's a file at `lib/rectangle.rb`.  It contains a function called `rectangle`.  The function currently returns `THIS SHOULD BE A RECTANGLE!`.  Change it so it returns a string that represents a 20x10 rectangle as above.
 
 ## Setup
 
