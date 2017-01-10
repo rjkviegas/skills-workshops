@@ -7,20 +7,20 @@ This workshop introduces you to the idea of separating the things that change fr
 
 ### Instructions
 
-There are two projects here: both print out a string in a variety of different ways. One of them (`/great`) is written well, following the principle above. One of them (`/terrible`) is written poorly, ignoring the principle above.
+There are two projects here: both return information about animals in different ways. One of them (`/great`) is written well, following the principle above. One of them (`/terrible`) is written poorly, ignoring the principle above.
 
 Both programs use the same user interface. The following user stories **have already been implemented for you**:
 
 ```
 As a user
-So I can read in any environment
-I want to convert strings to different output types (text, html, json, and xml)
+So I can recognise common animals
+I want to look up identifying information about dogs, cats, and birds
 ```
 
 ```
 As a user
 So I can avoid typos
-I want to raise an error if I input an unrecognised type
+I want to raise an error if I input an unrecognised animal
 ```
 
 Given that users will interact with the program via `irb`, your job is to implement the following features. **Implement them first in `/terrible`, then in `/great`, and compare the experiences of developing in each.**
@@ -29,12 +29,24 @@ Given that users will interact with the program via `irb`, your job is to implem
 
 ```
 As a user
-So I can be shouty
-I want to be able to upcase all my outputs
+So I can identify cows
+I want to look up identifying information about cows
 ```
 
 ```
 As a user
-So I can save space
-I want to convert any instances of the word "Example" to "e.g."
+So I can identify bees
+I want to look up identifying information about bees
+```
+
+```
+As a user
+So I can avoid aggressive animals
+I want to look up the demeanour of animals
+```
+
+```
+As a user
+So I can decide which animals need ceilings on their cages
+I want to look up whether animals can fly
 ```

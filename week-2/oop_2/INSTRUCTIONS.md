@@ -16,8 +16,8 @@ Ask students: "what are the **abstractions** behind the following sets of **conc
 
 Explain:
 
-- In programming, we want to move from systems that handle many concrete things to ones that handle more abstract cases
-- We should aim to separate the treatment of concrete things from the separation of abstract things
+- In programming, we want to move from systems that handle many specific cases to systems that handle a general case — from concrete things to abstractions
+- We should aim to separate the treatment of concrete things from the treatment of abstract things
 
 ## Main (40 minutes)
 
