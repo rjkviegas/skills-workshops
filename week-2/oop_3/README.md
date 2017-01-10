@@ -13,11 +13,7 @@ This is a workshop to introduce you to the idea of Object-Oriented delegation.
 
 ## Instructions
 
-This project contains two main implementations of a program to get clothes dry-cleaned. One implementation (`/terrible`) demonstrates a poor understanding of the above principle. The other (`/great`) demonstrates a good understanding.
-
-`/great` is currently unfinished. You must refactor `/terrible`, using delegation, to `/great`. Pending tests have been added for you: you don't have to use them if you don't want to.
-
-The following set of user stories are implemented in `/terrible`:
+This project contains two implementations of the user stories below: `/terrible` and `/great`.
 
 ```
 As a customer
@@ -42,3 +38,7 @@ As a customer
 So that I know everything goes smoothly
 I want a message that confirms my clothes will be picked up
 ```
+
+`/terrible` implements the user stories using a poor understanding of the delegate principle.  `/great` implements the users stories using a good understanding of the delegate principle.  Unfortunately, `/great` is unfinished.  You must finish it.  Continue using its delegation approach.
+
+Pending tests have been added for you. You don't have to use them if you don't want to.
