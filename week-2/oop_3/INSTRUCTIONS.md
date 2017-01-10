@@ -2,9 +2,9 @@
 
 ## Learning Objectives:
 
-- Describe 'delegation' as "the delegation of a responsibility to another class"
-- Explain what is meant by the advice 'Delegate, Delegate, Delegate'
-- Implement OOP delegation
+- Describe "delegation" as "the delegation of a responsibility to another class".
+- Explain what is meant by the advice "delegate, delegate, delegate".
+- Implement OOP delegation.
 
 ## Starter (10 minutes)
 
