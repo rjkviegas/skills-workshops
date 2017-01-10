@@ -19,18 +19,25 @@ In a company, there are three executives: Ina, the CEO, Brad, the COO, and Lydia
 
 For another example: introduce [Steve Jobs' definition of delegation in OOP](http://www.edibleapple.com/2011/10/29/steve-jobs-explains-object-oriented-programming/).
 
-## Main (30 minutes)
+## Main (45 minutes)
 
 Instructions are in [the README](README.md).
 
 ## Plenary (15 minutes)
 
-Discuss: What happened during the refactor of the system?
+### Get some of the students' code up on the projector
 
-Common themes:
+### Discussion
+
+What happened during the refactor of the system?
+
+#### Common themes
 
 - They diagrammed (hopefully)
-- Some classes were unecessary as they didn't really encapsulate any behaviour
-- Some classes could be made more abstract via delegation
-- The system doesn't actually do very much
+- Behaviour didn't move, it got encapsulated
+- Some behaviour could be made more abstract via delegation
 - Some classes emerged that were just interfaces to other classes (_this is a good opportunity to discuss the 'God Class' antipattern_).
+
+### Exemplar
+
+`solution-do-not-look-until-the-end/`
