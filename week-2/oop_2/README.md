@@ -38,3 +38,15 @@ As a user
 So I can identify bees
 I want to look up identifying information about bees
 ```
+
+```
+As a user
+So I can avoid aggressive animals
+I want to look up the demeanour of animals
+```
+
+```
+As a user
+So I can decide which animals need ceilings on their cages
+I want to look up whether animals can fly
+```
