@@ -38,6 +38,10 @@ Go into the directory for this workshop:
 
     $ cd week-1/rectangle_kata
 
+Install `bundler`, if you haven't already:
+
+    $ gem install bundler
+
 Install the gems:
 
     $ bundle install
