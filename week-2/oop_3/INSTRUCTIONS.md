@@ -21,7 +21,7 @@ For another example: introduce [Steve Jobs' definition of delegation in OOP](htt
 
 ## Main (30 minutes)
 
-Instructions are in [the README](README.md). Students refactor a poorly-delegated system to one with a more effective distribution of responsibilities.
+Instructions are in [the README](README.md).
 
 ## Plenary (15 minutes)
 
