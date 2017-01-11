@@ -29,9 +29,9 @@ You must finish it.
 
 * Port the functionality in `/terrible` over to `/great`.
 
-* Continue using the delegate, delegate, delegate approach in `/great`.
-
 * Examine the code and tests in `/terrible` to find out what functionality to implement.
+
+* Continue using the delegate, delegate, delegate approach in `/great`.
 
 * There are a few passing unit tests in `/great`.  You will probably want to add to these.
 
