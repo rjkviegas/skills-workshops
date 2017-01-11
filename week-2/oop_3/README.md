@@ -15,7 +15,7 @@ This is a workshop to introduce you to the idea of Object-Oriented delegation.
 
 This project contains two implementations of a todo list: `/terrible` and `/great`.
 
-`/terrible` implements the features using a poor understanding of the delegate principle.  `/great` implements the users stories using a good understanding of the delegate principle.  Unfortunately, `/great` is unfinished.
+`/terrible` implements the features using a poor understanding of the delegate principle.  `/great` implements the users stories using a good understanding of the delegate principle.  `/great` is unfinished.
 
 You must finish it.
 
@@ -27,12 +27,12 @@ You must finish it.
 
 ### What code should you write?
 
-* Modify the code in `/great`.
+* Port the functionality in `/terrible` over to `/great`.
 
-* Continue using its delegate, delegate, delegate approach.
+* Continue using the delegate, delegate, delegate approach in `/great`.
 
-* Examine the code and tests in `/terrible` to find out what functionality to implement.  Port that functionality over to `/great`.
+* Examine the code and tests in `/terrible` to find out what functionality to implement.
 
-* There are a few passing unit tests in `/great`.  Add to these.
+* There are a few passing unit tests in `/great`.  You will probably want to add to these.
 
-* There are some feature tests in `great/spec/feature_spec.rb`.  These should pass when you've implemented all the functionality.
+* There are some feature tests in `great/spec/feature_spec.rb`.  These are currently failing.  They should pass when you've implemented all the functionality.
