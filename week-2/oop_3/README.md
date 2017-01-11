@@ -7,7 +7,7 @@ This is a workshop to introduce you to the idea of Object-Oriented delegation.
 
 ## Learning objectives
 
-- Describe 'delegation' as "the delegation of a responsibility to another class".
+- Describe "delegation" as "the delegation of a responsibility to another class".
 - Explain what is meant by the advice "delegate, delegate, delegate".
 - Implement OOP delegation.
 
