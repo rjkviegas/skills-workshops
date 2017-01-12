@@ -1,0 +1,104 @@
+# Domain model diagramming
+
+## Learning objectives
+
+1. Describe a domain model as the relationships between the nouns and verbs in a program.
+2. Explain how you incorporate domain model diagramming into your development process.
+3. Use domain model diagramming to help you develop better code.
+
+## User stories
+
+```
+As a person
+So I can have fun
+I want to be able to flip a coin and find out if it came up heads or tails
+```
+
+```
+As a person
+So I can keep score
+I want to be able to find out how many times the coin comes up heads
+```
+
+```
+As a person
+So I can rememeber my best score
+I want to be able to print out my score
+```
+
+## A domain model diagram
+
+* The programmer diagrams a domain model for these user stories:
+
+```
++-----------+         +--------+
+| HeadCount +--flip-->+  Coin  |
++-----------+         +--------+
+```
+
+* They look at it and realise it's not very good.  Where does the score printing logic go? Is it really the responsibility of HeadCount to flip the coin?
+
+* They've already saved time because they discovered these problems by not writing any code.  They save even more time by improving their domain model by changing their diagram, rather than writing code.
+
+## What does a domain model diagram include?
+
+Domain models can be expressed in many forms.
+
+* Nouns and verbs using boxes and arrows. (As above.)
+
+* Nouns and verbs in lists. (As you did at the beginning of week 1.)
+
+* A sequence diagram:
+
+```
+
+HeadCount        Coin              Randomiser
+---------------------------------------------
+     ----flip---->
+                  |
+                   ----random_number--->
+                                       |
+                   <--------0.2--------
+                  |
+    <---"heads"---
+```
+
+Different forms work for different situations.  Experiment!
+
+## How do you implement a program using a domain modelling-driven approach?
+
+1. Diagram a domain model that will satisfy the user stories.
+2. Write code to implement the domain model.
+3. If the domain model is hard to implement, or you're writing bad code, return to step 1.
+
+## Instructions (50 minutes)
+
+* Spend 25 minutes implementing the coin flipping program using the domain modelling-driven approach.
+
+* Don't write tests.  In this workshop, we want to focus on the domain model diagramming.
+
+* After the 25 minutes is up, spend another 25 minutes implementing the picky picnic user stories using the same domain modelling-driven approach.
+
+### Picky picnic
+
+```
+As a picnicker
+So I can go on a picnic
+I want to have a hamper of sandwiches
+```
+
+```
+As a picnicker
+So I can satisfy my hunger
+I want to be able to eat a sandwich
+```
+
+```
+As a picnicker
+So I can satisfy my picky eating habits
+I want to be able to extract and eat one of the ingredients from a sandwich
+```
+
+## Plenary (15 minutes)
+
+At the end, we'll gather to discuss our diagramming strategies.
