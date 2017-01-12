@@ -22,7 +22,7 @@ I want to be able to find out how many times the coin comes up heads
 
 ```
 As a person
-So I can rememeber my best score
+So I can remember my best score
 I want to be able to print out my score
 ```
 
