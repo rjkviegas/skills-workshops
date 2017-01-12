@@ -4,7 +4,7 @@
 
 1. Describe a domain model as the nouns and verbs in a program, and the relationships between them.
 2. Explain how you use domain model diagramming in your development process.
-3. Use domain model diagramming to help you develop better code.
+3. Use domain model diagramming to help you write better code.
 
 ## User stories
 
