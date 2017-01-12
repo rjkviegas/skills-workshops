@@ -38,7 +38,7 @@ I want to be able to print out my score
 
 * They look at it and realise it's not very good.  Where does the score printing logic go? Is it really the responsibility of HeadCount to flip the coin?
 
-* But they've already saved time because they've discovered these problems by not writing any code.
+* But they've already saved time because they didn't have to write code to discover these problems.
 
 * They start trying to fix the problems in their domain model.  They do this by changing their diagram, rather than writing code.  This saves them even more time.
 
