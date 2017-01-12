@@ -2,8 +2,8 @@
 
 ## Learning objectives
 
-1. Describe a domain model as the relationships between the nouns and verbs in a program.
-2. Explain how you incorporate domain model diagramming into your development process.
+1. Describe a domain model as the nouns and verbs in a program, and the relationships between them.
+2. Explain how you use domain model diagramming in your development process.
 3. Use domain model diagramming to help you develop better code.
 
 ## User stories
@@ -38,9 +38,11 @@ I want to be able to print out my score
 
 * They look at it and realise it's not very good.  Where does the score printing logic go? Is it really the responsibility of HeadCount to flip the coin?
 
-* They've already saved time because they discovered these problems by not writing any code.  They save even more time by improving their domain model by changing their diagram, rather than writing code.
+* But they've already saved time because they've discovered these problems by not writing any code.
 
-## What does a domain model diagram include?
+* They start trying to fix the problems in their domain model.  They do this by changing their diagram, rather than writing code.  This saves them even more time.
+
+## How do you diagram a domain model?
 
 Domain models can be expressed in many forms.
 
