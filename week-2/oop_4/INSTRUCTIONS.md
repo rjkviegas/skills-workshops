@@ -7,6 +7,20 @@ A workshop that introduces composition, inheritance, and the benefits of one ove
 
 A video of this workshop is available [here](https://www.youtube.com/watch?v=AR1Tdt68Jm4&index=6&list=PLc4BYny7PXeR5ZLHCY_oPU2I97aPtS8jm).
 
+### Outcomes
+
+- Define Inheritance, and define Composition
+- Explain why Composition is generally preferable to Inheritance
+- Use Composition to abstract shared behaviour
+
+### Terminology
+
+- Inheritance
+- Composition
+- Mixin
+- Behaviour
+- Shared Behaviour
+
 ### Starter (20 minutes)
 
 - Demonstrate Inheritance using a `Parent` and `Child` class that implement the same method `speak`.
