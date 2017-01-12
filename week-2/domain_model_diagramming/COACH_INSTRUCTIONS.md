@@ -22,10 +22,10 @@ See [README](./README.md).
 
 ## Plenary (15 minutes)
 
-* Do thumbs on the learning objectives.
-
 * Ask about the amount of time students spent diagramming, vs the amount of time students spent writing code.
 
 * Ask about the sorts of problems the students would find in their domain model when coding.  Talk about how they could change their approach to diagramming to find these problems at the diagram stage.
 
 * Ask about what types of diagram were the most useful and why.
+
+* Do thumbs on the learning objectives.
