@@ -8,7 +8,9 @@ See [README](./README.md).
 
 * Do thumbs on the learning objectives.
 
-* Talk through the README with the students up to and including the instructions section.
+* Ask the students to read the README.  (Even better to send it out before the workshop so you can potentially save time in the workshop.)
+
+* Do a very quick Q&A.
 
 * Do thumbs on the learning objectives.
 
