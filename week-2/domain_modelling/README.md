@@ -40,11 +40,9 @@ I want to be able to print out my score
 
 ## Why diagram a domain model?
 
-* Designing the domain model by writing code is much slower than doing it by diagramming.  If you diagram, you'll find problems in the domain model without needing to write any code.  The more problems you fix in your domain model on paper, the faster you'll be able to create a well architected program.
-
 * If a programmer tried to implement the coin flipping program using the domain model above, they'd probably discover that it's a bad model.  For example, where does the score printing logic go? Is it really the responsibility of HeadCount to flip the coin?
 
-* Instead of trying to code their way out of trouble, the programmer could redesign the domain model on paper, then go back to writing code.
+* Designing the domain model by writing code is much slower than doing it by diagramming.  If the programmer had diagrammed, they may have found the problems above.  They would have saved time.
 
 ## What does a domain model diagram include?
 
