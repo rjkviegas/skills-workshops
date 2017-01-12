@@ -98,7 +98,7 @@ I want to be able to eat a sandwich
 ```
 As a picnicker
 So I can satisfy my picky eating habits
-I want to be able to extract and eat one of the ingredients from a sandwich
+I want to be able to extract and eat individual ingredients in the sandwich
 ```
 
 ## Plenary (15 minutes)
