@@ -79,26 +79,32 @@ Different forms work for different situations.  Experiment!
 
 * Don't write tests.  In this workshop, we want to focus on the domain model diagramming.
 
-* After the 25 minutes is up, spend another 25 minutes implementing the picky picnic user stories using the same domain modelling-driven approach.
+* After the 25 minutes is up, spend another 25 minutes implementing the notebook user stories using the same domain modelling-driven approach.
 
-### Picky picnic
-
-```
-As a picnicker
-So I can go on a picnic
-I want to have a hamper of sandwiches
-```
+### Notebook
 
 ```
-As a picnicker
-So I can satisfy my hunger
-I want to be able to eat a sandwich
+As an office worker
+So I can record useful information
+I want to be able to create a text note
 ```
 
 ```
-As a picnicker
-So I can satisfy my picky eating habits
-I want to be able to extract and eat individual ingredients in the sandwich
+As an office worker
+So I can carry all my useful information
+I want to keep all my notes in a notebook.
+```
+
+```
+As an office worker
+So I can categorise a note
+I want to be able to add a tag (only one tag) to a note
+```
+
+```
+As an office worker
+So I can find notes on a certain topic
+I want to be able to search for all the notes with a specific tag
 ```
 
 ## Plenary (15 minutes)

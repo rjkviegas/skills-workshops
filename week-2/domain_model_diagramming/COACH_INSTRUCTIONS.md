@@ -18,7 +18,7 @@ See [README](./README.md).
 
 * Set the students going on implementing the coin flipping program.
 
-* Tell the students when 25 minutes is up and set them off for another 25 minutes on the picky picnic user stories.
+* Tell the students when 25 minutes is up and set them off for another 25 minutes on the notebook user stories.
 
 ## Plenary (15 minutes)
 
