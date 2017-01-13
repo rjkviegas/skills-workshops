@@ -103,4 +103,4 @@ I want to be able to extract and eat individual ingredients in the sandwich
 
 ## Plenary (15 minutes)
 
-At the end, we'll gather to discuss our diagramming strategies.
+At the end, we'll gather to show our diagrams and discuss our diagramming strategies.
