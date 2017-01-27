@@ -2,9 +2,9 @@
 
 ## Learning Objectives:
 
-- Describe 'delegation' as "the delegation of a responsibility to another class"
-- Explain what is meant by the advice 'Delegate, Delegate, Delegate'
-- Implement OOP delegation
+- Describe "delegation" as "the delegation of a responsibility to another class".
+- Explain what is meant by the advice "delegate, delegate, delegate".
+- Implement OOP delegation.
 
 ## Starter (10 minutes)
 
@@ -19,17 +19,25 @@ In a company, there are three executives: Ina, the CEO, Brad, the COO, and Lydia
 
 For another example: introduce [Steve Jobs' definition of delegation in OOP](http://www.edibleapple.com/2011/10/29/steve-jobs-explains-object-oriented-programming/).
 
-## Main (20 minutes)
+## Main (45 minutes)
 
-Instructions are in [the README](README.md). Students refactor a poorly-delegated system to one with a more effective distribution of responsibilities.
+Instructions are in [the README](README.md).
 
 ## Plenary (15 minutes)
 
-Discuss: What happened during the refactor of the system?
+### Get some of the students' code up on the projector
 
-Common themes:
+### Discussion
 
-- Some classes were unecessary as they didn't really encapsulate any behaviour
-- Some classes could be made more abstract via delegation
-- The system doesn't actually do very much
+What happened during the refactor of the system?
+
+#### Common themes
+
+- They diagrammed (hopefully)
+- Behaviour didn't move, it got encapsulated
+- Some behaviour could be made more abstract via delegation
 - Some classes emerged that were just interfaces to other classes (_this is a good opportunity to discuss the 'God Class' antipattern_).
+
+### Exemplar
+
+`solution-do-not-look-until-the-end/`

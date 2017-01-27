@@ -7,7 +7,7 @@ A program to introduce you to debugging.
 In this program, there are three bugs. You have to find them, and fix them. You have to do this as systematically as possible:
 
 - Tighten the loop (find the _exact line_ the bug is coming from)
-- Get visibility (use `p` to inspect everything in the region of that line)
+- Get visibility (use `p` to inspect everything to help you home in on the exact line)
 - Once you know the _one thing_ that is wrong, out of place, misspelled, or not giving you what you expect, try to fix it.
 
 > Wisest is he who tries only one thing to fix the problem. Faffing about trying whatever occurs to you next is a recipe for development hell.

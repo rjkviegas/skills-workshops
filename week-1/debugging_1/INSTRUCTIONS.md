@@ -5,15 +5,15 @@ Introduce a debugging process with three bugs of varying difficulty.
 ## Learning Objectives
 
 - Define 'debugging' as the process of eliminating bugs from an expected program output
-- Explain the mantra 
+- Explain the mantra
 - Use the mantra 'Tighten the loop; Get visibility' to resolve bugs of varying difficulty.
 
 ## Starter (15 minutes)
 
-Use some buggy code of your own. Demonstrate precisely the following two-part process to debug it:
+Start debugging the app.  Fix an easy bug. Demonstrate precisely the following two-part process to debug it:
 
 - Tighten the loop (find the _exact line_ the bug is coming from)
-- Get some insight (use `p` to inspect everything in the region of that line)
+- Get visibility (use `p` to inspect everything to help you home in on the exact line)
 
 Essentially, we are trying to convince students out of their 'default approach': trying random or researched things until the problem they're facing goes away. Be very strong with this line:
 

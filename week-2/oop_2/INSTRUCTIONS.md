@@ -1,25 +1,25 @@
-# OOP 2: Concretes and Abstracts (50 minutes)
+# OOP 2: Concretes and Abstracts (1 hour)
 
 ## Learning Objectives:
 
 - Differentiate between 'abstract' and 'concrete'
 - Explain what is meant by the advice 'Separate out the things that change from those that stay the same'
-- Give some differences adding features to systems with poor OOP and good OOP
+- Give some differences between adding features to systems with poor OOP and good OOP
 
 ## Starter (10 minutes)
 
-Ask students: "what the **abstractions** behind the following sets of **concrete** things?"
+Ask students: "what are the **abstractions** behind the following sets of **concrete** things?"
 
 - 1, 15, 8, -2 _(Number)_
 - Red, Green, Blue, Puce _(Colour)_
 - XML, HTML, JSON, TXT _(Data type, or interchange format)_
 
-Explain: 
+Explain:
 
-- In programming, we want to move from systems that handle many concrete things to ones that handle more abstract cases
-- We should aim to separate the treatment of concrete things from the separation of abstract things
+- In programming, we want to move from systems that handle many specific cases to systems that handle a general case — from concrete things to abstractions
+- We should aim to separate the treatment of concrete things from the treatment of abstract things
 
-## Main (20 minutes)
+## Main (40 minutes)
 
 Instructions are in [the README](README.md). Students implement the same set of features in both poor OOP and good OOP environments.
 
