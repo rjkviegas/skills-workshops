@@ -32,6 +32,18 @@ There's a file at `lib/rectangle.rb`.  It contains a function called `rectangle`
 
 Refactor your code to make it as easy to understand as possible.
 
+## Driver/navigator pairing
+
+* The driver has the keyboard and mouse.  Their job is to type.  They deal with the details of the programming, line by line.
+
+* The navigator pays attention to the code the driver is writing.  But they also pay attention to the larger picture of the problem.
+
+* For example, the navigator might suggest that an `each` block would be a good way to iterate through an array.  The driver would then type in the `each` block and get it working.
+
+* The two people in the pair swap driver and navigator roles very frequently.
+
+* The two people in the pair communicate and discuss constantly.
+
 ## Setup
 
 Get this repo:
