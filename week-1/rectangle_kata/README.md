@@ -57,7 +57,7 @@ Refactor your code to make it as easy to understand as possible.
 
 * The navigator pays attention to the code the driver is writing.  But they also pay attention to the larger picture of the problem.
 
-* For example, the navigator might suggest that an `each` block would be a good way to iterate through an array.  The driver would then type in the `each` block and get it working.
+* For example, the navigator might suggest that an `each` block would be a good way to iterate through an array.  The driver would then type in the `each` block and get it working.  If they get stuck, the driver and navigator discuss the problem.
 
 * The two people in the pair swap driver and navigator roles very frequently.
 
