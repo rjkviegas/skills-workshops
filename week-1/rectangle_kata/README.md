@@ -1,9 +1,28 @@
 # Rectangle kata
 
-* Get into pairs and spend an hour writing Ruby code that fulfils the specification below.
-* Don't forget to write tests!
-* If you have time, refactor your code.
-* After an hour, volunteer pairs will put their code on the projector and we'll code review it as a group.
+* You'll work in a pair with the person next to you.
+
+* You'll spend an hour writing Ruby code that fulfils the specification below.
+
+* You'll use the driver/navigator pairing approach (see below).
+
+* You'll swap driver/navigator every 10 minutes.  You'll also reflect and adjust for two minutes (see below).
+
+* After the hour, volunteer pairs will put their code on the projector and we'll code review it as a group.
+
+## Do some work, reflect, adjust
+
+In order to improve your processes, you can use a simple cycle:
+
+1. Do some work.  Work on something for a while. (In this case, develop code.)
+
+2. Reflect.  Pause and and think about what could be improved.
+
+3. Adjust.  Change a part of your process that could be improved.
+
+4. Return to 1.
+
+We'll practice this approach in this session.  Every 10 minutes, you'll reflect and adjust your process.
 
 ## Specification
 
