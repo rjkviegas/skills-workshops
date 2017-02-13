@@ -16,9 +16,9 @@ In order to improve your processes, you can use a simple cycle:
 
 1. Do some work. (In this case, develop code.)
 
-2. Reflect.  Pause and and think about what could be improved.
+2. Reflect.  (Pause and and think about what could be improved.)
 
-3. Adjust.  Change a part of your process that could be improved.
+3. Adjust.  (Change a part of your process that could be improved.)
 
 4. Return to 1.
 
