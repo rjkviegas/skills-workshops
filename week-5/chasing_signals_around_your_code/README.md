@@ -17,7 +17,7 @@ This workshop is 'more advanced' because we will need to track the flow of infor
 
 ## Instructions
 
-You must come up with some way to demonstrate that they have internalised what AJAX is and how to follow it around the system. Some examples you could use:
+You must come up with some way to demonstrate that you have internalised what AJAX is and how to follow it around the system. Some examples you could use:
 
 - Build a basic Single Page App (SPA)
 - TDD a simple AJAX page like the one in `src`
