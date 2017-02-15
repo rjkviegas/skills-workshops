@@ -12,4 +12,4 @@
 
 [Example of Inheritance](https://gist.github.com/danldb/301ff61627dfb658d0f32ce896609472)
 
-Break up into pairs and attempt [this workshop](https://github.com/danldb/workshop-inheritance-composition) - specs are provided.
+Break up into pairs and attempt [this workshop](https://github.com/ddosque/workshop-inheritance-composition) - specs are provided.
