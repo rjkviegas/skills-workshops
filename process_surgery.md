@@ -16,7 +16,9 @@ Can be run once a week.
 
 * Gather 2 - 7 struggling students in a room.
 
-* Ask someone to describe a time they struggled when developing code.  This might be "I couldn't figure out a domain model" or "My pair partner kept grabbing the keyboard from me".  Encourage them to laser in on what the underlying problem was.
+* Elicit a problem from the students e.g.
+  * Ask someone to describe a time they struggled when developing code.  This might be "I couldn't figure out a domain model" or "My pair partner kept grabbing the keyboard from me".  Encourage them to laser in on what the underlying problem was.
+  * Or ask someone to talk about a concept they are struggling with.  Help them to analyse how they could improve their processes to learn this concept.
 
 * Write a brief summary of the struggle on the whiteboard.
 
