@@ -12,6 +12,16 @@ In this program, there are three bugs. You have to find them, and fix them. You 
 
 > Wisest is he who tries only one thing to fix the problem. Faffing about trying whatever occurs to you next is a recipe for development hell.
 
+### Setup
+
+* Clone the skills workshop repo.
+
+* `cd` into the `week-1/debugging_1` directory.
+
+* Run `bundle install`.
+
+* Run the tests with `rspec`.
+
 ### User Stories
 
 ```
