@@ -38,6 +38,12 @@ What happened during the refactor of the system?
 - Some behaviour could be made more abstract via delegation
 - Some classes emerged that were just interfaces to other classes (_this is a good opportunity to discuss the 'God Class' antipattern_).
 
+#### Prerequisites
+
+- Injection
+- Encapsulation
+- Single Responsibility Principle
+
 ### Exemplar
 
 `solution-do-not-look-until-the-end/`
