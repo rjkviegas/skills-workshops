@@ -17,7 +17,7 @@ This project contains two implementations of a todo list: `/terrible` and `/grea
 
 `/terrible` implements the features using a poor understanding of the delegate principle.  `/great` implements the users stories using a good understanding of the delegate principle.  `/great` is unfinished.
 
-You must finish it.
+You job is to finish it.
 
 ### Running the tests
 
