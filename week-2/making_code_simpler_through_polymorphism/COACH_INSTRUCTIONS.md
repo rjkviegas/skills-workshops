@@ -22,9 +22,9 @@ Instructions are in [the README](README.md).
 
 ### Get some of the students' code up on the projector
 
-### Discussion
+* Did they implement a polymorphism for checking `TruthyAssertion` and `EqualAssertion`?
 
-What happened during the refactor of the system?
+* Did they include `AssertionList` in the polymorphism by making `run_all_assertions` implement the same interface?
 
 ### Exemplar
 
