@@ -1,6 +1,3 @@
-require_relative "./truthy_assertion"
-require_relative "./equal_assertion"
-
 class AssertionList
   def initialize
     @assertions = []
