@@ -4,7 +4,7 @@ class EqualAssertion
     @test_value_2 = test_value_2
   end
 
-  def equal?
+  def equal
     unless valid?
       raise "#{@test_value_1} not equal? #{@test_value_2}"
     end

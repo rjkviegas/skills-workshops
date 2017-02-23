@@ -10,9 +10,9 @@ class AssertionList
   def run_all_assertions
     @assertions.each do |assertion|
       if assertion.is_a?(TruthyAssertion)
-        assertion.truthy?
+        assertion.truthy
       elsif assertion.is_a?(EqualAssertion)
-        assertion.equal?
+        assertion.equal
       end
     end
   end
