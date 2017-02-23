@@ -8,7 +8,7 @@ This workshop is about using polymorphism to build simpler code.
 
 2. Explain how polymorphism can be used to build simpler code.
 
-3. Refactor some code to use polymorphism so it's simpler.
+3. Refactor some code to use polymorphism to make it simpler.
 
 ## Introduction
 
@@ -28,7 +28,9 @@ end
 
 This code isn't polymorphic.  It treats different things differently.
 
-Imagine trying to add a `Skateboard` class.  You'd need to add a new clause to the conditional to be able to move it:
+How would you add a `Skateboard` class?
+
+You might do this:
 
 ```ruby
 def move_200(thing)
@@ -50,23 +52,21 @@ def move_200(vehicle)
 end
 ```
 
-You can now treat the `Car`, `Plane` and `Skateboard` polymorphicly as just "vehicles".
+The `Car`, `Plane` and `Skateboard` are now treated polymorphicly as just "vehicles".
 
-### Duck-typing
+### Duck typing
 
-If it walks like a duck, and talks like a duck, it must be a duck.
-
-If it moves like a vehicle, it must be a vehicle.
+How does the code above relate to duck typing?
 
 ### Simplicity
 
-* How is the polymorphic code simpler?
+How is the polymorphic code simpler?
 
 ## Instructions
 
 There's a project inside this directory.  It's a very simple test assertion library.  It lets you create a list of assertions and then check them.  For example:
 
-```
+```ruby
 assertion_list = AssertionList.new
 assertion_list.add(TruthyAssertion.new(""))
 assertion_list.add(EqualAssertion.new(1, 1))
@@ -76,14 +76,14 @@ assertion_list.run_all_assertions
 
 You job is to simplify the code by making it polymorphic.
 
-There are two feature tests to help you refactor the code.  To simplify the refactoring, unit tests have been omitted.  Depending on the changes you make, you may be able to leave the feature tests unchanged, or yu may need to change them slightly.
+There are two feature tests to help you refactor the code.  To make the refactoring easier, there are no unit tests.  Depending on the changes you make, you may be able to leave the feature tests unchanged, or you may need to change them slightly.
 
 ## Setup
 
 ### Install the dependencies
 
 ```
-cd this/directory
+cd to/this/directory
 bundle install
 ```
 

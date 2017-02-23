@@ -6,6 +6,9 @@
 
 * Talk through the code in the Introduction section to illustrate refactoring for polymorphism.
 
+* Ask the students for their thoughts on how the code example relates to duck typing.  Draw out this idea:
+  * If it moves like a vehicle, it must be a vehicle.  So you can use it like a vehicle.
+
 * Ask the students for their thoughts on what makes the polymorphic version simpler.  Draw out these ideas:
   * It's simpler to understand a group of polymorphic classes because they all share the same concept.
   * The shared code for a polymorphism is more reuseable.
