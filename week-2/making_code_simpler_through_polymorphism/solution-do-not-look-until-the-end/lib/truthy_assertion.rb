@@ -9,6 +9,8 @@ class TruthyAssertion
     end
   end
 
+  private
+
   def valid?
     !!@test_value
   end

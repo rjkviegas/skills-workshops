@@ -10,6 +10,8 @@ class EqualAssertion
     end
   end
 
+  private
+
   def valid?
     @test_value_1.equal?(@test_value_2)
   end
