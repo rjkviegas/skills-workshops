@@ -1,7 +1,6 @@
 require 'data_mapper'
 require 'dm-postgres-adapter'
 
-# DataMapper::Logger.new($stdout, :debug)
 DataMapper.setup(:default, 'postgres://makerslaptop82@localhost/databases_1')
 
 require './lib/player'
