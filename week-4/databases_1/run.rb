@@ -11,4 +11,4 @@ DataMapper.auto_upgrade!
 
 game = Game.first
 game ||= Game.start("Jeffrey", "Lydia")
-game.play
+game.play_point
