@@ -1,7 +1,7 @@
 require 'data_mapper'
 require 'dm-postgres-adapter'
 
-DataMapper.setup(:default, 'postgres://makerslaptop82@localhost/databases_1')
+DataMapper.setup(:default, 'postgres://localhost/databases_1')
 
 require './lib/player'
 require './lib/game'
