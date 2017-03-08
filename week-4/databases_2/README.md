@@ -42,19 +42,19 @@ Table: cohorts
 ```
 As a coach
 So I can get to know all students
-I want to list students' names
+I want to see a list of students' names
 ```
 
 ```
 As a coach
 So I don't get overwhelmed with a massive list of everyone
-I want to view a list of students' names filtered by cohort name
+I want to filter the list of students by cohort name
 ```
 
 ```
 As a coach
 So I can learn students' names
-I want to view all the URLs for images of students' faces
+I want each student name's name to link to the URL of a picture of the student
 ```
 
 ```
@@ -71,12 +71,12 @@ I want to filter students in the list by tag name
 
 ```
 As a student
-So I can exemplify an XP value
-I want to give feedback in the form of a daily rating
+So I can reflect on my days
+I want to rate each day out of 10
 ```
 
 ```
 As a coach
 So I can get an overview of feedback
-I want to see an average daily rating for each student
+I want to see an average of the day ratings for each student
 ```
