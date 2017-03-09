@@ -3,8 +3,7 @@
 ## Learning objectives
 
 1. Infer a domain from some code.
-2. Infer the structure of a database from a domain.
-3. Diagram the structure of a database.
+2. Infer the structure of a database from a domain and diagram this structure.
 
 ## Setup
 
