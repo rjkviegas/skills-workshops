@@ -4,7 +4,7 @@
 
 * Try to favour "technical" projects that will involve writing some complex logic, rather than "API"ish projects that will be about jamming together a few existing libraries and APIs.
 
-* Your coach will compile all the suggestions in a spreadsheet displayed on the projector.
+* Your coach will compile all the suggestions in a spreadsheet that you can view.
 
 * Your coach will send out the list of all the projects.  You'll pick your top three.
 
