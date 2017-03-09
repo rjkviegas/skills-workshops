@@ -64,7 +64,7 @@ Here are some example questions to help tease out the relationships between the 
 * `property :id`. How does this relate to the table?
 * `0  | Isla`. Where is this represented in the code?
 
-### Main (30 minutes)
+### Main (40 minutes)
 
 Students have three classes that constitute a domain, with a mix of computed and property methods (including relations). They must diagram the underlying database structure of these classes.
 

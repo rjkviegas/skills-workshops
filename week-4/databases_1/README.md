@@ -1,4 +1,4 @@
-# Diagramming database structure (40 minutes)
+# Diagramming database structure (1 hour)
 
 ## Learning objectives
 
