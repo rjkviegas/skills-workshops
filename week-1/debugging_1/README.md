@@ -10,7 +10,7 @@ In this program, there are three bugs. You have to find them, and fix them. You 
 - Get visibility (use `p` to inspect everything to help you home in on the exact line)
 - Once you know the _one thing_ that is wrong, out of place, misspelled, or not giving you what you expect, try to fix it.
 
-> Wisest is he who tries only one thing to fix the problem. Faffing about trying whatever occurs to you next is a recipe for development hell.
+> Wisest are they who try only one thing to fix the problem. Faffing about trying whatever occurs to you next is a recipe for development hell.
 
 ### Setup
 
