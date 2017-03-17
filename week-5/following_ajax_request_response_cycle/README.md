@@ -1,4 +1,4 @@
-# Callbacks and following the flow of control
+# Following the Ajax request/response cycle
 
 ## Instructions
 
