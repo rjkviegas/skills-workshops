@@ -17,6 +17,8 @@ In a company, there are three executives: Ina, the CEO, Brad, the COO, and Lydia
 - `HRManager`'s method `reduce_payroll` iterates through employees and calls `employee.fire if employee.performance < 7`.
 - In this example, neither the CEO nor the COO are responsible for firing employees, and both have plausible deniability. That responsibility has been delegated to the HR Manager, who will have to handle the angry letters herself.
 
+> Here is a [Board example](https://github.com/sjmog/oop_3_may2017/blob/master/company_structure.JPG) and a [Coded example](https://github.com/sjmog/oop_3_may2017/blob/master/company.rb). It can be helpful to demo the structure on the board, then in code, referring between the two.
+
 For another example: introduce [Steve Jobs' definition of delegation in OOP](http://www.edibleapple.com/2011/10/29/steve-jobs-explains-object-oriented-programming/).
 
 ## Main (45 minutes)
