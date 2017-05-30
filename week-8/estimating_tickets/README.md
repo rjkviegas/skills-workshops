@@ -1,4 +1,4 @@
-# Diagramming the Rails architecture
+# Estimating tickets
 
 ## Instructions
 
