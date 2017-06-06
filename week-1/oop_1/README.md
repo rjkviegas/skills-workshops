@@ -39,3 +39,8 @@ I want a pretty output
 > You may have to run `gem install bundler` to install Bundler first.
 
 1. Wrap common behaviour into a class structure. That is; encapsulate common functionality within classes.
+
+## Resources
+
+* [Encapsulation definition 1](http://roboprog010.github.io/posts/technical/week5.html) (see the section about encapsulation)
+* [Encapsulation definition 2](https://devblast.com/b/ruby-inheritance-encapsulation-polymorphism) (see the section about encapsulation)
