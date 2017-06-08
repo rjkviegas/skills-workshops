@@ -19,8 +19,8 @@ describe Student do
 
   describe '#happiness' do
     it 'returns the average happiness reported' do
-      feedback_1 = Feedback.new(3, Date.today)
-      feedback_2 = Feedback.new(5, Date.today)
+      feedback_1 = Feedback.new(4, Date.today)
+      feedback_2 = Feedback.new(4, Date.today)
       student = Student.new(feedbacks: [feedback_1, feedback_2])
 
       expect(student.happiness).to eq 4
