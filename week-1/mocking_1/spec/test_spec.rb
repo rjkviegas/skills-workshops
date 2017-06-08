@@ -6,7 +6,6 @@ describe Test do
     [
       Answer.new(5, 5),
       Answer.new(7, 7),
-      Answer.new(7, 3),
       Answer.new(1, 1)
     ]
   end
