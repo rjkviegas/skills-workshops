@@ -10,7 +10,7 @@
 
 * Remind students they will be pairing and they should work together using the driver/navigator pattern.
 
-* Briefly lay out some techniques for researching a topic.
+* Do a thought shower to gather research techniques from the group.
 
 * Do "thumbs" on the learning objectives.
 

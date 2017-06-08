@@ -39,3 +39,12 @@ I want a pretty output
 > You may have to run `gem install bundler` to install Bundler first.
 
 1. Wrap common behaviour into a class structure. That is; encapsulate common functionality within classes.
+
+### Possible extension
+
+Add a comment at the top of a class definition file saying what the responsibility of the class is. Stick to the following rules: the comment must start with 'understands', it must not reference itself (i.e. a calculator could not 'understands doing calculations' or 'understands being a calculator'), and it should reference the behaviour of the object, not its state.
+
+## Resources
+
+* [Encapsulation definition 1](http://roboprog010.github.io/posts/technical/week5.html) (see the section about encapsulation)
+* [Encapsulation definition 2](https://devblast.com/b/ruby-inheritance-encapsulation-polymorphism) (see the section about encapsulation)
