@@ -16,11 +16,10 @@ class Student
   end
 
   def test_scores
-    @tests.inject({}) do |date_with_scores, test|
-      date_with_scores.merge({"#{ test.pretty_date_taken }": [test.score]}) do |date, existing_scores, new_score|
-        existing_scores += new_score
-      end
-    end
+    @tests
+      .group_by(&:pretty_date_taken)
+      .map {|date, tests| [date, tests.map(&:score)] }
+      .to_h
   end
 
   private

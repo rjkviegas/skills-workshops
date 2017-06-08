@@ -37,7 +37,7 @@ describe Student do
       test_2 = Test.new(Date.today, [Answer.new(6, 6)])
       student = Student.new(tests: [test_1, test_2])
 
-      expect(student.test_scores).to eq({ "#{ Date.today.to_s }": [1, 0] })
+      expect(student.test_scores).to eq({ "#{ Date.today.to_s }" => [1, 1] })
     end
 
     it 'defaults to being empty' do
