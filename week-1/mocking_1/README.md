@@ -18,4 +18,10 @@
 
 > You may have to run `gem install bundler` to install Bundler first.
 
-1. Isolate the unit tests in ./spec. **Tackle the student #happiness method first**. If you manage to isolate it, tackle the student #test_scores method.
+Your task: isolate the unit tests in `./spec`.
+
+**Make sure to do them in this order**:
+
+1. test.score method.
+2. student.happiness method.
+3. student.test_scores method.
