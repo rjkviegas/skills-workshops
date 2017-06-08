@@ -34,7 +34,7 @@ describe Student do
   describe '#test_scores' do
     it 'returns all test scores' do
       test_1 = Test.new(Date.today, [Answer.new(5, 5)])
-      test_2 = Test.new(Date.today, [Answer.new(5, 1)])
+      test_2 = Test.new(Date.today, [Answer.new(6, 6)])
       student = Student.new(tests: [test_1, test_2])
 
       expect(student.test_scores).to eq({ "#{ Date.today.to_s }": [1, 0] })
