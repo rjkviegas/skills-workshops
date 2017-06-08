@@ -14,6 +14,8 @@ Isolates unit tests so the object-under-test in one spec cannot break as a resul
 
 ### Board stuff
 
+> I found example 1 in `./images` a bit hard to follow.  I created a different example 1 in `example_1/broken_bike.rb`.  It includes Bike tests to illustrate how fewer tests break if you isolate dependencies.  It can be livecoded, then collectively diagrammed.
+
 Using the whiteboard and the images in ./images, demonstrate the principle of isolating unit tests using doubles:
 
 - First, using a simple example with `DockingStation` and `Bike`
