@@ -18,8 +18,8 @@ Isolates unit tests so the object-under-test in one spec cannot break as a resul
 
 Using the whiteboard and the images in ./images, demonstrate the principle of isolating unit tests using doubles:
 
-- First, using a simple example with `DockingStation` and `Bike`
-- Then, more generally using a large OO system with lots of dependency chains.
+1. Using a simple example with `DockingStation` and `Bike`
+2. More generally using a large OO system with lots of dependency chains.
 
 ### Demonstration
 
