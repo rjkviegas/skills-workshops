@@ -4,6 +4,8 @@
 
 You'll TDD Conway's Game of Life in pairs.  You'll use the [4 rules of simple design](#4-rules-of-simple-design) to guide you.
 
+![Game of Life example](game_of_life.gif)
+
 ## Session structure
 
 * You'll spend 25 minutes TDDing the Game of Life [stories](#stories) in pairs.
