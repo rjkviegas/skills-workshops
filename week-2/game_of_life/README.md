@@ -59,6 +59,7 @@ Source: https://martinfowler.com/bliki/BeckDesignRules.html
 
 ## Stories
 
+```
 As a player
 So I can see the state of the system
 I want to print out the grid of cells
@@ -86,3 +87,4 @@ I want cells to die if they have more than three neighbours
 As a player
 So I can see a realistic game of life
 I want a dead cell to come alive if it has three neighbours
+```
