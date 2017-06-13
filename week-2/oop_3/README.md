@@ -7,9 +7,17 @@ This is a workshop to introduce you to the idea of Object-Oriented delegation.
 
 ## Learning objectives
 
-- Describe "delegation" as "the delegation of a responsibility to another class".
+- Describe "delegation" as "one class telling another class to do something and the other class encapsulating how to do it."
 - Explain what is meant by the advice "delegate, delegate, delegate".
 - Implement OOP delegation.
+
+## Delegation
+
+In delegation, one class tells another class to do something and the other class encapsulates how to do it.
+
+Look at the [company structure code sample](./company_structure.rb) for an example of delegation.
+
+Look at this [diagram of the company structure code](./company_structure.jpg) that shows the delegation relationships.
 
 ## Instructions
 
