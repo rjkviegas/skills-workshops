@@ -7,7 +7,6 @@ class RandomHappyEmoji < SimpleDelegator
   HAPPY_EMOJI = [":D"]
 
   def initialize
-  	p HAPPY_EMOJI.sample
     super(HAPPY_EMOJI.sample)
   end
 end
