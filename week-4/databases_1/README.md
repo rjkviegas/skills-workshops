@@ -30,13 +30,22 @@ rspec
 
 ## Instructions
 
-You have three classes that constitute a domain, with a mix of computed methods, properties and relations. You must diagram the underlying database structure of these classes.
+You have three classes that constitute a domain, with a mix of computed methods, properties and relations. 
 
-Ideally, your diagram will include:
+### Infer the domain (20 mins)
 
-* Table names.
-* Column names.
-* Column datatypes.
-* An indication of which columns are the primary keys and which are the foreign keys.
-* The DataMapper relationships between the columns/tables.
-* The data relationships between the columns/tables (eg one to one).
+* Look at the code and figure out the domain of the program: the nouns and verbs of the system.
+
+* Represent these nouns and verbs in a diagram, table, or another form feels useful to you.
+
+### Infer the database structure (20 mins)
+
+* Diagram diagram the underlying database structure of the classes.
+
+* Ideally, your diagram will include:
+  * Table names.
+  * Column names.
+  * Column datatypes.
+  * An indication of which columns are the primary keys and which are the foreign keys.
+  * The DataMapper relationships between the columns/tables.
+  * The data relationships between the columns/tables (eg one to one).
