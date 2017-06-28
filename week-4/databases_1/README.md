@@ -14,14 +14,14 @@ createdb databases_1
 createdb databases_1_test
 ```
 
-## Running the code
+## Run the code
 
 ```
 cd path/to/databases_1/
 ruby run.rb
 ```
 
-## Running the tests
+## Run the tests
 
 ```
 cd path/to/databases_1/
