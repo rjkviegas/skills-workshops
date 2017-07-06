@@ -89,3 +89,7 @@ Where possible, we try to differentiate the Main:
 - Take the Main activity. 
 - [Write a scaffold (:construction:)](https://github.com/makersacademy/course-design/issues/56) for achieving success. This is the 'support' task route.
 - [Write an extension(:construction:)](https://github.com/makersacademy/course-design/issues/57) to do once success has been achieved. This is the 'extension' task route.
+
+###### Examples
+
+- [Differentiating the Encapsulation workshop](https://github.com/makersacademy/skills-workshops/commit/03c29dca716db9271ae53dc3047e62cea0f7d920) (diff, ~15 lines)
