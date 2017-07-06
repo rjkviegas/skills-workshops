@@ -47,8 +47,8 @@ Mains generally last for 30 - 45 minutes.
 - Students forget when they started a task. So it's better to say 'regather at 11' than to say 'you have half an hour'
 - If students are regularly running over time, set a big, noticeable timer on-screen. [Google has one](https://www.google.co.uk/search?q=timer).
 - Few students complete the Main activity. This is intended and good: students should always feel under 'time pressure' during a Main.
-- Some Mains in this repo are [_differentiated by task_](differentiation/by_task.md). This is a structure to ensure that all learners make good progress towards the _main point_, regardless of where they are at the beginning of the Main.
-- For repos that aren't differentiated by task, [_differentiate by support_](differentiation/by_support.md).
+- Some Mains in this repo are [_differentiated by task_](differentiation/README.md). This is a structure to ensure that all learners make good progress towards the _main point_, regardless of where they are at the beginning of the Main.
+- For repos that aren't differentiated by task, [_differentiate by support_](differentiation/README.md).
 
 #### Plenary
 
