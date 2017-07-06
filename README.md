@@ -10,6 +10,9 @@ Whole-cohort activities that take 1 - 1.5 hours. Each trains a specific skill, w
 
 Instructions for running any Skills Workshop are available as `INSTRUCTIONS.md` in each workshop directory. Skills Workshops are split into three parts: a **Starter**, **Main**, and **Plenary**.
 
+#### Before the workshop
+- Decide on what the _main point_ of the workshop is. For instance: "Students can do encapsulation well." Keep it vague. Having this in mind will help keep your Starter tight and focussed.
+
 #### Starter
 
 In the Starter, the coach:
@@ -25,7 +28,7 @@ Starters generally last for 15 - 20 minutes.
 - Facilitate where possible. That is; don't just talk, constantly ask questions of the cohort to help you demo code/processes.
 - Feel free to make mistakes and ask students to prompt you to move forward.
 - An easy way to check student confidence in a Learning Objective is to ask them to give you 'thumbs': 100% up means 'I can definitely do that', 100% down means 'no idea what that means', and somewhere in the middle is 'maybe'.
-- Keep it really tight. Give students enough, but a Starter is not a lecture.
+- Keep it really tight. Give students enough, but a Starter is not a lecture. It's tempting to to off-piste and help students out with a bunch of ancillary skills they're struggling with. Avoid getting too deep into things that aren't the _main point_ you identified before the workshop.
 
 #### Main
 
@@ -44,6 +47,8 @@ Mains generally last for 30 - 45 minutes.
 - Students forget when they started a task. So it's better to say 'regather at 11' than to say 'you have half an hour'
 - If students are regularly running over time, set a big, noticeable timer on-screen. [Google has one](https://www.google.co.uk/search?q=timer).
 - Few students complete the Main activity. This is intended and good: students should always feel under 'time pressure' during a Main.
+- Some Mains in this repo are [_differentiated by task_](differentiation/by_task.md). This is a structure to ensure that all learners make good progress towards the _main point_, regardless of where they are at the beginning of the Main.
+- For repos that aren't differentiated by task, [_differentiate by support_](differentiation/by_support.md).
 
 #### Plenary
 
