@@ -2,6 +2,10 @@
 
 A video of this workshop is available [here](https://www.youtube.com/watch?v=PuydUGyM9AQ&list=PLc4BYny7PXeR5ZLHCY_oPU2I97aPtS8jm&index=1).
 
+## Main Point
+
+Encapsulate code well.
+
 ## Learning Objectives:
 
 - Define 'behaviour' as 'the things a program does'
@@ -32,6 +36,19 @@ See main README.
 ## Main (30 minutes)
 
 Students should wrap the bare methods you wrote into a class structure. They can start by cloning this repository.
+
+### Differentiation
+
+##### Support
+
+- [ ] Between them, the three methods can be grouped into two _sorts of behaviour_. Write down a word that summarises each _sort of behaviour_.
+- [ ] Test-Drive two classes: one for each word.
+- [ ] Move each method ('the behaviour') in `calculator.rb` into the correct class for that method. Move the tests into the tests for those classes as well.
+- [ ] Repeat from scratch, without this scaffold.
+
+##### Extension
+
+Once you have completed this task, repeat it from scratch in either Java or C# (your choice).
 
 ## Plenary (15 minutes)
 
