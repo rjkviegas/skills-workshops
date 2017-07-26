@@ -62,7 +62,7 @@ Design routes for the following actions:
 
 ### If you finish
 
-Map RESTful routes for your Yelp project.
+Map RESTful routes for this week's project.
 
 ### Plenary (15 mins)
 
