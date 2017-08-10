@@ -2,8 +2,6 @@
 
 This workshop will be a fast intro to functional programming.  We'll use JavaScript, but you can program in a functional style in Ruby, and many other languages.
 
-I'll spend 10 minutes demoing writing some code in a functional style.
-
 You'll spend 50 minutes doing exercises that ask you write code in a functional style.
 
 ## Basic elements of functional programming
