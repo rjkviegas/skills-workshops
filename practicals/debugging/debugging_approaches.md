@@ -1,5 +1,5 @@
-Debugging 1
-===========
+Debugging Approaches
+====================
 
 ## Learn to
 

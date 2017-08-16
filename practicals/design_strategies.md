@@ -1,4 +1,4 @@
-Design Strategies 1
+Design Strategies I
 ===================
 
 One of the jobs of a software engineer is turning vague half-formed ideas into working software.
@@ -53,17 +53,6 @@ Don't implement the solution — just **imagine how to use it.**
 
 You will know it's right by reading the brief back and checking that your imagined solution satisfies it.
 
-### Examples
-
-> member_name("Nick")
-=> "Name stored!"
-> recall_name
-=> ["Nick"]
-> member_name("Guy")
-=> "Name stored!"
-> recall_names
-=> ["Nick", "Guy"]
-
 ## Exercise 2
 
 Apply the **imagine how to use it** strategy for this brief:
@@ -76,17 +65,6 @@ Apply the **imagine how to use it** strategy for this brief:
 Don't implement the solution — just **imagine how to use it.**
 
 You will know it's right by reading the brief back and checking that your imagined solution satisfies it.
-
-### Examples
-
->  store_motivation(7)
-=> "Motivation stored at value 7"
-> store_motivation(6)
-=> "Motivation stored at value 6"
-> store_motivation(8)
-=> "Motivation stored at value 8"
-> recent_average
-=> "Your most recent average is 7"
 
 ## Exercise 3
 
@@ -115,41 +93,6 @@ end
 ```
 
 Take your result from Exercise 1 (remembering names) and convert it to a test like the above.
-
-### Examples
-
-# The expectation
-
-expect(member_name("Nick")).to eq "Name stored!"
-
-# Full test
-
-describe "the member name method" do
-  it "gives us  a message to let us know the name is stored" do
-    expect(member_name("Nick")).to eq "Name stored!"
-    end
-end
-
-# expect length of array to be 0
-
-> member_name("Nick")
-=> "Name stored!"
-> recall_name
-=> ["Nick"]
-> member_name("Guy")
-=> "Name stored!"
-> recall_names
-=> ["Nick", "Guy"]
-
-```ruby
-describe "something" do
-  it "something" do
-    member_name("Nick")
-    member_name("Guy")
-    expect(recall_names).to eq ["Nick", "Guy"]
-  end
-end
-```
 
 ## Exercise 4
 
@@ -223,29 +166,14 @@ See if you can make your test pass *purely* by fixing what the error messages te
 
 Don't jump straight to the solution.
 
+## Exercise 6
 
-```ruby
-def add_name(number)
-  p "Name stored!"
-end
+Explain the two design strategies in your own words.
 
-$names = []
+### Imagine how to use it
 
-def member_name(string)
-  $names << string
-  p "Successful input!"
-end
+...
 
-def recall_names
-  p $names
-end
+### Race to green
 
-describe 'day_1' do
-  it 'should show "Name stored!" when inputting name' do
-    expect(add_name(5)).to eq "Name stored!"
-  end
-  it 'should put successful input' do
-    expect(member_name("Stephen")).to eq "Successful input!"
-  end
-end
-```
+...
