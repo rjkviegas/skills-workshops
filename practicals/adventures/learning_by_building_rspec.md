@@ -62,9 +62,9 @@ Here's where I cheat a little bit — RSpec uses some fancy Ruby code to make th
 Write the code to make this work:
 
 ```ruby
-> Expect.to_be_equal(true, true)
+> Expect.new.to_be_equal(true, true)
 => "Test passes! :)"
-> Expect.to_be_equal(true, false)
+> Expect.new.to_be_equal(true, false)
 => "Test fails! D:"
 ```
 
@@ -210,7 +210,7 @@ And that's it!
 
 ## Extension
 
-## More Matchers
+### More Matchers
 
 (Note that RSpec calls classes like our `Equal` class 'matchers')
 
@@ -222,7 +222,7 @@ And any others you feel like!
 
 Note: If this task gets confusing, it might be worth taking a read of the Exercise 4 Tip.
 
-## It Blocks
+### It Blocks
 
 Work your way towards adding `it` blocks.
 
