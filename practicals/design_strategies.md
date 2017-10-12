@@ -165,15 +165,3 @@ expected: "Motivation stored!"
 See if you can make your test pass *purely* by fixing what the error messages tell you is wrong.
 
 Don't jump straight to the solution.
-
-## Exercise 6
-
-Explain the two design strategies in your own words.
-
-### Imagine how to use it
-
-...
-
-### Race to green
-
-...
