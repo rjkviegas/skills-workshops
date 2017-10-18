@@ -61,11 +61,11 @@ You have three classes that constitute a domain, with a mix of computed methods,
 
 * Look at the code and figure out the domain of the program: the nouns and verbs of the system.
 
-* Represent these nouns and verbs in a diagram, table, or another form feels useful to you.
+* Represent these nouns and verbs in a diagram, or another form feels useful to you.
 
 ### Infer the database structure (20 mins)
 
-* Diagram diagram the underlying database structure of the classes.
+* Diagram the underlying database structure of the classes.
 
 * Ideally, your diagram will include:
   * Table names.
