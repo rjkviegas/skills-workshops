@@ -6,7 +6,7 @@
 
 * Your coach will compile all the suggestions in a Google form that you can view.
 
-* In a moment, you'll each choose your top three projects.  But, to reduce the chance of you wasting your choices, the whole group will eliminate unpopular projects.  Your coach will call out each project and you'll raise your hand if you feel you might like to work on it.  Any projects that get less than a 10% vote will be removed.
+* In a moment, you'll each choose your top three projects.  But, to reduce the chance of you using your choices on unpopular projects, the whole group will first eliminate unpopular projects.  Your coach will call out each project and you'll raise your hand if you feel you might like to work on it.  Any projects that get less than a 10% vote will be removed.
 
 * Your coach will send out the list of all the projects.  You'll pick your top three.
 
