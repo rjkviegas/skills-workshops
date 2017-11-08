@@ -10,7 +10,7 @@ Tightening the loop and getting visibility (on the web).
 
 ## Starter (15 minutes)
 
-Start debugging the app.  Fix an easy bug. Demonstrate precisely the following two-part process to debug it:
+Start debugging the app.  Fix an easy bug (suggested: `spec/features/random_happy_emoji_spec.rb`). Demonstrate precisely the following two-part process to debug it:
 
 - Tighten the loop (find the _exact line_ the bug is coming from)
 - Get some insight (use `p` to inspect everything in the region of that line)
