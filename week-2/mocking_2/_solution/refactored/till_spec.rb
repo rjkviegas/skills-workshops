@@ -7,7 +7,7 @@ describe Till do
     subject(:till)      { described_class.new(receipt_class) }
 
     it 'returns expected value' do
-      expect { till.print_receipt }.to output(message).to_stdout
+      expect(till.print_receipt).to eq message
     end
   end
 end
