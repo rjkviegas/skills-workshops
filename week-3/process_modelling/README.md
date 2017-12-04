@@ -47,28 +47,42 @@ Many forms!
 
 ### Home page
 
-A user visits `http://cats.com` in their browser and is shown this HTML:
+A user visits `https://makers-cats.herokuapp.com/` in their browser and is shown this HTML:
+(The code for the app is here: https://github.com/makersacademy/process_modelling)
 
 ```
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Req/Res</title>
+  </head>
   <body>
-    Cats
-    <a href="cat.html">see a cat</a>
-    <a href="list.html">list</a>
+    <ul>
+      <a href="list.html">a list</a>
+      <a href="cats.html">a cat pic</a>
+    </ul>
   </body>
 </html>
+
 ```
 
 ### Cat page
 
-A user clicks the `see a cat` link and is shown this HTML:
+A user clicks the `a cat pic` link and is shown this HTML:
 
 ```
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>a cat</title>
+  </head>
   <body>
-    <img src="cat.jpg" />
+    <img src='cat.jpg'>
   </body>
 </html>
+
 ```
 
 (Don't forget to model the `cat.jpg` request and response.)
@@ -78,9 +92,14 @@ A user clicks the `see a cat` link and is shown this HTML:
 * A user clicks the `list` link and is shown this HTML:
 
 ```
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>A list</title>
+  </head>
   <body>
-    <form method="POST" action="thanks.html">
+    <form action="thanks.html" method="POST">
       <input type="text" name="email">
       <input type="submit">
     </form>
@@ -93,9 +112,14 @@ A user clicks the `see a cat` link and is shown this HTML:
 * The user is sent to the `thanks.html` page and is shown this HTML:
 
 ```
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Thanks page</title>
+  </head>
   <body>
-    Thanks!
+    <h1>Thanks!</h1>
   </body>
 </html>
 ```
