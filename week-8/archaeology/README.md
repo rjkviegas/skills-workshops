@@ -6,7 +6,7 @@ The first step in working with legacy code is usually to **replace the legacy co
 
 But how do you get to grips with a system written in some weird language, in an unfamiliar framework, using software principles from the 80s?
 
-The answer is: **document it through archaeology**.
+One answer is: **document it through archaeology**.
 
 > This principle applies to _any_ legacy system, including ones that were only recently-built. If it lacks documentation and you're new to it – it's legacy.
 
@@ -14,7 +14,7 @@ The answer is: **document it through archaeology**.
 
 By the end of the workshop, you'll be equipped to dive into a legacy codebase, understand how it works, and share your findings through documentation.
 
-- State the easiest way to get insight into a legacy application is through documenting it ('archaeology').
+- State that one good way to get insight into a legacy application is through documenting bits of it ('archaeology').
 - Explain how to use writing documentation to get insight into how an app works.
 - Do archaeology on a Rails app, adding some documentation.
 
@@ -39,6 +39,8 @@ A 'documentation commit' involves writing some small piece of text or a diagram 
 Also, doing documentation commits will encourage senior members of your team to give you feedback on your understanding of the system.
 
 Only once everyone understands the current state of the project can everyone understand the work-to-be-done. Flying without a shared understanding is a recipe for lack of direction.
+
+> Just like code, it's a bad idea to think of documentation as perfect and unchanging. As a large codebase develops, so must its documentation. Because of the interdependency between code and documentation, docs very quickly fall out-of-date. However, the process of writing and producing documentation is a great way to get to know a codebase: it's another tool in your arsenal, and it produces diagrams that can provide shared team understanding of the system right now. See [Martin Fowler on this topic](https://martinfowler.com/distributedComputing/thud.html).
 
 ## Plenary
 
