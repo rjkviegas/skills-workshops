@@ -16,7 +16,7 @@ A process model is a diagram/performance/[something else] that demonstrates how 
 
 * Talk through the README with the students up to and including the instructions section.
 
-* Demonstrate modelling the [process for visiting the home page](README.md#home-page) of the `http://cats.com` website.
+* Demonstrate modelling the [process for visiting the home page](README.md#home-page) of the `https://makers-cats.herokuapp.com/` website.
 
 ## Main (50 minutes)
 
