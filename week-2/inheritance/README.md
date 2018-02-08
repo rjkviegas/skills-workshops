@@ -143,10 +143,5 @@ Here we create a new class - Engine - and pass in an instance of it into a Car o
 - Ensure that all existing unit tests still pass - it may be necessary to make some alterations.
 
 ## Plenary
-- Students share code from exercise for review - pick out any common themes, problems or misunderstandings which arise
-- Revisit and discuss the pros and cons of both inheritance and composition
-- discuss advantages of composition:
-  * allows for picking and choosing from the base class' interface
-  * keeps objects independent of each other - less fear of unintentionally affecting the dependent objects
-  * more flexible + extensible
-- Discuss where it may be appropriate to use each pattern, but stress that composition is generally preferable
+- Code review - any common problems or themes?
+- What are the advantages and disadvantages of the two approaches? 
