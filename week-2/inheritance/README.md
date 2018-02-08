@@ -1,0 +1,152 @@
+# Polymorphism, Inheritance and Composition
+
+> "Designing object-oriented software is hard, and designing reusable object-oriented software is even harder."
+> – Design Patterns: Elements of Reusable Object-Oriented Software
+
+Polymorphism, inheritance and composition - what are they, and where should I use them?
+
+## Learning Objectives
+
+- Understand that inheritance cascades methods from a base class
+- Use polymorphism to override methods in the base class
+- Use composition as an alternative to inheritance
+
+## Intro
+The code snippet below includes three simple ruby classes which share very similar behaviour - a clear violation of the DRY principle.
+
+```ruby
+class Car
+  attr_reader :top_speed
+
+  def initialze(top_speed)
+    @top_speed = top_speed
+  end
+
+  def move
+    "moving at #{top_speed}"
+  end
+end
+
+class Bike
+  attr_reader :top_speed
+
+  def initialze(top_speed)
+    @top_speed = top_speed
+  end
+
+  def move
+    "moving at #{top_speed}"
+  end
+end
+
+class Plane
+  attr_reader :top_speed
+
+  def initialze(top_speed)
+    @top_speed = top_speed
+  end
+
+  def move
+    "taking off... moving at #{top_speed}"
+  end
+end
+```
+
+One way of dealing with this repetition is through the use of inheritance:
+
+```ruby
+class Vehicle
+  attr_reader :top_speed
+
+  def initialze(top_speed)
+    @top_speed = top_speed
+  end
+
+  def move
+    "moving at #{top_speed}"
+  end
+end
+
+class Car < Vehicle
+end
+
+class Bike < Vehicle
+end
+
+class Plane < Vehicle
+  def move
+    "taking off... moving at #{top_speed}"
+  end
+end
+```
+
+We create a superclass (Vehicle) which defines the shared behaviours, and then define our other classes as subclasses which inherit these behaviours.  This provides our subclasses with *all* of the behaviours of a vehicle.  As the plane class implements the move method differently, we override it with the desired behaviour.
+
+Be aware that setting up this kind of hierarchical relationship between objects implies that the subclass __'is a'__ subtype of the base class.  
+
+This looks much improved, but **beware**!  Inheritance sets up a tightly coupled relationship between classes - the subclass will inherit **all** of the base class' public interface, whether you want it to or not.
+
+```ruby
+class Vehicle
+  attr_reader :top_speed
+
+  def initialze(top_speed)
+    @top_speed = top_speed
+  end
+
+  def move
+    "moving at #{top_speed}"
+  end
+
+  def start_engine
+    "vroooom!!"
+  end
+end
+
+bike = Bike.new
+bike.start_engine => "vroooom!!"
+```
+
+We can overcome this problem through the use of composition.  
+
+```ruby
+class Engine
+  def start
+    "vroooom!"
+  end
+end
+
+class Car < Vehicle
+  attr_reader :engine
+
+  def initialize(top_speed, engine = Engine.new)
+    super(top_speed)
+    @engine = engine
+  end
+
+  def start_engine
+    engine.start
+  end
+end
+```
+
+Here we create a new class - Engine - and pass in an instance of it into a Car object as part of its initialize method.  This pattern allows us to share the behaviour of the engine class with other classes as we see fit - we need only include it where necessary.
+
+## Main
+### Exercise 1
+- Refactor the code base to DRY up repetition by implementing inheritance.  
+- You should not need to modify the existing unit tests, and they should all still pass once you're done.
+
+### Exercise 2
+- Now that you've dealt with the repetition, its time to introduce some new functionality.  Books and articles should both hold information on their authors (Newspapers should not include this functionality, as they are written by multiple individuals).
+- Test drive the creation of a new Author class which holds information on the author's name and their publisher's telephone number, then include this functionality in the relevant classes through composition.
+- Ensure that all existing unit tests still pass - it may be necessary to make some alterations.
+
+## Plenary
+- Students share code from exercise for review - pick out any common themes, problems or misunderstandings which arise
+- Revisit and discuss the pros and cons of both inheritance and composition
+- discuss advantages of composition:
+  * allows for picking and choosing from the base class' interface
+  * keeps objects independent of each other - less fear of unintentionally affecting the dependent objects
+  * more flexible + extensible
+- Discuss where it may be appropriate to use each pattern, but stress that composition is generally preferable
