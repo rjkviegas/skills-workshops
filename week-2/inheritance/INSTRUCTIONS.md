@@ -7,27 +7,30 @@ Polymorphism, inheritance and composition - what are they, and where should I us
 
 ## Learning Objectives
 
-- Understand that inheritance cascades methods from a base class
-- Use polymorphism to override methods in the base class
+- Understand that inheritance cascades methods from a superclass
+- Understand that method implementations can be overridden in a subclass
 - Use composition as an alternative to inheritance
 
-## Intro (15-20 mins)
+## Intro (10-15 mins)
 - Reiterate high level goals for the week
 - Ask for thumbs on the learning objectives for the workshop
 - Display code snippet in example/vehicles.rb - discuss problem of code repetition
 - Demonstrate refactoring the example using inheritance - emphasize that this pattern suggests an 'is a' relationship
-- Discuss advantages and canvas for possible drawbacks - demonstrate the problem of tight coupling between the superclass and subclasses by extending the interface of the superclass and introducing unwanted functionality into one of the subclasses
-- return to the code and demonstrate composition as an alternative to inheritance, emphasize 'has a' relationship
 
-## Main (30 mins)
+## Main 1 - Inheritance (15 mins)
 ### Exercise 1
 - Refactor the code base to DRY up repetition by implementing inheritance.  
 - You should not need to modify the existing unit tests, and they should all still pass once you're done.
 
+## Mini-Plenary (10 mins)
+- Discuss advantages and canvas for possible drawbacks - demonstrate the problem of tight coupling between the superclass and subclasses by extending the interface of the superclass and introducing unwanted functionality into one of the subclasses
+- return to the code and demonstrate composition as an alternative to inheritance, emphasize 'has a' relationship
+
+## Main 2 - Composition (20 mins)
 ### Exercise 2
 - Now that you've dealt with the repetition, its time to introduce some new functionality.  Books and articles should both hold information on their authors (Newspapers should not include this functionality, as they are written by multiple individuals).
 - Test drive the creation of a new Author class which holds information on the author's name and their publisher's telephone number, then include this functionality in the relevant classes through composition.
-- Ensure that all existing unit tests still pass - it may be necessary to make some alterations.
+- In addition to your newly created tests, ensure that all existing unit tests still pass - it may be necessary to make some alterations.
 
 ## Plenary (20 mins)
 - Students share code from exercise for review - pick out any common themes, problems or misunderstandings which arise

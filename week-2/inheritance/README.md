@@ -7,8 +7,8 @@ Polymorphism, inheritance and composition - what are they, and where should I us
 
 ## Learning Objectives
 
-- Understand that inheritance cascades methods from a base class
-- Use polymorphism to override methods in the base class
+- Understand that inheritance cascades methods from a superclass
+- Understand that method implementations can be overridden in a subclass
 - Use composition as an alternative to inheritance
 
 ## Intro
@@ -80,7 +80,13 @@ class Plane < Vehicle
 end
 ```
 
-We create a superclass (Vehicle) which defines the shared behaviours, and then define our other classes as subclasses which inherit these behaviours.  This provides our subclasses with *all* of the behaviours of a vehicle.  As the plane class implements the move method differently, we override it with the desired behaviour.
+We create a superclass (Vehicle) which defines the shared behaviours, and then make our other classes subclasses which inherit these behaviours.  This provides our subclasses with *all* of the behaviours of a vehicle.  As the plane class implements the move method differently, we override it with the desired behaviour.
+
+## Exercise 1
+- Refactor the code base to DRY up repetition by implementing inheritance.  
+- You should not need to modify the existing unit tests, and they should all still pass once you're done.
+
+## Mini-Plenary
 
 Be aware that setting up this kind of hierarchical relationship between objects implies that the subclass __'is a'__ subtype of the base class.  
 
@@ -107,7 +113,16 @@ bike = Bike.new
 bike.start_engine => "vroooom!!"
 ```
 
-We can overcome this problem through the use of composition.  
+It's also crucial to remember that inheritance implies that the subclass __'is-a'__ subtype of the superclass, otherwise we can arrive at some strange situations.  For example, we might want to create a Baby class - a baby, like a vehicle, can move but...
+
+ ```ruby
+ class Baby < Vehicle
+ end
+ ```  
+
+...is clearly a poor design decision.
+
+We can overcome these problems through the use of composition.  
 
 ```ruby
 class Engine
@@ -132,16 +147,29 @@ end
 
 Here we create a new class - Engine - and pass in an instance of it into a Car object as part of its initialize method.  This pattern allows us to share the behaviour of the engine class with other classes as we see fit - we need only include it where necessary.
 
-## Main
-### Exercise 1
-- Refactor the code base to DRY up repetition by implementing inheritance.  
-- You should not need to modify the existing unit tests, and they should all still pass once you're done.
+We can achieve the same effect through the use of modules:
+
+```ruby
+module Engine
+  def start
+    "vroooom!"
+  end
+end
+
+class Car
+  include Engine
+end
+```
 
 ### Exercise 2
 - Now that you've dealt with the repetition, its time to introduce some new functionality.  Books and articles should both hold information on their authors (Newspapers should not include this functionality, as they are written by multiple individuals).
 - Test drive the creation of a new Author class which holds information on the author's name and their publisher's telephone number, then include this functionality in the relevant classes through composition.
-- Ensure that all existing unit tests still pass - it may be necessary to make some alterations.
+- In addition to your newly created tests, ensure that all existing unit tests still pass - it may be necessary to make some alterations.
 
 ## Plenary
 - Code review - any common problems or themes?
-- What are the advantages and disadvantages of the two approaches? 
+- What are the advantages and disadvantages of the two approaches?
+
+## Resources
+- [An overview of inheritance and composition in Ruby](https://github.com/pruett/ruby-patterns/blob/master/concepts/inheritance-vs-composition.md)
+- [Prefer composition over inheritance](https://www.sitepoint.com/composition-inheritance/)
