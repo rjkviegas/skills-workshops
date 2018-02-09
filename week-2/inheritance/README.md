@@ -88,7 +88,14 @@ We create a superclass (Vehicle) which defines the shared behaviours, and then m
 
 ## Mini-Plenary
 
-Be aware that setting up this kind of hierarchical relationship between objects implies that the subclass __'is a'__ subtype of the base class.  
+Be aware that setting up this kind of hierarchical relationship between objects implies that the subclass __'is a'__ subtype of the base class, otherwise we can arrive at some strange situations.  For example, we might want to create a Person class - a person, like a vehicle, can move but...
+
+ ```ruby
+ class Person < Vehicle
+ end
+ ```  
+
+...is clearly a poor design decision.
 
 This looks much improved, but **beware**!  Inheritance sets up a tightly coupled relationship between classes - the subclass will inherit **all** of the base class' public interface, whether you want it to or not.
 
@@ -113,16 +120,7 @@ bike = Bike.new
 bike.start_engine => "vroooom!!"
 ```
 
-It's also crucial to remember that inheritance implies that the subclass __'is-a'__ subtype of the superclass, otherwise we can arrive at some strange situations.  For example, we might want to create a Baby class - a baby, like a vehicle, can move but...
-
- ```ruby
- class Baby < Vehicle
- end
- ```  
-
-...is clearly a poor design decision.
-
-We can overcome these problems through the use of composition.  
+We can overcome this problem through the use of composition.  
 
 ```ruby
 class Engine
