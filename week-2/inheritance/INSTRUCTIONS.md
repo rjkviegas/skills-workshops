@@ -7,8 +7,8 @@ Polymorphism, inheritance and composition - what are they, and where should I us
 
 ## Learning Objectives
 
-- Understand that inheritance cascades methods from a superclass
-- Understand that method implementations can be overridden in a subclass
+- Know that inheritance cascades methods from a superclass
+- Explain how method implementations can be overridden in a subclass
 - Use composition as an alternative to inheritance
 
 ## Intro (10-15 mins)
@@ -22,7 +22,7 @@ Polymorphism, inheritance and composition - what are they, and where should I us
 - Refactor the code base to DRY up repetition by implementing inheritance.  
 - You should not need to modify the existing unit tests, and they should all still pass once you're done.
 
-## Mini-Plenary (10 mins)
+## Mini-Plenary (20 mins)
 - Discuss advantages and canvas for possible drawbacks - demonstrate the problem of tight coupling between the superclass and subclasses by extending the interface of the superclass and introducing unwanted functionality into one of the subclasses
 - return to the code and demonstrate composition as an alternative to inheritance, emphasize 'has a' relationship
 

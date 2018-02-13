@@ -7,8 +7,8 @@ Polymorphism, inheritance and composition - what are they, and where should I us
 
 ## Learning Objectives
 
-- Understand that inheritance cascades methods from a superclass
-- Understand that method implementations can be overridden in a subclass
+- Know that inheritance cascades methods from a superclass
+- Explain how method implementations can be overridden in a subclass
 - Use composition as an alternative to inheritance
 
 ## Intro
@@ -18,7 +18,7 @@ The code snippet below includes three simple ruby classes which share very simil
 class Car
   attr_reader :top_speed
 
-  def initialze(top_speed)
+  def initialize(top_speed)
     @top_speed = top_speed
   end
 
@@ -30,7 +30,7 @@ end
 class Bike
   attr_reader :top_speed
 
-  def initialze(top_speed)
+  def initialize(top_speed)
     @top_speed = top_speed
   end
 
@@ -42,7 +42,7 @@ end
 class Plane
   attr_reader :top_speed
 
-  def initialze(top_speed)
+  def initialize(top_speed)
     @top_speed = top_speed
   end
 
@@ -58,7 +58,7 @@ One way of dealing with this repetition is through the use of inheritance:
 class Vehicle
   attr_reader :top_speed
 
-  def initialze(top_speed)
+  def initialize(top_speed)
     @top_speed = top_speed
   end
 
@@ -103,7 +103,7 @@ This looks much improved, but **beware**!  Inheritance sets up a tightly coupled
 class Vehicle
   attr_reader :top_speed
 
-  def initialze(top_speed)
+  def initialize(top_speed)
     @top_speed = top_speed
   end
 
