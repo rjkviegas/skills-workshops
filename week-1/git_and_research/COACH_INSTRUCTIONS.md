@@ -18,11 +18,11 @@
 
 This is likely the first time students have used the "thumbs" indicator to check their understanding. If so, explain that:
 
-* "thumbs" is for them to assess their own understanding
+* "thumbs" is an opportunity for them to assess their own understanding of the learning objectives
 
 * Anything less than a thumbs up is an indication to them that this is an area to investigate further
 
-* "thumbs" is used as an indicator of the quality of the workshop, but this is not it's primary purpose.
+* "thumbs" is used as an indicator of whether the workshop has covered the learning objectives, but this is not it's primary purpose.
 
 ## Main (30 minutes)
 
