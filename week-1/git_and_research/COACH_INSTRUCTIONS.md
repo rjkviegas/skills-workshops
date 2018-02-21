@@ -14,6 +14,16 @@
 
 * Do "thumbs" on the learning objectives.
 
+### Note on "thumbs"
+
+This is likely the first time students have used the "thumbs" indicator to check their understanding. If so, explain that:
+
+* "thumbs" is for them to assess their own understanding
+
+* Anything less than a thumbs up is an indication to them that this is an area to investigate further
+
+* "thumbs" is used as an indicator of the quality of the workshop, but this is not it's primary purpose.
+
 ## Main (30 minutes)
 
 * Ask the students to collaborate on a Git repo.
