@@ -2,6 +2,12 @@
 
 Tightening the loop and getting visibility (on the web).
 
+## Learning Objectives
+
+- Define 'debugging' as the process of eliminating bugs from an expected program output
+- Explain the mantra 'Tighten the loop; Get visibility' 
+- Use the mantra to resolve bugs across the web stack.
+
 ## Instructions
 
 In this program, there are many bugs. You have three objectives:
