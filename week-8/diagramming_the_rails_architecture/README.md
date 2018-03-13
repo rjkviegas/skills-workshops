@@ -32,7 +32,7 @@ In pairs, diagram the two processes below.  Include as much detail as you can.  
 2. Adding a new field to a model.
 3. Signing a user in via omniauth.
 
-Don't be afraid to Google to help you understand things.  And don't be afraid to run your Yelp app and follow the flow to help you understand things.
+Don't be afraid to Google to help you understand things.  And don't be afraid to run your Acebook app and follow the flow to help you understand things.
 
 ### Plenary (15 mins)
 
