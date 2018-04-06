@@ -18,7 +18,7 @@
 Instructions are in [the README](README.md).
 Students in pairs
   - model the current domain
-  - annotate the code in `/exercise/lib`
+  - annotate the code in `/exercise/lib` (check the `annotations` branch for an example set of annotations in `/lib/car.rb`)
   - diagram a new domain based on their findings
   - extract classes one by one, test first. (usually encapsulate logic in `Person`, and extract an `Engine` object is a good indicator in 40 mins)
 
