@@ -137,7 +137,7 @@ end
 
 You can also inject and double classes themselves, like so:
 
-```ruby=
+```ruby
 class CarFactory
   def initialize(car_class = Car)
     @car_class = car_class
