@@ -27,7 +27,7 @@ In this practical, you will learn three simple techniques for refactoring, and w
 Let's imagine that we have the following test:
 
 ```ruby
-expect { Calculator.new.add(2, 5) }.to output("The result is: 7").to_stdout }
+expect { Calculator.new.add(2, 5) }.to output("The result is: 7").to_stdout
 ```
 
 Here is the basic code to solve this test:
@@ -50,7 +50,7 @@ Here's what's wrong with this code:
 Each of these problems is a clue that we should refactor our code. Here's the code after using the **extract variable** technique:
 
 ```ruby
-# Understands adding two numbers and printing the result
+# Understands adding two numbers and printing the result with a header
 class Calculator
   def add(number_1, number_2)
     result = number_1 + number_2
@@ -70,7 +70,7 @@ The benefit is: we have named two parts of the program, `result` and `header`. N
 Here's the code after using **extract method**:
 
 ```ruby
-# Understands adding two numbers and printing the result
+# Understands adding two numbers and printing the result with a header
 class Calculator
   def add(number_1, number_2)
     result = number_1 + number_2
@@ -129,3 +129,15 @@ The benefits are:
 > We can now do this refactor cycle again in each class, extracting `header` to a constant and injecting `Printer` as a dependency to `Calculator`.
 
 **Notice how I didn't design this to happen. By using extract variable, extract method, and extract class, the design 'emerged' from the code. Also – the original test still works.**
+
+## Exercise 1: Extract variable
+
+Head to [this repo](https://github.com/sjmog/refactoring_exercises/tree/master/extract_variable) and use the extract variable technique in each of the examples.
+
+## Exercise 2: Extract method
+
+Head to [this repo](https://github.com/sjmog/refactoring_exercises/tree/master/extract_method) and use the extract method technique in each of the examples. You may need to extract variable, too.
+
+## Exercise 3: Extract class
+
+Head to [this repo](https://github.com/sjmog/refactoring_exercises/tree/master/extract_class) and use the extract class technique in each of the examples. You may need to extract methods and variables, too.
