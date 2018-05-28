@@ -1,5 +1,13 @@
-Design Strategies I
+Test driving I
 ===================
+
+__This will need to be pasted into http://hackmd.io/ to render properly.__
+
+## Learn to
+
+* Test drive your code from the outside in
+
+## Introducton
 
 One of the jobs of a software engineer is turning vague half-formed ideas into working software.
 
