@@ -1,6 +1,8 @@
 Object Oriented Code 1, Encapsulation
 =====================================
 
+_This will need to be pasted into http://hackmd.io/ to render properly._
+
 ## Learn to
 
 * Encapsulate program behaviour into classes.
