@@ -28,9 +28,9 @@ You will do this very often during the course, except the 'brief' is our assignm
 
 Let's say we have this assignment:
 
-> As a student
-> So that I can pay attention to my motivation
-> I want an IRB application that stores my motivation ratings
+> As a student  
+> So that I can pay attention to my motivation  
+> I want an IRB application that stores my motivation ratings  
 
 There are many strategies for **deciding what software to write** here. We'll focus on one today: we will **imagine how to use it**.
 
@@ -53,9 +53,9 @@ This isn't enough to tell us what to code yet, of course. We'll get into that.
 
 Apply the **imagine how to use it** strategy for this brief:
 
-> As a student
-> So that I can remember people's names
-> I want an IRB application that stores the names of people I meet
+> As a student  
+> So that I can remember people's names  
+> I want an IRB application that stores the names of people I meet  
 
 Don't implement the solution — just **imagine how to use it.**
 
@@ -65,9 +65,9 @@ You will know it's right by reading the brief back and checking that your imagin
 
 Apply the **imagine how to use it** strategy for this brief:
 
-> As a student
-> So that I can understand my recent motivation
-> I want an IRB application that stores my motivation ratings
+> As a student  
+> So that I can understand my recent motivation  
+> I want an IRB application that stores my motivation ratings  
 > And I want to see the average of my last 3 ratings
 
 Don't implement the solution — just **imagine how to use it.**
