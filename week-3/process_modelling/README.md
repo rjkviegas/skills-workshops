@@ -1,8 +1,11 @@
-# Process modelling (HTTP request/response cycle)
+# Process modelling, applied to HTTP request/response cycle.
 
-## Learning objective
+A process model is a diagram/performance/[something else] that demonstrates how a process works. In this workshop, you'll practice your process modelling skill by modelling the HTTP request/response cycle.
 
-A process model is a diagram/performance/[something else] that demonstrates how a process works.  In this workshop, you'll practice your process modelling skill by modelling the HTTP request/response cycle.
+## Learning objectives
+
+- Define process modelling as a tool to describe and understand a process.
+- Use process modelling to further your understanding of HTTP requests and responses.
 
 ## Why model a process?
 
@@ -43,12 +46,14 @@ Many forms!
   * Mouse clicks.
   * What is displayed in the browser.
 
+You can use chrome dev-tools to monitor what is happenning on the network.
+
 ## Processes to model
 
 ### Home page
+(The code for the app we'll use in the workshop is here: https://github.com/makersacademy/process_modelling)
 
 A user visits `https://makers-cats.herokuapp.com/` in their browser and is shown this HTML:
-(The code for the app is here: https://github.com/makersacademy/process_modelling)
 
 ```
 <!DOCTYPE html>
@@ -66,6 +71,8 @@ A user visits `https://makers-cats.herokuapp.com/` in their browser and is shown
 </html>
 
 ```
+
+What if the user mistyped this url? Try to include more details into your model.
 
 ### Cat page
 
@@ -85,7 +92,7 @@ A user clicks the `a cat pic` link and is shown this HTML:
 
 ```
 
-(Don't forget to model the `cat.jpg` request and response.)
+Don't forget to model the `cat.jpg` request and response.
 
 ### Mailing list page
 
