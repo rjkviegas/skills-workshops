@@ -24,22 +24,18 @@ cd dice_app
 rspec --init
 ```
 
-Here are some user stories. For each of them:
-- Write a feature test (write in irb what you would like to have)
-- Write a unit test with the same error
-- Run it - it should be red
-- Write some code to make it green
+Here are some user stories. For each of them, follow the TDD process from your diagram.
 
 ```
 As a board game player,
-So that I can play the game
-I can have a dice
+So that I can play a game
+I want to be able to roll a dice
 ```
 
 ```
 As a board game player,
 So that I know how many steps I should move
-I can roll a dice and get a number between 1 and 6
+Rolling a dice should give me a number between 1 and 6
 ```
 
 ```
@@ -48,4 +44,14 @@ So that I give players a good game experience
 I want the dice roll to be randomly picked
 ```
 
+```
+As a board game player,
+So that I can play many types of games
+I want to be able to roll any number of dice at the same time
+```
 
+```
+As a board game player,
+So that I know what my score was when I rolled several dice
+I want to get the result of each dice roll
+```
