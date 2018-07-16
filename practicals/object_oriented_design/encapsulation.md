@@ -160,6 +160,6 @@ When the user calls `lock` again they throw errors again.
 
 **First** organise it into one class only.
 
-**Then**, when all your tests are green, reorganise it.
+**Then**, when all your tests are green, reorganise it into classes with high cohesion.
 
 This will also involve reorganising your tests!
