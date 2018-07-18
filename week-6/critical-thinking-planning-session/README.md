@@ -14,7 +14,7 @@ There are two meanings to this question - first, why is important to plan our wo
 
 The first should feel fairly clear. Without some kind of plan or definition of success, we can't effectively deliver.
 
-The second is an area that many teams struggle. Planning feels secondary to development; we're trained to write code, not run planning sessions.
+The second is an area that many teams struggle with. Planning feels secondary to development; we're trained to write code, not run planning sessions.
 
 But the best teams communicate well and empower the individuals within the team. Planning sessions, standups, retros - any time the team comes together - are key elements in achieving a happy, productive team. We need to think critically about them, not just do them because they are 'agile' things to do, but think about what we're trying to achieve and refine them so that we get the outcomes we desire.
 
@@ -37,7 +37,7 @@ Task definitions can be written in a number of ways. One possible format is:
 - Scope
 - Acceptance criteria
 
-See the 
+See the
 
 ### User story
 Describes the feature that you're trying to build. For example:
@@ -49,7 +49,7 @@ I can upload a photo via a web form
 ```
 
 ### Scope
-Describes the scope of the work to be done as part of the task. For example, in the above use story, there may be two bits of work to be done - building a form to which the photo is uploaded and building an API to which the uploaded photo is send on the server. These may be split into two separate tasks, which the scope of one task being `'Front end'` and the second being `'API and file storage'`.
+Describes the scope of the work to be done as part of the task. For example, in the above use story, there may be two bits of work to be done - building a form to which the photo is uploaded and building an API to which the uploaded photo is sent on the server. These may be split into two separate tasks, with the scope of one task being `'Front end'` and the second being `'API and file storage'`.
 
 ### Acceptance criteria
 Describes a series of objective tests that can be used to accept when the work is finished. This is not the same as a user story; they are usually more specific and may include edge or error cases.
