@@ -8,6 +8,10 @@ All challenges are to transform data from one form to another in an _elegant_ wa
 - Easy to read and understand
 - Fewest elements (functions, lines of code, iterators, and so on).
 
+### Firstly: Take on the project
+
+Clone the [Diode Project for these challenges](https://diode.makersacademy.com/students/neoeno/projects/1). This will give you a clear idea of what it means to succeed at these challenges and space to evaluate this at a quieter moment.
+
 ### Challenge Set 1: Arrays
 
 Transform the following first arrays into the second entities:

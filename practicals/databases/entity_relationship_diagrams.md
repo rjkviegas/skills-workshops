@@ -1,6 +1,8 @@
 Entity Relationship Diagrams
 ============================
 
+_This will need to be pasted into http://hackmd.io/ to render properly._
+
 ## Learn to
 
 * Represent domain relationships with entity relationship diagrams

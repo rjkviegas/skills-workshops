@@ -1,0 +1,21 @@
+<h2>Add Contact</h2>
+<form action="/contact/update" method="post">
+  <input type="hidden" name="id" value="<%= @contact.id %>">
+
+  <label for="name">
+    Name:
+    <input type="text" name="name" value="<%= @contact.name %>">
+  </label>
+
+  <label for="address">
+    Address:
+    <input type="text" name="address" value="<%= @contact.address %>">
+  </label>
+
+  <label for="tel">
+    Tel:
+    <input type="text" name="tel" value="<%= @contact.tel %>">
+  </label>
+
+  <input type="submit" name="" value="Confirm">
+</form>

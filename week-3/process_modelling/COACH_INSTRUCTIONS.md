@@ -1,5 +1,9 @@
 # Process modelling (HTTP request/response cycle) (1 hour)
 
+I recommend encouraging them to use https://makers-cats.herokuapp.com/  with chrome dev tools to focus their investigation.
+
+Feel free to extend: https://github.com/makersacademy/process_modelling
+
 ## Learning Objective
 
 A process model is a diagram/performance/[something else] that demonstrates how a process works.  In this workshop, you'll practice your process modelling skill by modelling the HTTP request/response cycle.
@@ -12,7 +16,7 @@ A process model is a diagram/performance/[something else] that demonstrates how 
 
 * Talk through the README with the students up to and including the instructions section.
 
-* Demonstrate modelling the [process for visiting the home page](README.md#home-page) of the `http://cats.com` website.
+* Demonstrate modelling the [process for visiting the home page](README.md#home-page) of the `https://makers-cats.herokuapp.com/` website.
 
 ## Main (50 minutes)
 

@@ -29,17 +29,17 @@ Debug this:
 
 ```ruby
 def encode(plaintext, key)
-  cypher = key.chars.uniq + (('a'...'z').to_a - key.chars)
-  cyphertext_chars = plaintext.chars.map do |char|
-    (65 + cypher.find_index(char)).chr
+  cipher = key.chars.uniq + (('a'...'z').to_a - key.chars)
+  ciphertext_chars = plaintext.chars.map do |char|
+    (65 + cipher.find_index(char)).chr
   end
-  cyphertext_chars.join
+  ciphertext_chars.join
 end
 
-def decode(cyphertext, key)
-  cypher = key.chars.uniq + (('a'...'z').to_a - key.chars)
-  plaintext_chars = cyphertext.chars.map do |char|
-    cypher[65 - char.ord]
+def decode(ciphertext, key)
+  cipher = key.chars.uniq + (('a'...'z').to_a - key.chars)
+  plaintext_chars = ciphertext.chars.map do |char|
+    cipher[65 - char.ord]
   end
   plaintext_chars.join
 end
@@ -120,17 +120,17 @@ Try running that and fixing the bug.
 
 ```ruby
 def encode(plaintext, key)
-  cypher = key.chars.uniq + (('a'...'z').to_a - key.chars)
-  cyphertext_chars = plaintext.chars.map do |char|
-    (65 + cypher.find_index(char)).chr
+  cipher = key.chars.uniq + (('a'...'z').to_a - key.chars)
+  ciphertext_chars = plaintext.chars.map do |char|
+    (65 + cipher.find_index(char)).chr
   end
-  cyphertext_chars.join
+  ciphertext_chars.join
 end
 
-def decode(cyphertext, key)
-  cypher = key.chars.uniq + (('a'...'z').to_a - key.chars)
-  plaintext_chars = cyphertext.chars.map do |char|
-    cypher[65 - char.ord]
+def decode(ciphertext, key)
+  cipher = key.chars.uniq + (('a'...'z').to_a - key.chars)
+  plaintext_chars = ciphertext.chars.map do |char|
+    cipher[65 - char.ord]
   end
   plaintext_chars.join
 end

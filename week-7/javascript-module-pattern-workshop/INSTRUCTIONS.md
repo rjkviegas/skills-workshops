@@ -2,7 +2,7 @@
 
 ## Before the workshop starts
 
-* Read the code in `js/` to see how it works.  Then delete it.
+* Read the code in `src/` to see how it works.  Then delete it.
 
 ## Starter (15 minutes)
 
