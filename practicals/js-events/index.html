@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <body>
+    <h2 id="output"></h2>
+
+    <label>Square this number:
+      <input type="number" id="square-input" size="2">
+    </label>
+    <button id="square-button">Calculate</button>
+    <br><br>
+
+    <label>Half this number:
+      <input type="number" id="half-input" size="2">
+    </label>
+    <button id="half-button">Calculate</button>
+    <br><br>
+
+    <label> Calculate a percentage:
+      <br>
+      <label> Fraction:
+        <input type="number" id="percent1-input" size="2">
+      </label>
+      <label> Whole:
+        <input type="number" id="percent2-input" size="2">
+      </label>
+      <button id="percent-button">Calculate</button>
+    </label>
+    <br><br>
+
+    <script type="text/javascript" src="js/CalculatorModel.js"></script>
+    <script type="text/javascript" src="js/CalculatorView.js"></script>
+    <script type="text/javascript" src="js/CalculatorController.js"></script>
+    <script type="text/javascript">
+      var controller = new CalculatorController()
+      controller.setEventListeners();
+    </script>
+  </body>
+</html>
