@@ -10,9 +10,14 @@
   }
 
   CalculatorController.prototype.squareNumber = function(){
-    let value = document.getElementById('square-input').value
+    let value = document.getElementById('square-input').value;
     let result = this._calculatorModel.square(value);
-    this._calculatorView.buildOutput(result)
+    this.displayResult(result);
+  }
+
+  CalculatorController.prototype.displayResult = function(result) {
+    document.getElementById('output')
+      .innerHTML = this._calculatorView.buildOutput(result);
   }
 
   exports.CalculatorController = CalculatorController

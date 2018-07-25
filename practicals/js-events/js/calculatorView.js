@@ -2,7 +2,7 @@
   function CalculatorView(){}
 
   CalculatorView.prototype.buildOutput = function(result) {
-    document.getElementById('output').innerHTML = result
+    return `<h2>${result}</h2>`  
   }
 
   exports.CalculatorView = CalculatorView
