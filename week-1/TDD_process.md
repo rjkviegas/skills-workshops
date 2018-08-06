@@ -3,7 +3,7 @@
 ## Learning objectives
 - Explain why we do TDD
 - Describe/diagram TDD as a set of steps
-- Apply TDD folowing the diagram
+- Apply TDD following the diagram
 
 ## Why do we TDD
 
