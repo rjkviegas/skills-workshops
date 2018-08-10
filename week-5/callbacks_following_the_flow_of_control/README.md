@@ -17,9 +17,10 @@ At a high level, this week is about building the skills that let you learn a new
 Imagine you want to follow the flow of control in this code.  That is, you want to understand what parts run and in what order they run.
 
 ```js
-$(document).click(function() {
+document.addEventListener('click', function() {
   console.log("click!");
 });
+
 ```
 
 1. Before running the code, add some `console.log`s.  Log `console.log(1)` in the bit of code you think will get run first, `console.log(2)` in the bit of code you think will get run second, and so on. For example:
@@ -27,7 +28,7 @@ $(document).click(function() {
 ```js
 console.log(1);
 
-$(document).click(function() {
+document.addEventListener('click', function() {
   console.log(2);
   console.log("click!");
   console.log(3);
@@ -49,7 +50,7 @@ A developer constantly analyses the flow of control of their code.  Keep trying 
 I'll follow the flow of control in this code:
 
 ```js
-$(document).click(function() {
+document.addEventListener('click', function() {
   console.log("click!");
 });
 ```
