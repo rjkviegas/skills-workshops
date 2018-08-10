@@ -11,7 +11,7 @@ class Appointment
   end
 
   def pretty_location
-    geo_location.formatted_address
+    geo_location.display_name
   end
 
   private
