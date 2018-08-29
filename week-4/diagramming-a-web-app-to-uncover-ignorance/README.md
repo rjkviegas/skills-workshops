@@ -31,7 +31,7 @@ GET /
 ```
 
 ```
-SELECT * FROM links;
+SELECT * FROM bookmarks;
 ```
 
 ### Some labels or boxes that might appear in your diagram
