@@ -21,12 +21,12 @@ GET /
 ```
 
 ```
-@links = Link.all
+@bookmarks = Bookmark.all
 ```
 
 ```
-<% @links.each do |link| %>
-  <%= link.url   %>
+<% @bookmarks.each do |bookmark| %>
+  <%= bookmark.url   %>
 <% end %>
 ```
 
@@ -44,4 +44,4 @@ Feel free to add lots more!
 * Browser
 * ERB Ruby class
 * Database
-* DataMapper gem
+* PG gem
