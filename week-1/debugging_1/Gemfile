@@ -1,3 +1,5 @@
+# DON'T EDIT THIS FILE
+
 source "https://rubygems.org"
 
 gem 'rspec'
