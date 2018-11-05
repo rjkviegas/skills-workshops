@@ -16,7 +16,7 @@ Here are the functions commonly used to describe complexity are (in order of inc
 * n^3 (**cubic** complexity)
 * 2^n (**exponential** complexity)
 
-** Look at curves for each of these:**
+**Look at curves for each of these:**
 [Curves and corresponding BigO Notations](http://science.slc.edu/~jmarshall/courses/2002/spring/cs50/BigO/)
 
 ### How do you derive complexity by looking at code.
@@ -35,5 +35,5 @@ The average scenario can also be talked about sometimes.
 
 ### Instructions:
 
-* For each algorithm created this week, try to find their Big O looking at the code.
+For each algorithm created this week, try to find their Big O looking at the code.
 Can you characterise these algorithms into *constant time*, *logarithmic*, *linear*, *quadratic*, *cubic* or *exponential* complexity?
