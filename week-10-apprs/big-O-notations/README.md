@@ -2,33 +2,38 @@
 
 ### What do these notations mean?
 
-Big O of `X` means:
-The function describing the curve of the algorithm is "small" compared to `X`, where `X` is a function.
+**Big O of `X`** means the function describing the curve of the algorithm is "small" compared to `X`, where `X` is a function.
 
-The functions commonly used to describe complexity are (in order of increasing complexity / descending efficiency ):
+To characterise an algorithm, we usually look at the "smallest" function that is still "bigger" than the code's curve.
 
-* 1 (constant time)
-* log(n) (logarithmic complexity)
-* n*log(n)  (nlogn complexity. Famous for being the minimal complexity for sorting algorithms)
-* n (linear complexity)
-* n^2 (quadratic complexity)
-* n^3 (cubic complexity)
-* 2^n (exponential complexity)
+Here are the functions commonly used to describe complexity are (in order of increasing complexity / descending efficiency ):
 
-Look at curves for each of them:
- [Curves and corresponding BigO Notations](http://science.slc.edu/~jmarshall/courses/2002/spring/cs50/BigO/)
+* 1 (**constant time**)
+* log(n) (**logarithmic** complexity)
+* n*log(n)  (**n log n** complexity. Famous for being the minimal complexity for sorting algorithms)
+* n (**linear** complexity)
+* n^2 (**quadratic** complexity)
+* n^3 (**cubic** complexity)
+* 2^n (**exponential** complexity)
 
+** Look at curves for each of these:**
+[Curves and corresponding BigO Notations](http://science.slc.edu/~jmarshall/courses/2002/spring/cs50/BigO/)
 
-Let's learn to derive the "complexity" by looking at code.
+### How do you derive complexity by looking at code.
 
+Sometimes, it is impossible.
 
+For simple algorithms (and all of the ones worked on this week), you can often look at the number of loops and how many times they are run.
+Here are some great notes on this:
+https://www.codingblocks.net/podcast/what-is-algorithmic-complexity/
 
-Most algorithms will have a worst case scenario. This is the case we used when speaking about complexity.
+### Good to know
+
+Most algorithms will have a worst case scenario. This is the case we use when speaking about their complexity.
+
 The average scenario can also be talked about sometimes.
 
-Chat about different algorithms covered this week, and their "big Os". Did you manage to get to the target "big O"?
+### Instructions:
 
+* For each algorithm created this week, try to find their Big O looking at the code.
 Can you characterise these algorithms into *constant time*, *logarithmic*, *linear*, *quadratic*, *cubic* or *exponential* complexity?
-
-Chat about optimisation.
-End on the Learning objectives.
