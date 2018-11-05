@@ -12,12 +12,17 @@ But how do you come up with the instructions? In this workshop, we'll explore th
 
 ### Proposed process
 
-* Describe the problem (sometimes a diagram helps), and create test case.
-* Think about how you would do this, given this task in real life.
-* Write down each step in plain english
-* If it is possible directly, translate the steps to code
-* Otherwise, think about each step separately, and repeat that procedure
-* Once everything is translated to code, run your testcases
+1. Describe the problem (sometimes a diagram helps)
+2. Create test cases.
+3. Think about how you would do this, given this task in real life.
+4. Write down each step in plain english
+5. If it is possible directly, translate each of the steps into code
+6. Otherwise, think about each step separately, and repeat 3 to 6.
+7. Once everything is translated to code, run your testcases
+
+Bonus:
+9. How fast is this? Run it through your timing framework.
+10. Could it be simpler? faster? more readable? Refactor.
 
 ### Instructions
 
