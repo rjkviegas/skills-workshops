@@ -23,6 +23,10 @@ Essentially, we are trying to convince students out of their 'default approach':
 
 Students clone this repository. In this program, there are several bugs. Students have to find them, and fix them. They have to do this as systematically as possible, following the damned mantra.
 
+### New Test and Error
+
+- There is now a second test in the spec/units/random_happy_emoji_spec.rb - this is to try and encourage students to add to the array rather than changing the smiley from ':D' to ':)' as they might do at first glance.
+
 ## Plenary (15 minutes)
 
 Students demonstrate each of the bugs and how they fixed them.
