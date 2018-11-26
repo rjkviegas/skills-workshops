@@ -27,12 +27,6 @@ rspec --init
 Here are some user stories. For each of them, follow the TDD process from your diagram.
 
 ```
-As a dice app developer,
-Before I can start developing my game
-I need the idea of the Game itself to exist.
-```
-
-```
 As a board game player,
 So that I can play a game
 I want to be able to roll a dice
