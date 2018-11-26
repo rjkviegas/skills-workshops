@@ -39,9 +39,9 @@ Rolling a dice should give me a number between 1 and 6
 ```
 
 ```
-As a dice app developper,
+As a dice app developer,
 So that I give players a good game experience
-I want the dice roll to be randomly picked
+If it is not already random, I want the dice roll to be randomly picked
 ```
 
 ```
@@ -52,6 +52,12 @@ I want to be able to roll any number of dice at the same time
 
 ```
 As a board game player,
-So that I know what my score was when I rolled several dice
-I want to get the result of each dice roll
+So that I can keep track of past and previous rolls
+I want to record each dice roll
+```
+
+```
+As a board game player,
+So that I know what my score is after I have rolled several dice
+I want to be able to get my current score
 ```
