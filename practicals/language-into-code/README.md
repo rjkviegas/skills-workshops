@@ -10,7 +10,7 @@
 
 A big part of your job as a developer is figuring out how to translate (often somewhat poorly defined) requirements into working software.
 
-The problem is that humans and computers process information in fundamentally different ways. While you are capable of dealing with abstract, fuzzy ideas, your computer is not. You need a means of translating requirements into the kind of simple step-by-step processes that a machine can process.
+The problem is that humans and computers process information in fundamentally different ways. While you are capable of dealing with abstract, fuzzy ideas, your computer is not. You need a means of translating requirements into the kind of simple step-by-step processes that a machine can deal with.
 
 ## Pseudocode
 
