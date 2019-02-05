@@ -14,7 +14,7 @@ describe Appointment do
 
   describe '#pretty_location' do
     it 'pretty-prints the location' do
-      expect(appointment.pretty_location).to eq "50 Commercial St, London E1 6LT, UK"
+      expect(appointment.pretty_location).to include "E1 6LT"
     end
   end
 end

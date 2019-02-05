@@ -1,3 +1,4 @@
+gem 'really-broken-geocoder'
 require 'geocoder'
 # Understands somewhere I need to be at a particular time
 class Appointment
@@ -11,7 +12,7 @@ class Appointment
   end
 
   def pretty_location
-    geo_location.formatted_address
+    geo_location.address
   end
 
   private
