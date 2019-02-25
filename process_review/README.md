@@ -15,7 +15,14 @@ A coach will facilitate a session where you and up to 15 others from any cohort 
 #### What will happen?
 You’ll pair up and spend 30 mins observing your partner record their screen and TDD an exercise, while you use a rubric to note down what and how they do in order to give them useful feedback.
 
-And then you switch - you’ll record your screen and TDD an exercise for 30 mins while your partner observes to give feedback.
+And then you switch - you’ll record your screen and TDD an exercise for 30 mins while your partner observes to give feedback
+
+#### Who should do this?
+
+Anyone at any stage of their learning here at Makers. You could do it during week 1 or week 7 or week 15 or any week you are here.
+
+The objective is simply to practice and get feedback to improve your approach to programming.
+
 #### Why should I do this?
 For a number of reasons.
 
@@ -24,6 +31,13 @@ Practicing writing code while under observation helps show you how good your cur
 Usefully you'll get feedback from your pair, and a recording to re-watch yourself write code.
 
 It's great feedback and confidence-boosting to show yourself you're getting better at programming.
+
+#### What do I need to bring?
+
+It's helpful to bring the following
+- pen and paper for any planning you do
+- a timer for when you're observing someone write code.
+- a set of process cards.
 
 #### How do I get involved?
 Use this link to see the schedule and book yourself into one https://makers-process.youcanbook.me/
