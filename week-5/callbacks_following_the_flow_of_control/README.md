@@ -129,4 +129,5 @@ $.get("https://async-workshops-api.herokuapp.com/people", function(peopleRespons
 
 ## Resources
 
+* [JavaScript event loop](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 * [Callbacks tutorial](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/)
