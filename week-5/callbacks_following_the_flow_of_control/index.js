@@ -1,12 +1,6 @@
-var i = 4;
-console.log(1)
+console.log('hello!')
+
 $.get("https://async-workshops-api.herokuapp.com/people", function(peopleResponse) {
-  console.log(3)
-  peopleResponse.forEach(function(person) {
-    console.log(i++)
-    console.log(person.name);
-    console.log(i++)
-  });
-  console.log(12)
+   $("#person").html(peopleResponse[0].name);
 });
-console.log(2)
+
