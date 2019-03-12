@@ -119,20 +119,6 @@ end
 
 You will know you've succeeded when you can delete the `format` method on `NoteFormatter` and your `Note` tests still pass.
 
-## Exercise 2
-
-Amend the following class to be testable in isolation, then write the tests for it.
-
-```ruby
-class Greeter
-  def greet
-    puts "What is your name?"
-    name = Kernel.gets.chomp
-    puts "Hello, #{name}"
-  end
-end
-```
-
 ## Intermezzo: Of Classes
 
 You can also inject and double classes themselves, like so:
@@ -170,7 +156,7 @@ describe CarFactory do
 end
 ```
 
-## Exercise 3
+## Exercise 2
 
 Amend the following classes to be testable in isolation, then write the tests for them.
 
@@ -204,7 +190,7 @@ class Entry
 end
 ```
 
-## Exercise 4
+## Exercise 3
 
 Amend `SayHelloToMyLittleFriend` to be testable in isolation, then write the tests for it.
 
@@ -228,6 +214,23 @@ class SayHelloToMyLittleFriend
       "friend@example.com",
       "HELLO!"
     )
+  end
+end
+```
+
+
+## Optional Extension
+
+Amend the following class to be testable in isolation, then write the tests for it.
+
+Hint: can you spot the class that Greeter interacts with?
+
+```ruby
+class Greeter
+  def greet
+    puts "What is your name?"
+    name = Kernel.gets.chomp
+    puts "Hello, #{name}"
   end
 end
 ```
