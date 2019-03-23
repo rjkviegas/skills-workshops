@@ -1,6 +1,8 @@
 # Process Rubric
 
 ## Developer
+Before you start work, remember to set yourself a 
+[learning goal](https://diode.makersacademy.com/students/dearshrewdwit/projects/4692).
 
 You are responsible for three things.
 
