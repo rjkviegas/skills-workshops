@@ -17,7 +17,7 @@ You’ll pair up and spend 30 mins observing your partner record their screen an
 
 And then you switch - you’ll record your screen and TDD an exercise for 30 mins while your partner observes to give feedback
 
-Here are the possible programs to build - you'll find the details of them in the exercises repo above. Start them in this order:
+Here are the possible programs to build - you'll find the details of them in the exercises repo above. Complete them in the following order:
 
 1. Middle letter
 2. Scrabble solve
