@@ -17,6 +17,14 @@ You’ll pair up and spend 30 mins observing your partner record their screen an
 
 And then you switch - you’ll record your screen and TDD an exercise for 30 mins while your partner observes to give feedback
 
+Here are the possible programs to build - you'll find the details of them in the exercises repo above. Start them in this order:
+
+1. Middle letter
+2. Scrabble solve
+3. Checkout
+4. Echo
+5. Bank
+
 #### Who should do this?
 
 Anyone at any stage of their learning here at Makers. You could do it during week 1 or week 7 or week 15 or any week you are here.
@@ -39,11 +47,6 @@ It's helpful to bring the following
 - a timer for when you're observing someone write code.
 - a set of process cards.
 
-#### How do I get involved?
-Use this link to see the schedule and book yourself into one https://makers-process.youcanbook.me/
-
-**NB:** Spaces are limited — it’s first come, first serve.
-
 ## Individual
 
 You don't need to attend a process workshop to benefit from this. Recording your own screen while you write some code is a useful tool to help you improve your development process.
@@ -59,3 +62,4 @@ To make it the most useful, follow these steps:
 7. Repeat.
 
 Feel free to reach out to a coach during coaching hours to sit with you and give you feedback. (They'll watch it 3x-5x times the speed)
+
