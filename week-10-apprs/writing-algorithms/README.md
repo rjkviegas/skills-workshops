@@ -36,4 +36,4 @@ Given a list of students, and a target number of groups, create an algorithm to 
 
 #### Finding duplicates
 
-Given a list of things (numbers or words), return whether or not there are any duplicates in the list.
+Given a list of things (numbers or words), return all the elements that are duplicated in the list.
