@@ -8,21 +8,25 @@
       $.get("https://async-workshops-api.herokuapp.com/people", function(peopleResponse) {
         $("#person").html(peopleResponse[0].name);
       });
-      
+
       // non-jQuery AJAX (jQuery AJAX does this, behind the scenes)
+
+      // Try running this code - is what is displayed on the webpage what you expect?
+      // How can you get the webpage to behave and display what the jQuery version in the index.html does? Get visibility to explore what's happening.
+
       function getPeople() {
         var xhttp = new XMLHttpRequest();
-        
+
         xhttp.onreadystatechange = function() {
           if (this.readyState == 4 && this.status == 200) {
            document.getElementById("person").innerHTML = this.responseText[0].name;
           }
         };
-        
+
         xhttp.open("GET", "https://async-workshops-api.herokuapp.com/people", true);
         xhttp.send();
       };
-      
+
       getPeople();
     </script>
   </head>
