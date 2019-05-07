@@ -30,10 +30,10 @@ Bonus:
 
 For each of the following problems, follow the process to come up with a solution.
 
-#### Finding duplicates
-
-Given a list of things (numbers or words), return whether or not there are any duplicates in the list.
-
 #### Assigning Students into groups
 
 Given a list of students, and a target number of groups, create an algorithm to assign students into the right number of groups, of equivalent sizes (groups cannot have more than one person difference).
+
+#### Finding duplicates
+
+Given a list of things (numbers or words), return whether or not there are any duplicates in the list.
