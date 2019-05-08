@@ -1,3 +1,4 @@
+require 'library'
 describe Library do
   it 'can return a list of all books' do
   end
