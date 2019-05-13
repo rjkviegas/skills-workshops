@@ -84,6 +84,34 @@ Table: daily_ratings
 
 3. Daily Ratings `belong_to` a student. Correspondingly, Students `have_many` Daily Ratings.
 
+## Alternative Approach
+
+Ran this workshop using an alternative approach with April 2019 - they all made good progress and most teams managed to model a database including many-to-many relationships.
+
+### Starter
+
+No change, follow the starter as detailed above.
+
+
+### Main (45 minutes)
+
+Randomly group the cohort into 6 teams. Each team will have a 'slice' of the whiteboard wall to work on.
+
+Ask the teams to use half of the whiteboard to diagram the user stories using CRC cards, and the other half to model a database.
+
+Give the teams the first user story, and set a timer for 5 minutes so they can diagram out this user story (CRC and database).
+
+After 5 minutes are up, ask them to look at the other groups work, and then share the next user story. Repeat until all the stories have been shared.
+
+The breaks are a good time to check the direction of the teams, and it's a good idea to check in with the teams to give them a chance to ask questions and correct their approach if needed. I also told teams when they were heading in the right direction.
+
+Stories could be printed and shared, or shared on the projector, but it is important to only share one story at a time with the teams.
+
+### Plenary
+
+Collaboratively review the suggested solution, and compare it to the work they did. Give a chance for questions and discussion.
+
+
 ## Gotchas
 
 - Students do not need to store the average rating: they can calculate that in the model layer, given all the ratings they ever made.
