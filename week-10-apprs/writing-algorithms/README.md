@@ -12,19 +12,39 @@ But how do you come up with the instructions? In this workshop, we'll explore th
 
 ### Proposed process
 
-1. Describe the problem (sometimes a diagram helps)
-2. Create test cases.
-3. Think about how you would do this, given this task in real life.
-4. Write down each step in plain english
-5. If it is possible directly, translate each of the steps into code
-6. Otherwise, think about each step separately, and repeat 3 to 6.
-7. Once everything is translated to code, run your testcases
-8. If tests fail, debug your code, following the state of variables line by line.
+*1. Clarify the problem*
+
+You want to have enough information to be able to **create a table which details inputs and expected outputs** for the function. Make sure to think about edge cases.
+Here's an example for a _sorting function_:
+
+| input | expected output |
+|-----|-------|
+| `[]` | `[]` |
+| `[2,1,4]` | `[1,2,4]` |
+
+
+- Each line in your table should *naturally turn into a test*.
+- Write down the *function signature* inferred from the table
+
+*2. Think about how you would do this, given this task in real life.*
+
+Using physical object sometimes help here. Pieces of paper, cards, etc.
+
+*3. Write down each step in plain english*
+
+*4. If it is possible directly:*
+  - translate each of the steps into code
+  otherwise:
+  - think about each step separately, and break them down further following steps 2 to 4.
+
+*5. Once everything is translated to code, run your testcases*
+
+If some tests fail, debug your code. One things that really help here is to get visibility on the value of each variable line by line.
 
 Bonus:
 
-9. How fast is this? Run it through your timing framework.
-10. Could it be simpler? faster? more readable? Refactor.
+- How efficient is your algorithm? Run it through your timing framework.
+- Could it be simpler? more efficient? more readable? Refactor.
 
 ### Instructions
 
