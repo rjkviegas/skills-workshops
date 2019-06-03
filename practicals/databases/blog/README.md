@@ -19,8 +19,5 @@ Your challenge is to build a web app that will function as a message board. Post
 
 Here are some suggested screens, but feel free to change the content, style and flow to make it your own.
 
-Main Page
 <img alt="Main Page" src="./images/main_page.png" width="400px" style="display: block;" />
-
-New Post Form
 <img alt="New Post Form" src="./images/form.png" width="400px" style="display: block;" />
