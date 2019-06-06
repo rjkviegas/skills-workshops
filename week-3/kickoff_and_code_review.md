@@ -17,7 +17,7 @@ During the code review session:
 - Ambiguous user stories.
 - How to use doubles and how to stub methods in tests.
 
-# Useful things to reiterate
+## Useful things to reiterate
 
 - Good naming.
 - Single responsibility.
