@@ -1,4 +1,4 @@
-#Code Review
+# Code Review
 
 Before the code review, devs can peer-review each others' Weekend Challenge code using the [https://github.com/makersacademy/takeaway-challenge/blob/master/docs/review.md rubric]
 
@@ -10,14 +10,14 @@ During the code review session:
 - Ask them to write down the questions they had from the weekend challenge on the board.
 
 
-##Common questions:
+## Common questions:
 
 - Testing/Stubbing Twilio.
 - How to plan and break down the problem.
 - Ambiguous user stories.
 - How to use doubles and how to stub methods in tests.
 
-#Useful things to reiterate
+# Useful things to reiterate
 
 - Good naming.
 - Single responsibility.
@@ -29,7 +29,7 @@ During the code review session:
 - Testing behaviour not state. At this stage this should be kept very basic. The main concern is that they don't have tests that expect the state of an instance variables to be a certain way (like an empty list) and then have code where that instance variable is always hardcoded as an empty list.
 
 
-#Kick-off
+# Kick-off
 
 Intro them to this week’s work and read through the week outline.
 
