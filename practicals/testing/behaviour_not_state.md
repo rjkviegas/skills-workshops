@@ -94,10 +94,10 @@ Follow this process:
 
 For example:
 
-> **Question:** Who, or what, is the user of this code?
+> **Question:** Who, or what, is the user of this code?  
 > **Answer:** The user of my Diary class is a person who is keeping their diary
 >
-> **Question:** What job is this code doing for that user?
+> **Question:** What job is this code doing for that user?  
 > **Answer:** They add an entry so they can read it later
 
 That second answer is the job or **behaviour** of the Diary class.
