@@ -1,4 +1,4 @@
-# Diagramming database structure (1 hour)
+# Diagramming database structure with DataMapper (1 hour)
 
 ## Learning objectives
 
