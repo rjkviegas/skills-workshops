@@ -18,7 +18,7 @@ Set student expectations for the workshop and tell them they should imagine they
 
 Ask the students to build a roman numerals app that takes a normal number and converts it to the roman numeral equivalent for the numbers up to and including 10. Say nothing else.
 
-## First iteration
+### First iteration
 
 Tell the students they have 5 minutes to start approaching the problem in the way they see fit.
 
@@ -27,7 +27,7 @@ Walk round the room to observe different approaches the stop them after 5 minute
 Comment on their approaches with the idea of showing them that rushing into code and setup shouldn’t be the first step to take.
 Talk about anything interesting that people did.
 
-## Second iteration
+### Second iteration
 
 Encourage them to step back and break the problem down into a series of simple steps as if they were explaining this to a child or someone that doesn’t know anything about code.
 Think about clear and specific language.
@@ -50,7 +50,7 @@ Converts 2 to “II”
 Converts 3 to “III”
 ```
 
-## Third iteration
+### Third iteration
 
 Give people 15 minutes to take those simple steps and translate them into code.
 
