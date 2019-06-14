@@ -62,7 +62,7 @@ Discuss what tests people wrote and what code they wrote - see if it’s the sim
 - Simplest possible solution
 - No over engineering
 - Helps to identify duplication and see a pattern
-- Helps to ultimately solve this kata
+- Helps to ultimately solve the real version of this kata which is actually to convert the numbers from 1 - 3000.
 
 Write up the initial code for the first three tests people had. I believe the most basic solution to make the tests go green would be an if/else statement.
 
