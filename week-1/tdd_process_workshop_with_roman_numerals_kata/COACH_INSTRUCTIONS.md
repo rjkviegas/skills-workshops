@@ -2,9 +2,9 @@
 
 ## Workshop learning objectives:
 
-*There are no student facing documents for this workshop as the objectives should be drawn out of the students at the end of the workshop as reflections of what they have learnt. They should not be told these upfront so that their approach to the problem is authentic.
+*There are no student facing documents for this workshop as the objectives should be drawn out of the students at the end of the workshop as reflections of what they have learnt. They should not be told these upfront so that their approach to the problem is authentic.*
 
-Prior to the workshop, it's a good idea to set the context of the workshop as a workshop that will be centred on how to break down a problem and approach solving it using TDD.*
+*Prior to the workshop, it's a good idea to set the context of the workshop as a workshop that will be centred on how to break down a problem and approach solving it using TDD.*
 
 - **Learn how to break a problem down into simple steps and translate those steps into tests.**
 - **Use strict TDD and use tests to drive your code without making assumptions about implementation.**
