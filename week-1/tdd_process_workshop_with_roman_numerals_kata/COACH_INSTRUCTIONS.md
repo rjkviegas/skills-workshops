@@ -2,7 +2,9 @@
 
 ## Workshop learning objectives:
 
-(These objectives should be drawn out of the students at the end as reflections of what they have learnt. They should not be told these upfront so that their approach to the problem is authentic).
+There are no student facing documents for this workshop as the objectives should be drawn out of the students at the end of the workshop as reflections of what they have learnt. They should not be told these upfront so that their approach to the problem is authentic.
+
+Prior to the workshop, it's a good idea to set the context of the workshop as a workshop that will be centred on how to break down a problem and approach solving it using TDD.
 
 - **Learn how to break a problem down into simple steps and translate those steps into tests.**
 
@@ -14,15 +16,13 @@ This workshop is structured like a process review but with many students rather 
 
 Set student expectations for the workshop and tell them they should imagine they are alone and shouldn’t be talking to one another during the workshop as the aim is to see how they would approach the problem independently.
 
-Think about communicating consequences of what happens if you don’t do these things.
+## Instructions
 
-## Instructions:
-
-I am going to ask you to build a roman numerals app that takes a normal number and converts it to the roman numeral equivalent for the numbers up to and including 10. Say nothing else.
+Ask the students to build a roman numerals app that takes a normal number and converts it to the roman numeral equivalent for the numbers up to and including 10. Say nothing else.
 
 ## First iteration
 
-Tell the students they have five minutes to start approaching the problem in the way they see fit.
+Tell the students they have 5 minutes to start approaching the problem in the way they see fit.
 
 Walk round the room to observe different approaches the stop them after 5 minutes and ask what they did.
 
@@ -37,7 +37,7 @@ Think about clear and specific language.
 Give them 5 - 10 minutes
 
 Ask them to summarise the app in one line and draw out useful names for methods and behaviour. For example:
-“This is an app that converts numbers to numerals” => converts sounds like that should be our method name.
+**“This is an app that converts numbers to numerals” => converts sounds like that should be our method name.**
 
 Find out what people said and try and simplify it so it doesn’t involve pseudo code, logic or syntax.
 
@@ -52,7 +52,6 @@ Converts 2 to “II”
 Converts 3 to “III”
 ```
 
-
 ## Third iteration
 
 Give people 15 minutes to take those simple steps and translate them into code.
@@ -62,23 +61,52 @@ Give people 15 minutes to take those simple steps and translate them into code.
 
 Discuss what tests people wrote and what code they wrote - see if it’s the simplest implementation and tell them why the simplest implementation is useful:
 
-Simplest possible solution
-No over engineering
-Helps to identify duplication and see a pattern
-Helps to ultimately solve this kata
+- Simplest possible solution
+- No over engineering
+- Helps to identify duplication and see a pattern
+- Helps to ultimately solve this kata
 
 Write up the initial code for the first three tests people had. I believe the most basic solution to make the tests go green would be an if/else statement.
 
-After the thirds test some duplication should be obvious (if number == *number* will be repeated multiple times) and the students should see a pattern and refactor at this point.
+After the third test some duplication should be obvious (if number == *number* will be repeated multiple times) and the students should see a pattern and refactor at this point.
 
+```
+class RomanNumerals
+
+  def convert(arabic)
+    if arabic == 0
+      return ""
+    elsif arabic == 1
+      return "I"
+    elsif arabic == 2
+      return "II"
+    else
+      return "III"
+    end
+  end
+
+end
+```
+
+If students have done this then the obvious refactoring is:
+
+```
+def convert(arabic_number)
+  if arabic_number == 0
+    return ""
+  else
+    return "I" * arabic_number
+  end
+end
+```
 
 Ask students what the lessons are. Common learnings include:
 
-Don’t rush into coding.
-Break the problem down
-Focus on the simplest test and the simplest code to pass that test
+- Don’t rush into coding.
+- Break the problem down in very small steps.
+- Focus on the simplest test and the simplest code to pass that test.
+- Don't solve the problem upfront then try to fit the tests to that solution.
 
-## Plenary
 
 - Get people to reflect on what was learnt/main messages of the workshop and the process and TDD ideas (use the workshop objectives as a guide).
 
