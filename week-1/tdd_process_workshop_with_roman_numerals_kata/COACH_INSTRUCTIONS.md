@@ -7,9 +7,7 @@ There are no student facing documents for this workshop as the objectives should
 Prior to the workshop, it's a good idea to set the context of the workshop as a workshop that will be centred on how to break down a problem and approach solving it using TDD.
 
 - **Learn how to break a problem down into simple steps and translate those steps into tests.**
-
 - **Use strict TDD and use tests to drive your code without making assumptions about implementation.**
-
 - **Further student understanding of TDD.**
 
 This workshop is structured like a process review but with many students rather than just one.
