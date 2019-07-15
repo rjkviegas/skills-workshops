@@ -7,7 +7,7 @@ Dependency Injection
 
 ## Introduction
 
-Dependency injection is a technique for helping you test classes in isolation. It allows a class to use either the its real dependency, or a double.
+Dependency injection is a technique for helping you test classes in isolation. It allows a class to use either its real dependency, or a double.
 
 Consider this code:
 
