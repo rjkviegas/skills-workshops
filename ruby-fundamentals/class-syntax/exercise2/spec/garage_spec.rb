@@ -30,7 +30,7 @@ RSpec.describe Garage do
   it "can remove a car by registration plate" do
     garage = Garage.new
     garage.remove_car('SE60 TSW')
-    expect(garages.cars).to eq([
+    expect(garage.cars).to eq([
       {'registration_plate': 'BD51 SMR', 'make': 'honda'},
       {'registration_plate': 'LD10 RXS', 'make': 'ford'}
     ])
