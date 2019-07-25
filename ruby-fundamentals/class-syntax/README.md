@@ -1,5 +1,9 @@
 ## Getting started
 `bundle install`
+
+For each of the exercises the aim is to write some code so that the tests pass.
+
+You can run the tests by:
 `cd exercise1`
 `rspec`
 
