@@ -2,11 +2,3 @@
 #That is that it reads the same forwards as backwards like “racecar”
 #Your program should output "this is a palindrome" if it is one, or
 #"this is not a palindrome" if it isn't.
-
-print "Enter a word or phrase: "
-str = gets.chomp.upcase.gsub(" ","")
-if str == str.reverse
-  puts "This is a palindrome"
-else
-  puts "This is not a palindrome"
-end
