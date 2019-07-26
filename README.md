@@ -76,3 +76,5 @@ When adding workshops, please follow the existing structures so everything stays
 - Student guidance for the Main activity are in a `README.md`
 - The `plenary` branch _exclusively_ contains material relevant to running the Plenary (i.e. usually a model completed Main)
 - Workshops are named `skill_<number>` where `<number>` indicates the order the workshop should be given in the sequence of similar workshops
+
+
