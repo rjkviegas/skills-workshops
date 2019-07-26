@@ -18,10 +18,11 @@ It should:
  * `Car`
    * Has one instance variable:
       `current_speed`. This is an integer.
-   * Has three methods:
+   * Has four methods:
      * `initialize` Creates a new instance of car. Takes no parameters.
-     * `speed_up` Takes a number as a parameter. Increases the speed variable in the class
+     * `speed_up` Takes a number as a parameter. Increases the speed variable in the class.
      * `brake` Takes a number as a parameter. Decreases the speed variable in the class.
+     * `current_speed` Returns the speed variable in the class.
 
 ### Exercise Two
 
