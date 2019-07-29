@@ -38,6 +38,7 @@ It should:
       * `find_car`. Takes a string as a parameter. Returns a car (if found) with a matching registration plate.
       * `remove_car`. Takes a string as a parameter. Deletes a car (if found) with
       a matching registration plate from the list of cars variable.
+      * `all_cars_by_make`. Takes a string as a parameter. Returns all cars (if found) with a matching make.
 
 
 ### Exercise Three
