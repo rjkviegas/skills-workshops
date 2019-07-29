@@ -1,3 +1,6 @@
+require 'todo'
+require 'todolist'
+
 describe Todo do
   describe "creating a new Todo" do
     it "creates a new todo object" do
