@@ -1,7 +1,7 @@
 Entity Relationship Diagrams
 ============================
 
-_This will need to be pasted into http://hackmd.io/ to render properly._
+_This will need to be pasted into http://hackmd.io/ to render properly. Make sure you copy the `raw` text!_
 
 ## Learn to
 
