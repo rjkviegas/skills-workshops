@@ -1,8 +1,6 @@
 Entity Relationship Diagrams
 ============================
 
-_This will need to be pasted into http://hackmd.io/ to render properly. Make sure you copy the `raw` text!_
-
 ## Learn to
 
 * Represent domain relationships with entity relationship diagrams
@@ -13,15 +11,7 @@ _This will need to be pasted into http://hackmd.io/ to render properly. Make sur
 
 One `Cohort` has one `SlackChannel`.
 
-```graphviz
-graph onetoone {
-  rankdir=LR;
-  node[shape="box"]
-  Cohort
-  SlackChannel
-  Cohort -- SlackChannel
-}
-```
+![one-to-one relationship](./diagrams/one-to-one.png)
 
 ```ruby
 class Cohort
@@ -49,15 +39,7 @@ cohort = Cohort.new("Blue July 2017", slack_channel)
 
 One `Cohort` has many `Students`.
 
-```graphviz
-digraph onetomany {
-  rankdir=LR;
-  node[shape="box"]
-  Cohort
-  Student
-  Cohort -> Student [arrowhead="crow"]
-}
-```
+![one-to-many relationship](./diagrams/one-to-many.png)
 
 ```ruby
 class Cohort
@@ -101,15 +83,7 @@ Diagram one or more of the following, with as much imagination as you like:
 A `SlackChannel` has many `Students`.
 A `Student` has many `SlackChannels`.
 
-```graphviz
-digraph manytomany {
-  rankdir=LR;
-  node[shape="box"]
-  SlackChannel
-  Student
-  SlackChannel -> Student [dir="both",arrowhead="crow",arrowtail="crow"]
-}
-```
+![many-to-many relationship](./diagrams/many-to-many1.png)
 
 ```ruby
 class SlackChannel
@@ -162,17 +136,7 @@ It's also impossible to model these relationships using standard database tools.
 Slack Channels have many memberships.
 Students have many memberships.
 
-```graphviz
-digraph normalizedmanytomany {
-  node[shape="box"]
-  {rank=same; SlackChannel; Membership; Student}
-  SlackChannel
-  Membership
-  Student
-  Student -> Membership [arrowhead="crow"]
-  Membership -> SlackChannel  [dir="back",arrowtail="crow"]
-}
-```
+![many-to-many relationship](./diagrams/many-to-many2.png)
 
 ```ruby
 class SlackChannel
