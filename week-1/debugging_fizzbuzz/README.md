@@ -46,6 +46,6 @@ You will see both of these errors in this example. Each type of error gives a di
 
 
 <details><summary>Post Challenge</summary>
-  [https://youtu.be/wGdBqNGvBFY](Click here) to see a video of a coach debugging the Cipher exercise.
+  [Click here](https://youtu.be/wGdBqNGvBFY) to see a video of a coach debugging the Cipher exercise.
   Pay particular attention to what they are getting visibility of, and think about why it is useful.
 </details>
