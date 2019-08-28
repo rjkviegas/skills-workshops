@@ -43,3 +43,9 @@ There are two main types of error you will see in these examples:
 2. The code doesn't do what the tests expect it to. This means that the code works, but it doesn't give the output expected by the tests.
 
 You will see both of these errors in this example. Each type of error gives a different kind of error message. Before you start to resolve a bug, try to identify it's type.
+
+
+<details><summary>Post Challenge</summary>
+  [https://youtu.be/wGdBqNGvBFY](Click here) to see a video of a coach debugging the Cipher exercise.
+  Pay particular attention to what they are getting visibility of, and think about why it is useful.
+</details>
