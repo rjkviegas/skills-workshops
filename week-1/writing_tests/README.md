@@ -13,32 +13,31 @@ At a high level, unit testing is about testing individual methods or areas (unit
 Let's think about an example. Take a look at the following code snippet, and take a moment to understand what it does:
 
 ```ruby
-class FileSystem
-  attr_reader :storage
+class BankAccount
+  attr_reader :balance
 
   def initialize
-    @storage = []
+    @balance = 0
   end
 
-  def store(file)
-    storage.push(file)
+  def deposit(money)
+    @balance = @balance + money
   end
 end
 ```
 
-We have a class, `FileSystem`, with an instance variable, `@storage` , which points to an empty array. The `store` method takes an argument (a file) and adds it to that array.
+We have a class, `BankAccount`, with an instance variable, `@balance` , which initially is zero. The `deposit` method takes an argument (an integer) and adds it to the balance.
 
-Let's try writing a unit test to cover the `store` method. The first step is to determine **what exactly we want to test**. Think about what the method does - given an input (a file) how does the method change the state of our programme? Take a moment to consider this.
+Let's try writing a unit test to cover the `deposit` method. The first step is to determine **what exactly we want to test**. Think about what the method does - given an input (a number) how does the method change the state of our programme? Take a moment to consider this.
 
 It looks like after the method is called, whatever is passed in as an argument should be present in the storage array. This can form the basis of our unit test - our **assertion**.
 
 ```ruby
-describe FileSystem do
-  it 'can add items to storage' do
-    file_system = FileSystem.new
-    file = File.new
-    file_system.store(file)
-    expect(file_system.storage).to include(file)
+describe BankAccount do
+  it 'can money to the balance' do
+    bank_account = BankAccount.new
+    bank_account.deposit(10)
+    expect(bank_account.balance).to eq(10)
   end
 end
 ```
@@ -91,20 +90,19 @@ end
 
 Let's return to our initial example. Notice that the unit test is split into three distinct sections
 
+
 ```ruby
-describe FileSystem do
-  it 'can add items to storage' do
-    # Arrange
-    file_system = FileSystem.new
-    file = File.new
-
-    # Act
-    file_system.store(file)
-
+describe BankAccount do
+  it 'can money to the balance' do
+    #Arrange
+    bank_account = BankAccount.new
+    #Act
+    bank_account.deposit(10)
     #Assert
-    expect(file_system.storage).to include(file)
+    expect(bank_account.balance).to eq(10)
   end
 end
+```
 ```
 
 This is a common pattern which many of your unit tests will follow. First you Arrange all the preconditions required for your code to run - creating any objects and assigning any variables that you're going to need. Next, you act, or execute the code which needs to be run in order for your assertion to be true. Finally, you make the assertion itself.
