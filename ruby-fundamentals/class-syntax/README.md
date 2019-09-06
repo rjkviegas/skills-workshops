@@ -49,7 +49,7 @@ But what if we wanted our program to keep track of multiple bank accounts?
 It becomes a bit unmanageable. What we can do is make use of class/objects to avoid so much repitition.
 
 
-###What is a class and an object?
+### What is a class and an object?
 
 The simplest type of class we could have in ruby is:
 
@@ -77,9 +77,9 @@ What other things can a class have?
  
 Imagine we had these user stories
 
-#As a user I would like to be able to deposit money to my bank account
-#As a user I would like to be able to withdraw money from my bank account
-#As a user I would like to be able to view my balance
+- As a user I would like to be able to deposit money to my bank account
+- As a user I would like to be able to withdraw money from my bank account
+- As a user I would like to be able to view my balance
 
 Let's parse these user stories for the nouns and verbs.
 
