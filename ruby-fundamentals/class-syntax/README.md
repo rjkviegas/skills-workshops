@@ -2,9 +2,9 @@
 
 Imagine we had these user stories
 
-#As a user I would like to be able to deposit money to my bank account
-#As a user I would like to be able to withdraw money from my bank account
-#As a user I would like to be able to view my balance
+ - As a user I would like to be able to deposit money to my bank account
+ - As a user I would like to be able to withdraw money from my bank account
+ - As a user I would like to be able to view my balance
 
 ```$xslt
     balance = 0
