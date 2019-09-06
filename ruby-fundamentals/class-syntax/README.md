@@ -1,4 +1,138 @@
-## Getting started
+# State and behaviour
+
+Imagine we had these user stories
+
+#As a user I would like to be able to deposit money to my bank account
+#As a user I would like to be able to withdraw money from my bank account
+#As a user I would like to be able to view my balance
+
+```$xslt
+    balance = 0
+    
+    def deposit(money)
+       balance = balance + money
+    end
+    
+    def withdraw(money)
+        balance = balance - money
+    end    
+
+```
+
+But what if we wanted our program to keep track of multiple bank accounts?
+
+
+```$xslt
+
+    alices_balance = 0
+    
+    bobs_balance = 0
+    
+    def alice_deposit(money)
+       alices_balance = alices_balance + money
+    end
+    
+    def alice_withdraw(money)
+        alices_balance = alices_balance - money
+    end  
+    
+    
+    def bobs_deposit(money)
+       bobs_balance = bobs_balance + money
+    end
+
+    def bobs_withdraw(money)
+       bobs_balance = bobs_balance + money
+    end
+```
+
+It becomes a bit unmanageable. What we can do is make use of class/objects to avoid so much repitition.
+
+
+###What is a class and an object?
+
+The simplest type of class we could have in ruby is:
+
+
+```$xslt
+
+    class Example
+    end
+
+```
+And we can make an object from a class as so
+
+```$xslt
+
+ example = Example.new
+```
+
+But this doesn't do very much! 
+
+
+What other things can a class have?
+
+ - (Instance) Variables
+ - Methods
+ 
+Imagine we had these user stories
+
+#As a user I would like to be able to deposit money to my bank account
+#As a user I would like to be able to withdraw money from my bank account
+#As a user I would like to be able to view my balance
+
+Let's parse these user stories for the nouns and verbs.
+
+Nouns
+
+Verbs
+
+
+Object ~
+Methods ~
+Variables ~
+
+
+
+
+```$xslt
+
+    class BankAccount
+    
+        def initialize
+           @balance = 0
+        end
+        
+        def deposit(money)
+            @balance += money
+        end  
+        
+        def withdraw(money)
+            @balance -= money
+        end
+            
+    end
+
+```
+
+
+
+
+### Exercise One - Part 1
+
+Have a look through these user stories and find the nouns and the verbs.
+
+As a car owner I want my car to tell me its current speed
+As a car owner I want to be able to accelerate the car
+As a car owner I want to be able to decelerate the a car
+
+Draw a domain diagram to find the object, instance variables, and methods
+
+
+### Exercise One - Part 2
+
+Try translating your domain model into code.
+
 `bundle install`
 
 For each of the exercises the aim is to write some code so that the tests pass.
@@ -7,24 +141,13 @@ You can run the tests by:
 `cd exercise1`
 `rspec`
 
-### Exercise One
-Write a program that meets these user stories:
-As a car owner I want my car to tell me its current speed
-As a car owner I want to be able to accelerate the car
-As a car owner I want to be able to apply the breaks to a car
-
-It should:
-* Have one class:
- * `Car`
-   * Has one instance variable:
-      `current_speed`. This is an integer.
-   * Has four methods:
-     * `initialize` Creates a new instance of car. Takes no parameters.
-     * `speed_up` Takes a number as a parameter. Increases the speed variable in the class.
-     * `brake` Takes a number as a parameter. Decreases the speed variable in the class.
-     * `current_speed` Returns the speed variable in the class.
 
 ### Exercise Two
+
+As a garage owner I want to be able to add a car to the garage
+As a garage owner I want to be able to find a car by registration plate
+As a garage owner I want to be able to remove a car
+As a garage owner I want to see all the cars by a particular make
 
 It should:
 * Have one class:
