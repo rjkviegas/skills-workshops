@@ -122,9 +122,9 @@ Variables ~
 
 Have a look through these user stories and find the nouns and the verbs.
 
-As a car owner I want my car to tell me its current speed
-As a car owner I want to be able to accelerate the car
-As a car owner I want to be able to decelerate the a car
+- As a car owner I want my car to tell me its current speed
+- As a car owner I want to be able to accelerate the car
+- As a car owner I want to be able to decelerate the a car
 
 Draw a domain diagram to find the object, instance variables, and methods
 
@@ -144,10 +144,10 @@ You can run the tests by:
 
 ### Exercise Two
 
-As a garage owner I want to be able to add a car to the garage
-As a garage owner I want to be able to find a car by registration plate
-As a garage owner I want to be able to remove a car
-As a garage owner I want to see all the cars by a particular make
+- As a garage owner I want to be able to add a car to the garage
+- As a garage owner I want to be able to find a car by registration plate
+- As a garage owner I want to be able to remove a car
+- As a garage owner I want to see all the cars by a particular make
 
 It should:
 * Have one class:
