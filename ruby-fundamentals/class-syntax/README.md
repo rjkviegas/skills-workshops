@@ -61,14 +61,14 @@ And we can make an object from a class as so
 example = Example.new
 ```
 
-But this doesn't do very much! 
+But this doesn't do very much!
 
 
 What other things can a class have?
 
  - (Instance) Variables
  - Methods
- 
+
 Imagine we had these user stories
 
 - As a user I would like to be able to deposit money to my bank account
