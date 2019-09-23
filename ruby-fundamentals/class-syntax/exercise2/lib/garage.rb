@@ -1,4 +1,4 @@
-  class Garage
+class Garage
 
   def initialize
     @cars = [

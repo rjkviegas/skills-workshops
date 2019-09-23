@@ -142,10 +142,10 @@ You can run the tests by:
 
 ### Exercise Two
 
-- As a garage owner I want to be able to add a car to the garage
-- As a garage owner I want to be able to find a car by registration plate
-- As a garage owner I want to be able to remove a car
-- As a garage owner I want to see all the cars by a particular make
+- As a garage owner I want to add a car to the garage
+- As a garage owner I want to find a car by its registration plate
+- As a garage owner I want to remove a car from the garage
+- As a garage owner I want to see all the cars of a particular make
 
 It should:
 * Have one class:
