@@ -42,23 +42,26 @@ def bobs_withdraw(money)
 end
 ```
 
-It becomes a bit unmanageable. What we can do is make use of class/objects to avoid so much repetition.
+It becomes a bit unmanageable. What we can do is make use of classes to avoid this repetition.
 
 ### What is a class and an object?
 
 The simplest type of class we could have in ruby is:
 
 ```ruby
-class Example
+class Cookie
 end
 ```
-And we can make an object from a class as so
+
+And we can make lots of instances of this class:
 
 ```ruby
-example = Example.new
+cookie1 = Cookie.new
+cookie2 = Cookie.new
+cookie3 = Cookie.new
 ```
 
-But this doesn't do very much!
+It's like a cookie cutter! But so far our cookie doesn't do very much.
 
 What other things can a class have?
 
