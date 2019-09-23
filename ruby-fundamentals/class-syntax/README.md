@@ -42,7 +42,8 @@ def bobs_withdraw(money)
 end
 ```
 
-It becomes a bit unmanageable. We can use classes to avoid this repetition.
+It quickly becomes unmanageable. We want to repeat a balance, deposit and withdraw
+for every customer. Let's see how we could use classes to remove the repetition.
 
 ## What is a class?
 
@@ -68,6 +69,8 @@ But so far our cookies don't do very much. What other things can an object have?
  - State: instance variables
  - Behaviour: methods
 
+### State
+
 We could give every cookie a name:
 
 ```ruby
@@ -84,6 +87,8 @@ Now each instance can have a different name:
 choc_chip_cookie = Cookie.new("chocolate chip")
 macadamia_nut_cookie = Cookie.new("macadamia nut")
 ```
+
+### Behaviour
 
 Let's return to our bank account. Imagine we had these user stories:
 
