@@ -6,44 +6,41 @@ Imagine we had these user stories
  - As a user I would like to be able to withdraw money from my bank account
  - As a user I would like to be able to view my balance
 
-```$xslt
-    balance = 0
-    
-    def deposit(money)
-       balance = balance + money
-    end
-    
-    def withdraw(money)
-        balance = balance - money
-    end    
+```ruby
+balance = 0
 
+def deposit(money)
+   balance = balance + money
+end
+
+def withdraw(money)
+    balance = balance - money
+end    
 ```
 
 But what if we wanted our program to keep track of multiple bank accounts?
 
 
-```$xslt
+```ruby
+alices_balance = 0
 
-    alices_balance = 0
-    
-    bobs_balance = 0
-    
-    def alice_deposit(money)
-       alices_balance = alices_balance + money
-    end
-    
-    def alice_withdraw(money)
-        alices_balance = alices_balance - money
-    end  
-    
-    
-    def bobs_deposit(money)
-       bobs_balance = bobs_balance + money
-    end
+def alice_deposit(money)
+   alices_balance = alices_balance + money
+end
 
-    def bobs_withdraw(money)
-       bobs_balance = bobs_balance + money
-    end
+def alice_withdraw(money)
+    alices_balance = alices_balance - money
+end
+
+bobs_balance = 0
+
+def bobs_deposit(money)
+   bobs_balance = bobs_balance + money
+end
+
+def bobs_withdraw(money)
+   bobs_balance = bobs_balance + money
+end
 ```
 
 It becomes a bit unmanageable. What we can do is make use of class/objects to avoid so much repitition.
@@ -54,17 +51,14 @@ It becomes a bit unmanageable. What we can do is make use of class/objects to av
 The simplest type of class we could have in ruby is:
 
 
-```$xslt
-
-    class Example
-    end
-
+```ruby
+class Example
+end
 ```
 And we can make an object from a class as so
 
-```$xslt
-
- example = Example.new
+```ruby
+example = Example.new
 ```
 
 But this doesn't do very much! 
@@ -95,24 +89,22 @@ Variables ~
 
 
 
-```$xslt
+```ruby
+class BankAccount
 
-    class BankAccount
-    
-        def initialize
-           @balance = 0
-        end
-        
-        def deposit(money)
-            @balance += money
-        end  
-        
-        def withdraw(money)
-            @balance -= money
-        end
-            
-    end
+  def initialize
+     @balance = 0
+  end
 
+  def deposit(money)
+      @balance += money
+  end  
+
+  def withdraw(money)
+      @balance -= money
+  end
+
+end
 ```
 
 
@@ -138,8 +130,10 @@ Try translating your domain model into code.
 For each of the exercises the aim is to write some code so that the tests pass.
 
 You can run the tests by:
-`cd exercise1`
-`rspec`
+```shell
+> cd exercise1
+> rspec
+```
 
 
 ### Exercise Two
