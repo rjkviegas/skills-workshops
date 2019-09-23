@@ -7,38 +7,38 @@ Imagine we had these user stories
  - As a user I would like to be able to view my balance
 
 ```ruby
-balance = 0
+$balance = 0
 
 def deposit(money)
-   balance = balance + money
+  $balance += money
 end
 
 def withdraw(money)
-    balance = balance - money
-end    
+  $balance -= money
+end
 ```
 
 But what if we wanted our program to keep track of multiple bank accounts?
 
 ```ruby
-alices_balance = 0
+$alices_balance = 0
 
 def alice_deposit(money)
-   alices_balance = alices_balance + money
+  $alices_balance += money
 end
 
 def alice_withdraw(money)
-    alices_balance = alices_balance - money
+  $alices_balance -= money
 end
 
-bobs_balance = 0
+$bobs_balance = 0
 
 def bobs_deposit(money)
-   bobs_balance = bobs_balance + money
+  $bobs_balance += money
 end
 
 def bobs_withdraw(money)
-   bobs_balance = bobs_balance + money
+  $bobs_balance -= money
 end
 ```
 
