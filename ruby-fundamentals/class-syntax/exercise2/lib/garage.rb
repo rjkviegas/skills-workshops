@@ -1,5 +1,4 @@
 class Garage
-
   def initialize
     @cars = [
       {registration_plate: 'BD51 SMR', make: 'honda'},
@@ -7,5 +6,4 @@ class Garage
       {registration_plate: 'SE60 TSW', make: 'honda'}
     ]
   end
-
 end

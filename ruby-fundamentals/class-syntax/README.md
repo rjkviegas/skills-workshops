@@ -86,7 +86,6 @@ Variables ~
 
 ```ruby
 class BankAccount
-
   def initialize
      @balance = 0
   end
@@ -102,7 +101,6 @@ class BankAccount
   def withdraw(money)
       @balance -= money
   end
-
 end
 ```
 
