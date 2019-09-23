@@ -65,8 +65,25 @@ It's like a cookie cutter! But so far our cookies don't do very much.
 
 What other things can a class have?
 
- - (Instance) Variables
- - Methods
+ - Instance variables (state)
+ - Methods (behaviour)
+
+We could give each of our cookies a name:
+
+```ruby
+class Cookie
+  def initialize(name)
+    @name = name
+  end
+end
+```
+
+Now each instance of cookie can be different:
+
+```ruby
+choc_chip_cookie = Cookie.new("chocolate chip")
+macadamia_nut_cookie = Cookie.new("macadamia nut")
+```
 
 Imagine we had these user stories:
 
