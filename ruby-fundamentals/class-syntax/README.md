@@ -138,16 +138,13 @@ It should:
 * Have one class:
   * `Garage`
     * Has one instance variable:
-      `cars`. This is an array of hashmaps. Each hashmap relates to a car and
-      contains the keys `registration_plate` and `make`.
+      `cars`. This is a list of cars. Each car has a `registration_plate` and `make`.
     * Has 5 methods:
       * `initialize` This is provided for you.
-      * `add`. Takes a hashmap (corresponding to a car) as a parameter. Appends to the list of cars variable in the class
-      * `find_car`. Takes a string as a parameter. Returns a car (if found) with a matching registration plate.
-      * `remove_car`. Takes a string as a parameter. Deletes a car (if found) with
-      a matching registration plate from the list of cars variable.
-      * `all_cars_by_make`. Takes a string as a parameter. Returns all cars (if found) with a matching make.
-
+      * `add`. Takes a hash representing a car as a parameter and appends it to the list of cars.
+      * `find_car`. Takes a number plate as a parameter and returns a car with a matching registration plate.
+      * `remove_car`. Takes a number plate as a parameter and deletes the car from the list of cars.
+      * `all_cars_by_make`. Takes a make as a parameter and returns a list of all the cars of that make.
 
 ### Exercise Three
 
