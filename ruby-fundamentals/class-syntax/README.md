@@ -2,9 +2,9 @@
 
 Imagine we had these user stories for a bank:
 
- - As a customer I would like to deposit money in my account
- - As a customer I would like to withdraw money from my bank account
- - As a customer I would like to view my balance
+- As a customer I would like to deposit money in my account
+- As a customer I would like to withdraw money from my bank account
+- As a customer I would like to view my balance
 
 ```ruby
 $balance = 0
@@ -44,7 +44,7 @@ end
 
 It becomes a bit unmanageable. We can use classes to avoid this repetition.
 
-### What is a class and an object?
+## What is a class?
 
 The simplest class we could have in Ruby has a name:
 
@@ -61,9 +61,9 @@ cookie2 = Cookie.new
 cookie3 = Cookie.new
 ```
 
-Classes are like a cookie cutter! But so far our cookies don't do very much.
+Classes are like a cookie cutter! Every cookie comes from the same cutter.
 
-What other things can an object have?
+But so far our cookies don't do very much. What other things can an object have?
 
  - State: instance variables
  - Behaviour: methods
@@ -85,11 +85,11 @@ choc_chip_cookie = Cookie.new("chocolate chip")
 macadamia_nut_cookie = Cookie.new("macadamia nut")
 ```
 
-Imagine we had these user stories:
+Let's return to our bank account. Imagine we had these user stories:
 
-- As a user I would like to be able to deposit money to my bank account
-- As a user I would like to be able to withdraw money from my bank account
-- As a user I would like to be able to view my balance
+- As a customer I would like to deposit money in my account
+- As a customer I would like to withdraw money from my bank account
+- As a customer I would like to view my balance
 
 Let's parse these user stories for the nouns and verbs.
 
@@ -121,7 +121,7 @@ class BankAccount
 end
 ```
 
-### Exercise One - Part 1
+## Exercise One - Part 1
 
 Have a look through these user stories and find the nouns and the verbs.
 
@@ -131,7 +131,7 @@ Have a look through these user stories and find the nouns and the verbs.
 
 Draw a domain diagram to find the object, instance variables, and methods
 
-### Exercise One - Part 2
+## Exercise One - Part 2
 
 Try translating your domain model into code.
 
@@ -145,7 +145,7 @@ You can run the tests by:
 > rspec
 ```
 
-### Exercise Two
+## Exercise Two
 
 - As a garage owner I want to add a car to the garage
 - As a garage owner I want to find a car by its registration plate
@@ -164,7 +164,7 @@ It should:
       * `remove_car`. Takes a number plate as a parameter and deletes the car from the list of cars.
       * `all_cars_by_make`. Takes a make as a parameter and returns a list of all the cars of that make.
 
-### Exercise Three
+## Exercise Three
 
 Write a program that keeps a list of todos.
 
