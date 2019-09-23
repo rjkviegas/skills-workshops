@@ -1,10 +1,10 @@
 # State and behaviour
 
-Imagine we had these user stories
+Imagine we had these user stories for a bank:
 
- - As a user I would like to be able to deposit money to my bank account
- - As a user I would like to be able to withdraw money from my bank account
- - As a user I would like to be able to view my balance
+ - As a customer I would like to deposit money in my account
+ - As a customer I would like to withdraw money from my bank account
+ - As a customer I would like to view my balance
 
 ```ruby
 $balance = 0
@@ -42,18 +42,18 @@ def bobs_withdraw(money)
 end
 ```
 
-It becomes a bit unmanageable. What we can do is make use of classes to avoid this repetition.
+It becomes a bit unmanageable. We can use of classes to avoid this repetition.
 
 ### What is a class and an object?
 
-The simplest type of class we could have in ruby is:
+The simplest class we could have in ruby has a name:
 
 ```ruby
 class Cookie
 end
 ```
 
-And we can make lots of instances of this class:
+And now we can make lots of instances of this class:
 
 ```ruby
 cookie1 = Cookie.new
@@ -61,7 +61,7 @@ cookie2 = Cookie.new
 cookie3 = Cookie.new
 ```
 
-It's like a cookie cutter! But so far our cookie doesn't do very much.
+It's like a cookie cutter! But so far our cookies don't do very much.
 
 What other things can a class have?
 
