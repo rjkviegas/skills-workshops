@@ -1,4 +1,4 @@
-# Objects: state and behaviour
+# Classes: state and behaviour
 
 Imagine we had these user stories for a bank:
 
