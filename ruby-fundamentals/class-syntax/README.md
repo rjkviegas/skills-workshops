@@ -1,4 +1,4 @@
-# State and behaviour
+# Objects: state and behaviour
 
 Imagine we had these user stories for a bank:
 
@@ -42,18 +42,18 @@ def bobs_withdraw(money)
 end
 ```
 
-It becomes a bit unmanageable. We can use of classes to avoid this repetition.
+It becomes a bit unmanageable. We can use classes to avoid this repetition.
 
 ### What is a class and an object?
 
-The simplest class we could have in ruby has a name:
+The simplest class we could have in Ruby has a name:
 
 ```ruby
 class Cookie
 end
 ```
 
-And now we can make lots of instances of this class:
+And now we can make lots of instances of this class, each one is a separate object:
 
 ```ruby
 cookie1 = Cookie.new
@@ -61,14 +61,14 @@ cookie2 = Cookie.new
 cookie3 = Cookie.new
 ```
 
-It's like a cookie cutter! But so far our cookies don't do very much.
+Classes are like a cookie cutter! But so far our cookies don't do very much.
 
-What other things can a class have?
+What other things can an object have?
 
- - Instance variables (state)
- - Methods (behaviour)
+ - State: instance variables
+ - Behaviour: methods
 
-We could give each of our cookies a name:
+We could give every cookie a name:
 
 ```ruby
 class Cookie
@@ -78,7 +78,7 @@ class Cookie
 end
 ```
 
-Now each instance of cookie can be different:
+Now each instance can have a different name:
 
 ```ruby
 choc_chip_cookie = Cookie.new("chocolate chip")
