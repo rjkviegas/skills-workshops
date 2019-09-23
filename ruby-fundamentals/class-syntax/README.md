@@ -20,7 +20,6 @@ end
 
 But what if we wanted our program to keep track of multiple bank accounts?
 
-
 ```ruby
 alices_balance = 0
 
@@ -43,13 +42,11 @@ def bobs_withdraw(money)
 end
 ```
 
-It becomes a bit unmanageable. What we can do is make use of class/objects to avoid so much repitition.
-
+It becomes a bit unmanageable. What we can do is make use of class/objects to avoid so much repetition.
 
 ### What is a class and an object?
 
 The simplest type of class we could have in ruby is:
-
 
 ```ruby
 class Example
@@ -63,13 +60,12 @@ example = Example.new
 
 But this doesn't do very much!
 
-
 What other things can a class have?
 
  - (Instance) Variables
  - Methods
 
-Imagine we had these user stories
+Imagine we had these user stories:
 
 - As a user I would like to be able to deposit money to my bank account
 - As a user I would like to be able to withdraw money from my bank account
@@ -81,13 +77,9 @@ Nouns
 
 Verbs
 
-
 Object ~
 Methods ~
 Variables ~
-
-
-
 
 ```ruby
 class BankAccount
@@ -111,9 +103,6 @@ class BankAccount
 end
 ```
 
-
-
-
 ### Exercise One - Part 1
 
 Have a look through these user stories and find the nouns and the verbs.
@@ -123,7 +112,6 @@ Have a look through these user stories and find the nouns and the verbs.
 - As a car driver I want the car to slow down
 
 Draw a domain diagram to find the object, instance variables, and methods
-
 
 ### Exercise One - Part 2
 
@@ -138,7 +126,6 @@ You can run the tests by:
 > cd exercise1
 > rspec
 ```
-
 
 ### Exercise Two
 
