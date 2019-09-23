@@ -114,9 +114,9 @@ end
 
 Have a look through these user stories and find the nouns and the verbs.
 
-- As a car owner I want my car to tell me its current speed
-- As a car owner I want to be able to accelerate the car
-- As a car owner I want to be able to decelerate the a car
+- As a car driver I want to know the car's speed
+- As a car driver I want the car to accelerate
+- As a car driver I want the car to slow down
 
 Draw a domain diagram to find the object, instance variables, and methods
 

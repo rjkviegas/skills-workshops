@@ -1,25 +1,32 @@
 require 'car'
 
 RSpec.describe Car do
-  it "is available as described_class" do
-    expect(described_class).to eq(Car)
+  it "is an instance of Car class" do
+    car = Car.new
+
+    expect(car).to be_a(Car)
   end
 
-  it "should report its current speed" do
+  it "reports its current speed" do
     car = Car.new
-    expect(car.current_speed).to eq(0)
+
+    expect(car.speed).to eq(0)
   end
 
-  it "should be able to increase its current speed by 10" do
+  it "can accelerate" do
     car = Car.new
-    car.speed_up(10)
-    expect(car.current_speed).to eq(10)
+
+    car.accelerate(10)
+
+    expect(car.speed).to eq(10)
   end
 
-  it "should be able to increase its current speed by 20 and then decrease by 5" do
+  it "can slow down" do
     car = Car.new
-    car.speed_up(20)
-    car.brake(5)
-    expect(car.current_speed).to eq(15)
+    car.accelerate(20)
+
+    car.slow_down(5)
+
+    expect(car.speed).to eq(15)
   end
 end
