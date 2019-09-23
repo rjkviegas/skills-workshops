@@ -151,7 +151,12 @@ It should:
 
 ### Exercise Three
 
-Write a program that keeps a list of todos. It should:
+Write a program that keeps a list of todos.
+
+- As a user I want to add a todo to the list
+- As a user I want to print my todo list
+
+It should:
 * Have two classes:
  * `Todo`
    * Has two methods:
@@ -162,11 +167,10 @@ Write a program that keeps a list of todos. It should:
  * `TodoList`
    * Has three methods:
      * `initialize`: Creates a new todo list object. Takes no parameters.
-     * `add`: Takes a todo object as a parameter.  Stores it on the
+     * `add`: Takes a todo object as a parameter. Stores it on the
        todo list object.
-     * `print`: Takes no parameters.  Creates a string of all the
-       stored todos, one per line.  Each line should start with a
-       `* `.  `puts`es the string.
+     * `print`: Takes no parameters. Creates a string of all the
+       stored todos, one per line. Each line should start with a bullet `* `.
        * e.g.
          ```
          * get milk

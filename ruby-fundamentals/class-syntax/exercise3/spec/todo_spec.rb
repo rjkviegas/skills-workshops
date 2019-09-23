@@ -1,16 +1,14 @@
 require 'todo'
-require 'todolist'
+require 'todo_list'
 
 describe Todo do
-  describe "creating a new Todo" do
-    it "creates a new todo object" do
-      expect(Todo.new("get milk")).to be_a(Todo)
-    end
+  it "is an instance of the Todo class" do
+    todo = Todo.new("get milk")
+
+    expect(todo).to be_a(TodoList)
   end
 
-  describe "getting text on todo" do
-    it "returns text stored on todo" do
-      expect(Todo.new("get milk").text).to eq("get milk")
-    end
+  it "has text" do
+    expect(Todo.new("get milk").text).to eq("get milk")
   end
 end
