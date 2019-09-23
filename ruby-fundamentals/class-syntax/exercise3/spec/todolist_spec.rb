@@ -4,7 +4,7 @@ require 'todolist'
 describe TodoList do
   describe "creating a TodoList" do
     it "creates a new todo list object" do
-      expect(TodoList.new).to be_instance_of TodoList
+      expect(TodoList.new).to be_a(TodoList)
     end
   end
 
