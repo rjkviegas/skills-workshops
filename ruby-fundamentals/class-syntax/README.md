@@ -2,7 +2,8 @@
 
 ## Learn to
 
-- Understand how to create classes and objects in Ruby
+- Understand classes and objects
+- Create a class with state and behaviour in Ruby
 
 ## Introduction
 
