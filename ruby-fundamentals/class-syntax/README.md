@@ -139,26 +139,13 @@ class BankAccount
 end
 ```
 
-## Exercise One - Part 1
-
-Have a look through these user stories and find the nouns and the verbs.
-
-- As a car driver I want to know the car's speed
-- As a car driver I want the car to accelerate
-- As a car driver I want the car to slow down
-
-Draw a domain diagram to find the object, instance variables, and methods
-
-## Exercise One - Part 2
-
-Try translating your domain model into code.
-
-`bundle install`
+## Exercise One
 
 For each of the exercises the aim is to write some code so that the tests pass.
 
 You can run the tests by:
 ```shell
+> bundle install
 > cd exercise1
 > rspec
 ```
