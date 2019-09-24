@@ -1,187 +1,189 @@
-# State and behaviour
+# Classes: state and behaviour
 
-Imagine we had these user stories
+## Learn to
 
- - As a user I would like to be able to deposit money to my bank account
- - As a user I would like to be able to withdraw money from my bank account
- - As a user I would like to be able to view my balance
+- Understand classes and objects
+- Create a class with state and behaviour in Ruby
 
-```$xslt
-    balance = 0
-    
-    def deposit(money)
-       balance = balance + money
-    end
-    
-    def withdraw(money)
-        balance = balance - money
-    end    
+## Introduction
 
+Imagine we had these user stories for a bank account:
+
+- As a customer I would like to deposit money in my account
+- As a customer I would like to withdraw money from my bank account
+- As a customer I would like to view my balance
+
+Here's a way we could represent a bank account. With an integer for the balance
+and methods to deposit and withdraw money.
+
+```ruby
+$balance = 0
+
+def deposit(money)
+  $balance += money
+end
+
+def withdraw(money)
+  $balance -= money
+end
 ```
 
-But what if we wanted our program to keep track of multiple bank accounts?
+But what if we wanted to keep track of multiple bank accounts?
 
+```ruby
+$alices_balance = 0
 
-```$xslt
+def alice_deposit(money)
+  $alices_balance += money
+end
 
-    alices_balance = 0
-    
-    bobs_balance = 0
-    
-    def alice_deposit(money)
-       alices_balance = alices_balance + money
-    end
-    
-    def alice_withdraw(money)
-        alices_balance = alices_balance - money
-    end  
-    
-    
-    def bobs_deposit(money)
-       bobs_balance = bobs_balance + money
-    end
+def alice_withdraw(money)
+  $alices_balance -= money
+end
 
-    def bobs_withdraw(money)
-       bobs_balance = bobs_balance + money
-    end
+$bobs_balance = 0
+
+def bobs_deposit(money)
+  $bobs_balance += money
+end
+
+def bobs_withdraw(money)
+  $bobs_balance -= money
+end
 ```
 
-It becomes a bit unmanageable. What we can do is make use of class/objects to avoid so much repitition.
+Repeating this for each customer will quickly become unmanageable. Let's look at
+how classes could help us have multiple bank accounts without copying our code.
 
+### What is a class?
 
-### What is a class and an object?
+A class defines a type of object. The simplest class we can have in Ruby just has
+a name:
 
-The simplest type of class we could have in ruby is:
-
-
-```$xslt
-
-    class Example
-    end
-
-```
-And we can make an object from a class as so
-
-```$xslt
-
- example = Example.new
+```ruby
+class BankAccount
+end
 ```
 
-But this doesn't do very much! 
+And now we can use this class:
 
-
-What other things can a class have?
-
- - (Instance) Variables
- - Methods
- 
-Imagine we had these user stories
-
-- As a user I would like to be able to deposit money to my bank account
-- As a user I would like to be able to withdraw money from my bank account
-- As a user I would like to be able to view my balance
-
-Let's parse these user stories for the nouns and verbs.
-
-Nouns
-
-Verbs
-
-
-Object ~
-Methods ~
-Variables ~
-
-
-
-
-```$xslt
-
-    class BankAccount
-    
-        def initialize
-           @balance = 0
-        end
-        
-        def deposit(money)
-            @balance += money
-        end  
-        
-        def withdraw(money)
-            @balance -= money
-        end
-            
-    end
-
+```ruby
+bank_account1 = BankAccount.new
+bank_account2 = BankAccount.new
+bank_account3 = BankAccount.new
 ```
 
+Classes are like a cookie cutter. Each bank account comes from the same cutter.
+These are called instances of the class, and they know their class:
 
+```ruby
+bank_account1.class  #=> BankAccount
+```
 
+But so far our bank accounts don't do very much. Instances of a class are objects.
+What makes an object? State + behaviour.
 
-### Exercise One - Part 1
+Let's see how we can give instances of a class state and behaviour.
 
-Have a look through these user stories and find the nouns and the verbs.
+### State
 
-- As a car owner I want my car to tell me its current speed
-- As a car owner I want to be able to accelerate the car
-- As a car owner I want to be able to decelerate the a car
+We could give every bank account an opening balance:
 
-Draw a domain diagram to find the object, instance variables, and methods
+```ruby
+class BankAccount
+  def initialize(opening_balance)
+    @balance = opening_balance
+  end
+end
+```
 
+Now each bank account object can have a different opening balance:
 
-### Exercise One - Part 2
+```ruby
+alices_account = BankAccount.new(101)
+bobs_account = BankAccount.new(42)
+```
 
-Try translating your domain model into code.
+### Behaviour
 
-`bundle install`
+We can give our bank account behaviour by adding `deposit` and `withdraw` methods.
+
+```ruby
+class BankAccount
+  def initialize(opening_balance)
+     @balance = opening_balance
+  end
+
+  def deposit(money)
+      @balance += money
+  end
+
+  def withdraw(money)
+      @balance -= money
+  end
+end
+```
+
+Notice that the instance variable `@balance` is available in every method.
+
+## Exercise One
 
 For each of the exercises the aim is to write some code so that the tests pass.
 
 You can run the tests by:
-`cd exercise1`
-`rspec`
+```shell
+> bundle install
+> cd exercise1
+> rspec
+```
 
+The first exercise has tests that describe a car:
 
-### Exercise Two
+- As a car driver I want to know the car's speed
+- As a car driver I want the car to accelerate
+- As a car driver I want the car to slow down
 
-- As a garage owner I want to be able to add a car to the garage
-- As a garage owner I want to be able to find a car by registration plate
-- As a garage owner I want to be able to remove a car
-- As a garage owner I want to see all the cars by a particular make
+## Exercise Two
+
+- As a garage owner I want to add a car to the garage
+- As a garage owner I want to find a car by its registration plate
+- As a garage owner I want to remove a car from the garage
+- As a garage owner I want to see all the cars of a particular make
 
 It should:
 * Have one class:
   * `Garage`
     * Has one instance variable:
-      `cars`. This is an array of hashmaps. Each hashmap relates to a car and
-      contains the keys `registration_plate` and `make`.
+      `cars`. This is a list of cars. Each car has a `registration_plate` and `make`.
     * Has 5 methods:
       * `initialize` This is provided for you.
-      * `add`. Takes a hashmap (corresponding to a car) as a parameter. Appends to the list of cars variable in the class
-      * `find_car`. Takes a string as a parameter. Returns a car (if found) with a matching registration plate.
-      * `remove_car`. Takes a string as a parameter. Deletes a car (if found) with
-      a matching registration plate from the list of cars variable.
-      * `all_cars_by_make`. Takes a string as a parameter. Returns all cars (if found) with a matching make.
+      * `add`. Takes a hash representing a car as a parameter and appends it to the list of cars.
+      * `find_car`. Takes a number plate as a parameter and returns a car with a matching registration plate.
+      * `remove_car`. Takes a number plate as a parameter and deletes the car from the list of cars.
+      * `all_cars_by_make`. Takes a make as a parameter and returns a list of all the cars of that make.
 
+## Exercise Three
 
-### Exercise Three
+Write a program that keeps a list of todos.
 
-Write a program that keeps a list of todos. It should:
+- As a user I want to add a todo to the list
+- As a user I want to print my todo list
+
+It should:
 * Have two classes:
  * `Todo`
    * Has two methods:
-     * `initialize`: Creates a new todo object. Takes a string as a
+     * `initialize`: Creates a new todo object. Takes a description as a
        parameter and stores it on the todo object.
-     * `text`: Takes no parameters. Returns the string that was
-       stored when the todo object was created.
+     * `description`: Takes no parameters. Returns the description that was
+       stored when the todo was created.
  * `TodoList`
    * Has three methods:
      * `initialize`: Creates a new todo list object. Takes no parameters.
-     * `add`: Takes a todo object as a parameter.  Stores it on the
+     * `add`: Takes a todo object as a parameter. Stores it on the
        todo list object.
-     * `print`: Takes no parameters.  Creates a string of all the
-       stored todos, one per line.  Each line should start with a
-       `* `.  `puts`es the string.
+     * `print`: Takes no parameters. Creates a string of all the
+       stored todos, one per line. Each line should start with a bullet `* `.
        * e.g.
          ```
          * get milk
