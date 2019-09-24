@@ -50,42 +50,42 @@ for every customer. Let's see how we could use classes to remove the repetition.
 The simplest class we could have in Ruby has a name:
 
 ```ruby
-class Cookie
+class BankAccount
 end
 ```
 
 And now we can make lots of instances of this class, each one is a separate object:
 
 ```ruby
-cookie1 = Cookie.new
-cookie2 = Cookie.new
-cookie3 = Cookie.new
+bank_account1 = BankAccount.new
+bank_account2 = BankAccount.new
+bank_account3 = BankAccount.new
 ```
 
-Classes are like a cookie cutter! Every cookie comes from the same cutter.
+Classes are like a cookie cutter for objects! Every object comes from the same cutter.
 
-But so far our cookies don't do very much. What other things can an object have?
+But so far our bank accounts don't do very much. What other things can an object have?
 
  - State: instance variables
  - Behaviour: methods
 
 ### State
 
-We could give every cookie a name:
+We could give every bank account a balance:
 
 ```ruby
-class Cookie
-  def initialize(name)
-    @name = name
+class BankAccount
+  def initialize(opening_balance)
+    @balance = opening_balance
   end
 end
 ```
 
-Now each instance can have a different name:
+Now each bank account object can have a different opening balance:
 
 ```ruby
-choc_chip_cookie = Cookie.new("chocolate chip")
-macadamia_nut_cookie = Cookie.new("macadamia nut")
+alices_account = BankAccount.new(101)
+bobs_account = BankAccount.new(42)
 ```
 
 ### Behaviour
@@ -108,8 +108,8 @@ Variables ~
 
 ```ruby
 class BankAccount
-  def initialize
-     @balance = 0
+  def initialize(opening_balance)
+     @balance = opening_balance
   end
 
   def balance
@@ -118,7 +118,7 @@ class BankAccount
 
   def deposit(money)
       @balance += money
-  end  
+  end
 
   def withdraw(money)
       @balance -= money
