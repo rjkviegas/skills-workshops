@@ -1,5 +1,11 @@
 # Classes: state and behaviour
 
+## Learn to
+
+- Understand how to create classes and objects in Ruby
+
+## Introduction
+
 Imagine we had these user stories for a bank:
 
 - As a customer I would like to deposit money in my account
@@ -45,7 +51,7 @@ end
 It quickly becomes unmanageable. We want to repeat a balance, deposit and withdraw
 for every customer. Let's see how we could use classes to remove the repetition.
 
-## What is a class?
+### What is a class?
 
 The simplest class we could have in Ruby has a name:
 
