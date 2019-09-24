@@ -137,6 +137,12 @@ You can run the tests by:
 > rspec
 ```
 
+The first exercise has tests that describe a car:
+
+- As a car driver I want to know the car's speed
+- As a car driver I want the car to accelerate
+- As a car driver I want the car to slow down
+
 ## Exercise Two
 
 - As a garage owner I want to add a car to the garage
