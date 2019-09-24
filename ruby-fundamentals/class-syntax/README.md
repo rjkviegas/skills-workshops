@@ -180,10 +180,10 @@ It should:
 * Have two classes:
  * `Todo`
    * Has two methods:
-     * `initialize`: Creates a new todo object. Takes a string as a
+     * `initialize`: Creates a new todo object. Takes a description as a
        parameter and stores it on the todo object.
-     * `text`: Takes no parameters. Returns the string that was
-       stored when the todo object was created.
+     * `description`: Takes no parameters. Returns the description that was
+       stored when the todo was created.
  * `TodoList`
    * Has three methods:
      * `initialize`: Creates a new todo list object. Takes no parameters.
