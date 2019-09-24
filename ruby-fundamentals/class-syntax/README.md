@@ -7,11 +7,14 @@
 
 ## Introduction
 
-Imagine we had these user stories for a bank:
+Imagine we had these user stories for a bank account:
 
 - As a customer I would like to deposit money in my account
 - As a customer I would like to withdraw money from my bank account
 - As a customer I would like to view my balance
+
+Here's a way we could represent a bank account. With an integer for the balance
+and methods to deposit and withdraw money.
 
 ```ruby
 $balance = 0
@@ -25,7 +28,7 @@ def withdraw(money)
 end
 ```
 
-But what if we wanted our program to keep track of multiple bank accounts?
+But what if we wanted to keep track of multiple bank accounts?
 
 ```ruby
 $alices_balance = 0
@@ -49,12 +52,13 @@ def bobs_withdraw(money)
 end
 ```
 
-It quickly becomes unmanageable. We want to repeat a balance, deposit and withdraw
-for every customer. Let's see how we could use classes to remove the repetition.
+Repeating this for each customer will quickly become unmanageable. Let's look at
+how classes could help us have multiple bank accounts without copying our code.
 
 ### What is a class?
 
-The simplest class we could have in Ruby has a name:
+A class defines a type of object. The simplest class we can have in Ruby just has
+a name:
 
 ```ruby
 class BankAccount
@@ -69,12 +73,11 @@ bank_account2 = BankAccount.new
 bank_account3 = BankAccount.new
 ```
 
-Classes are like a cookie cutter! Each bank account comes from the same cutter.
-They are called instances of the class, and they know their class:
+Classes are like a cookie cutter. Each bank account comes from the same cutter.
+These are called instances of the class, and they know their class:
 
 ```ruby
-bank_account = BankAccount.new
-bank_account.class  #=> BankAccount
+bank_account1.class  #=> BankAccount
 ```
 
 But so far our bank accounts don't do very much. Instances of a class are objects.
@@ -84,7 +87,7 @@ Let's see how we can give instances of a class state and behaviour.
 
 ### State
 
-We could give every bank account a balance:
+We could give every bank account an opening balance:
 
 ```ruby
 class BankAccount
@@ -109,15 +112,7 @@ Let's return to our bank account. Imagine we had these user stories:
 - As a customer I would like to withdraw money from my bank account
 - As a customer I would like to view my balance
 
-Let's parse these user stories for the nouns and verbs.
-
-Nouns
-
-Verbs
-
-Object ~
-Methods ~
-Variables ~
+We can give our bank account behaviour by adding `deposit` and `withdraw` methods.
 
 ```ruby
 class BankAccount
@@ -138,6 +133,8 @@ class BankAccount
   end
 end
 ```
+
+Notice that the instance variable `@balance` is available in every method.
 
 ## Exercise One
 
