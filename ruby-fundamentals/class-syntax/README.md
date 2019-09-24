@@ -1,6 +1,6 @@
 # Classes: state and behaviour
 
-## Learn to
+## Learning objectives
 
 - Understand classes and objects
 - Create a class with state and behaviour in Ruby
