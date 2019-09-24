@@ -1,6 +1,6 @@
 # Classes: state and behaviour
 
-## Learn to
+## Learning objectives
 
 - Understand classes and objects
 - Create a class with state and behaviour in Ruby
@@ -111,15 +111,15 @@ We can give our bank account behaviour by adding `deposit` and `withdraw` method
 ```ruby
 class BankAccount
   def initialize(opening_balance)
-     @balance = opening_balance
+    @balance = opening_balance
   end
 
   def deposit(money)
-      @balance += money
+    @balance += money
   end
 
   def withdraw(money)
-      @balance -= money
+    @balance -= money
   end
 end
 ```
@@ -140,8 +140,8 @@ You can run the tests by:
 The first exercise has tests that describe a car:
 
 - As a car driver I want to know the car's speed
-- As a car driver I want the car to accelerate
-- As a car driver I want the car to slow down
+- As a car driver I want to accelerate
+- As a car driver I want to brake
 
 ## Exercise Two
 
