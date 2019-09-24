@@ -61,7 +61,7 @@ class BankAccount
 end
 ```
 
-And now we can make lots of instances of this class, each one is a separate object:
+And now we can use this class:
 
 ```ruby
 bank_account1 = BankAccount.new
@@ -69,12 +69,18 @@ bank_account2 = BankAccount.new
 bank_account3 = BankAccount.new
 ```
 
-Classes are like a cookie cutter for objects! Every object comes from the same cutter.
+Classes are like a cookie cutter! Each bank account comes from the same cutter.
+They are called instances of the class, and they know their class:
 
-But so far our bank accounts don't do very much. What other things can an object have?
+```ruby
+bank_account = BankAccount.new
+bank_account.class  #=> BankAccount
+```
 
- - State: instance variables
- - Behaviour: methods
+But so far our bank accounts don't do very much. Instances of a class are objects.
+What makes an object? State + behaviour.
+
+Let's see how we can give instances of a class state and behaviour.
 
 ### State
 
