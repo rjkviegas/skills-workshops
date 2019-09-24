@@ -111,15 +111,15 @@ We can give our bank account behaviour by adding `deposit` and `withdraw` method
 ```ruby
 class BankAccount
   def initialize(opening_balance)
-     @balance = opening_balance
+    @balance = opening_balance
   end
 
   def deposit(money)
-      @balance += money
+    @balance += money
   end
 
   def withdraw(money)
-      @balance -= money
+    @balance -= money
   end
 end
 ```
