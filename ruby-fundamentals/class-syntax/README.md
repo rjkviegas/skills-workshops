@@ -106,22 +106,12 @@ bobs_account = BankAccount.new(42)
 
 ### Behaviour
 
-Let's return to our bank account. Imagine we had these user stories:
-
-- As a customer I would like to deposit money in my account
-- As a customer I would like to withdraw money from my bank account
-- As a customer I would like to view my balance
-
 We can give our bank account behaviour by adding `deposit` and `withdraw` methods.
 
 ```ruby
 class BankAccount
   def initialize(opening_balance)
      @balance = opening_balance
-  end
-
-  def balance
-    @balance
   end
 
   def deposit(money)
