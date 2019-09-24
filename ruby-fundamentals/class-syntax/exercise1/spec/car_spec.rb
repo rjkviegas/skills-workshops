@@ -21,11 +21,11 @@ RSpec.describe Car do
     expect(car.speed).to eq(10)
   end
 
-  it "can slow down" do
+  it "can brake" do
     car = Car.new
     car.accelerate(20)
 
-    car.slow_down(5)
+    car.brake(5)
 
     expect(car.speed).to eq(15)
   end
