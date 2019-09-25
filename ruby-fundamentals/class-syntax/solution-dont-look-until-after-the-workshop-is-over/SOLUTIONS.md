@@ -57,37 +57,3 @@ class Garage
   end
 end
 ```
-
-## Exercise 3
-
-Here is an implementation of the `Todo` and `TodoList` classes:
-
-```ruby
-class Todo
-  def initialize(description)
-    @description = description
-  end
-
-  def description
-    @description
-  end
-end
-```
-
-```ruby
-class TodoList
-  def initialize
-    @todos = []
-  end
-
-  def add(todo)
-    @todos.push(todo)
-  end
-
-  def print
-    @todos.each do |todo|
-      puts "* #{todo.description}"
-    end
-  end
-end
-```

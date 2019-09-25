@@ -161,31 +161,3 @@ It should:
       * `find_car`. Takes a number plate as a parameter and returns a car with a matching registration plate.
       * `remove_car`. Takes a number plate as a parameter and deletes the car from the list of cars.
       * `all_cars_by_make`. Takes a make as a parameter and returns a list of all the cars of that make.
-
-## Exercise Three
-
-Write a program that keeps a list of todos.
-
-- As a user I want to add a todo to the list
-- As a user I want to print my todo list
-
-It should:
-* Have two classes:
- * `Todo`
-   * Has two methods:
-     * `initialize`: Creates a new todo object. Takes a description as a
-       parameter and stores it on the todo object.
-     * `description`: Takes no parameters. Returns the description that was
-       stored when the todo was created.
- * `TodoList`
-   * Has three methods:
-     * `initialize`: Creates a new todo list object. Takes no parameters.
-     * `add`: Takes a todo object as a parameter. Stores it on the
-       todo list object.
-     * `print`: Takes no parameters. Creates a string of all the
-       stored todos, one per line. Each line should start with a bullet `* `.
-       * e.g.
-         ```
-         * get milk
-         * get the papers
-         ```
