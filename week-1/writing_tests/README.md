@@ -18,8 +18,8 @@ class BankAccount
     @balance = 0
   end
 
-  def balance
-    @balance
+  def print_balance
+    "£#{@balance}"
   end
 
   def deposit(money)
@@ -41,7 +41,7 @@ describe BankAccount do
 
     bank_account.deposit(10)
 
-    expect(bank_account.balance).to eq(10)
+    expect(bank_account.print_balance).to eq("£10")
   end
 end
 ```
@@ -103,7 +103,7 @@ describe BankAccount do
     bank_account.deposit(10)
 
     #Assert
-    expect(bank_account.balance).to eq(10)
+    expect(bank_account.print_balance).to eq("£10")
   end
 end
 ```

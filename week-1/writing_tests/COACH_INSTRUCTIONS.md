@@ -14,23 +14,7 @@ Unit tests provide us with the reassurance that our code actually does what we t
 
 ### Demonstration
 
-```ruby
-class BankAccount
-  def initialize
-    @balance = 0
-  end
-
-  def balance
-    @balance
-  end
-
-  def deposit(money)
-    @balance = @balance + money
-  end
-end
-```
-
-Discuss the above code snippet with devs, establishing what is happening on a line by line basis.
+Discuss the `BankAccount` code snippet with the devs, establishing what is happening on a line by line basis.
 
 Introduce the 'arrange, act, assert' format for constructing a unit test. Collaborate with the devs to put together a unit test for the `deposit` method.
 
