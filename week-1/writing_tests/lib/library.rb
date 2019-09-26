@@ -17,7 +17,7 @@ class Library
   end
 
   def find_book(title)
-    @books.select { |book| book[:title] == title }.first
+    @books.find { |book| book[:title] == title }
   end
 
   def remove_book(title)
