@@ -12,10 +12,6 @@
 
 Unit tests provide us with the reassurance that our code actually does what we think it's supposed to do, and also guard against future errors.
 
-### Example
-
-
-
 ### Demonstration
 
 ```ruby
