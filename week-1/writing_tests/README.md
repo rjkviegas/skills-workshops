@@ -38,7 +38,9 @@ It looks like after the method is called, whatever is passed in as an argument s
 describe BankAccount do
   it 'can money to the balance' do
     bank_account = BankAccount.new
+
     bank_account.deposit(10)
+
     expect(bank_account.balance).to eq(10)
   end
 end
