@@ -36,7 +36,7 @@ It looks like after the method is called, whatever is passed in as an argument s
 
 ```ruby
 describe BankAccount do
-  it 'can money to the balance' do
+  it 'can deposit some money' do
     bank_account = BankAccount.new
 
     bank_account.deposit(10)
