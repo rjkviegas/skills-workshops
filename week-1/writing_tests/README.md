@@ -98,15 +98,21 @@ describe BankAccount do
   it 'can money to the balance' do
     #Arrange
     bank_account = BankAccount.new
+
     #Act
     bank_account.deposit(10)
+
     #Assert
     expect(bank_account.balance).to eq(10)
   end
 end
 ```
 
-This is a common pattern which many of your unit tests will follow. First you Arrange all the preconditions required for your code to run - creating any objects and assigning any variables that you're going to need. Next, you act, or execute the code which needs to be run in order for your assertion to be true. Finally, you make the assertion itself.
+This is a common pattern which many of your unit tests will follow.
+
+1. First you *arrange* all the preconditions required for your code to run - creating any objects and assigning any variables that you're going to need.
+1. Next, you *act*, or execute the code which needs to be run in order for your assertion to be true.
+1. Finally, you *assert* that something has changed.
 
 ## Exercise 2
 
