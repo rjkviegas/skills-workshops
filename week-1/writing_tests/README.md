@@ -14,10 +14,12 @@ Let's think about an example. Take a look at the following code snippet, and tak
 
 ```ruby
 class BankAccount
-  attr_reader :balance
-
   def initialize
     @balance = 0
+  end
+
+  def balance
+    @balance
   end
 
   def deposit(money)
@@ -53,8 +55,6 @@ Based on your answers to this question, imagine you were to write unit tests to 
 
 ```ruby
 class Library
-  attr_reader :books
-
   def initialize
     @books = [
       {title: 'POODR', author: 'Sandi Metz', subject: 'OOP'},
@@ -65,23 +65,23 @@ class Library
   end
 
   def list_books
-    books
+    @books
   end
 
   def add_book(book)
-    books.push(book)
+    @books.push(book)
   end
 
   def find_book(title)
-    books.select{ |book| book[:title] == title }.first
+    @books.select { |book| book[:title] == title }.first
   end
 
   def remove_book(title)
-    books.delete_if{ |book| book[:title] == title }
+    @books.delete_if { |book| book[:title] == title }
   end
 
   def all_books_by_subject(subject)
-    books.select{ |book| book[:subject] == subject }
+    @books.select { |book| book[:subject] == subject }
   end
 end
 ```
