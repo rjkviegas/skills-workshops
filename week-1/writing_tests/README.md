@@ -112,7 +112,7 @@ This is a common pattern which many of your unit tests will follow.
 
 1. First you *arrange* all the preconditions required for your code to run - creating any objects and assigning any variables that you're going to need.
 1. Next, you *act*, or execute the code which needs to be run in order for your assertion to be true.
-1. Finally, you *assert* that something has changed.
+1. Finally, you *assert* that your action has had an effect, or that it returned the expected value.
 
 ## Exercise 2
 
