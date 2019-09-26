@@ -103,7 +103,6 @@ describe BankAccount do
   end
 end
 ```
-```
 
 This is a common pattern which many of your unit tests will follow. First you Arrange all the preconditions required for your code to run - creating any objects and assigning any variables that you're going to need. Next, you act, or execute the code which needs to be run in order for your assertion to be true. Finally, you make the assertion itself.
 
