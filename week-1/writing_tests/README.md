@@ -66,16 +66,12 @@ class Library
     ]
   end
 
-  def list_books
-    @books
+  def find_book(title)
+    @books.find { |book| book[:title] == title }
   end
 
   def add_book(book)
     @books.push(book)
-  end
-
-  def find_book(title)
-    @books.find { |book| book[:title] == title }
   end
 
   def remove_book(title)
