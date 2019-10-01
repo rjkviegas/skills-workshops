@@ -12,29 +12,11 @@
 
 Unit tests provide us with the reassurance that our code actually does what we think it's supposed to do, and also guard against future errors.
 
-### Example
-
-
-
 ### Demonstration
 
-```ruby
-class FileSystem
-  attr_reader :storage
+Discuss the `BankAccount` code snippet with the devs, establishing what is happening on a line by line basis.
 
-  def initialize
-    @storage = []
-  end
-
-  def store(file)
-    storage.push(file)
-  end
-end
-```
-
-Discuss the above code snippet with devs, establishing what is happening on a line by line basis.
-
-Introduce the 'arrage, act, assert' format for constructing a unit test. Collaborate with the devs to put together a unit test for the `store` method.
+Introduce the 'arrange, act, assert' format for constructing a unit test. Collaborate with the devs to put together a unit test for the `deposit` method.
 
 ## Main (40 minutes)
 

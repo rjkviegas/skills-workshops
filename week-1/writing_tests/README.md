@@ -14,14 +14,16 @@ Let's think about an example. Take a look at the following code snippet, and tak
 
 ```ruby
 class BankAccount
-  attr_reader :balance
-
   def initialize
     @balance = 0
   end
 
+  def print_balance
+    "£#{@balance}"
+  end
+
   def deposit(money)
-    @balance = @balance + money
+    @balance += money
   end
 end
 ```
@@ -34,10 +36,12 @@ It looks like after the method is called, whatever is passed in as an argument s
 
 ```ruby
 describe BankAccount do
-  it 'can money to the balance' do
+  it 'can deposit some money' do
     bank_account = BankAccount.new
+
     bank_account.deposit(10)
-    expect(bank_account.balance).to eq(10)
+
+    expect(bank_account.print_balance).to eq("£10")
   end
 end
 ```
@@ -53,8 +57,6 @@ Based on your answers to this question, imagine you were to write unit tests to 
 
 ```ruby
 class Library
-  attr_reader :books
-
   def initialize
     @books = [
       {title: 'POODR', author: 'Sandi Metz', subject: 'OOP'},
@@ -64,24 +66,20 @@ class Library
     ]
   end
 
-  def list_books
-    books
+  def find_book(title)
+    @books.find { |book| book[:title] == title }
   end
 
   def add_book(book)
-    books.push(book)
-  end
-
-  def find_book(title)
-    books.select{ |book| book[:title] == title }.first
+    @books.push(book)
   end
 
   def remove_book(title)
-    books.delete_if{ |book| book[:title] == title }
+    @books.delete_if { |book| book[:title] == title }
   end
 
   def all_books_by_subject(subject)
-    books.select{ |book| book[:subject] == subject }
+    @books.select { |book| book[:subject] == subject }
   end
 end
 ```
@@ -94,17 +92,23 @@ Let's return to our initial example. Notice that the unit test is split into thr
 ```ruby
 describe BankAccount do
   it 'can money to the balance' do
-    #Arrange
+    # Arrange
     bank_account = BankAccount.new
-    #Act
+
+    # Act
     bank_account.deposit(10)
-    #Assert
-    expect(bank_account.balance).to eq(10)
+
+    # Assert
+    expect(bank_account.print_balance).to eq("£10")
   end
 end
 ```
 
-This is a common pattern which many of your unit tests will follow. First you Arrange all the preconditions required for your code to run - creating any objects and assigning any variables that you're going to need. Next, you act, or execute the code which needs to be run in order for your assertion to be true. Finally, you make the assertion itself.
+This is a common pattern which many of your unit tests will follow.
+
+1. First you **arrange** all the preconditions required for your code to run - creating any objects and assigning any variables that you're going to need.
+1. Next, you **act**, or execute the code which needs to be run in order for your assertion to be true.
+1. Finally, you **assert** that your action has had an effect, or that it returned the expected value.
 
 ## Exercise 2
 
