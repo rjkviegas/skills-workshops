@@ -1,4 +1,4 @@
-# Databases
+# Databases - Domain Modelling using CRC Cards
 
 Modelling a database structure from user stories is a useful skill.
 Here, we'll look at Class Responsibility Collaborator as one way to model a domain.  See this [example](../databases_2/crc_example.md).

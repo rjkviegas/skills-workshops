@@ -1,4 +1,4 @@
-# Databases 2
+# Databases - Domain Modelling using CRC Cards
 
 Class Responsibility Collaborator cards are one approach to modelling a domain.  See this [example](crc_example.md).
 
