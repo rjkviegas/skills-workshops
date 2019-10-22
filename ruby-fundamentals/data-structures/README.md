@@ -1,38 +1,39 @@
 ## Data structures
 
-### Learning objectives
-* Understand that arrays and hashmaps can be used
-to store and retrieve information in a program
-* Understand how an array is different from a hashmap
-* Understand how to use an array and a hashmap in your programs
+### Learning outcomes
+* Use arrays and hashmaps to store and retrieve information
+* Compare and contrast arrays and hashmaps
+* Explain how arrays and hashmaps might be used in a novel context
 
-A solution to this could be to store these items together in an `array`.
+### Introduction
+
+Imagine you're designing a menu system for a restaurant.  Somewhere, somehow, there _has_ to be stored a collection of items that are available for purchase.
+
+One approach would be to store the items in an `array`.
 ```
   menu = ["pizza", "burger", "chicken"]
 ```
 
-Now imagine we want to keep track of the price of each item. A reasonable question
-we might have is how much is a pizza?
+But surely we also want to keep track of the price for each item. A customer might, for example, want to know the cost of the pizza they're considering.
 
-We could come up with another list like so.
+We _could_ put the prices in another array, like so.
 ```
   menu = ["pizza", "burger", "chicken"]
   prices = [8, 9, 6]
 ```
 
-Again this is vulnerable to getting out of sync if we want to update our menu.
-We'd have to be careful to update our prices array. To answer our question of
-"how much is a pizza?" we would first need to find the position of "pizza" in
-our menu array and then find the corresponding element in the `prices` array.
+But, this is a dangerous approach – if someone wants to update the menu, they'd have to be careful to update our prices array as well.
+
+If you remain unconvinced that this is a poor solution, think back to the question "how much is the pizza?".  To answer that we would first need to find the position of "pizza" in our `menu` array and then find the corresponding element in the `prices` array.  **Try implementing that solution.**
 
 
-An alternative is we could make each element in our menu array an array itself.
+Alternatively we could use an array of arrays, like so.
 
 ```
   menu = [["pizza",8],["burger",9],["chicken",6]]
 ```
-This is an improvement because now the price and the dish are stored together.
-Back to our question. How much is a pizza?
+This _is_ definitely an improvement! Now the price and the dish are stored together.
+So... how much is the pizza?
 
 ```
     price = 0
@@ -42,11 +43,9 @@ Back to our question. How much is a pizza?
       end
     }
 ```
-An improvement, but definitely feels a bit clunky. We are assuming that the
-dish is at position 0 in the array and that the price is at position 1 in the array.
-It would be easy for a the program to the modified and this relationship would break.
+An improvement, but definitely feels a bit clunky – we have to search through the entire menu and we are assuming that the array structure will _ALWAYS_ be [dish, price].  If it _ever_ changes, the program will break.
 
-What we could do is make use of a `hashmap`. A `hashmap` associates a key with a value.
+A further improvement would be to use a hashmap. A hashmap associates a key with a value.  In the example below, the key is the dish and the value is the price.
 ```
   menu = {
     "pizza" => 8,
@@ -55,9 +54,13 @@ What we could do is make use of a `hashmap`. A `hashmap` associates a key with a
   }
 ```
 
-Now to find the price of a pizza all I need to do is say
-
+The major advantage of using a hashmap here is that we can access values using the keys.  So... how much does the pizza cost?
+```
 menu["pizza"]
+=> 8
+```
+
+As the menu evolves we may wish to store more data for each menu item.  So, the hashmap becomes more complex, like so.
 
 ```  
   menu = {
@@ -75,3 +78,5 @@ menu["pizza"]
     }
   }
 ```
+
+How would you access the price of the pizza now?
