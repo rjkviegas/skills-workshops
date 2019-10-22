@@ -1,4 +1,4 @@
-menu = {
+@menu = {
   "pizza" => {
     "price" => 8,
     "vegetarian" => true
