@@ -2,7 +2,7 @@ require 'data_mapper'
 require 'dm-postgres-adapter'
 require 'dm-rspec'
 
-DataMapper.setup(:default, "postgres://localhost/databases_1_test")
+DataMapper.setup(:default, "postgres://localhost/diagramming_databases_test")
 
 # DataMapper::Logger.new($stdout, :debug)
 

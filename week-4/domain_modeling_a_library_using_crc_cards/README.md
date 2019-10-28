@@ -3,7 +3,7 @@
 Modelling a database structure from user stories is a useful skill.
 Here, we'll look at Class Responsibility Collaborator as one way to model a domain.  See this [example](../domain_modelling_student_directory_using_crc_cards/crc_example.md).
 
-## Learning objectives
+## Learning objectivess
 
 An exercise to learn three things:
 

@@ -8,23 +8,23 @@
 ## Setup
 
 ```
-cd path/to/databases_1/
+cd path/to/diagramming_databases_with_datamapper/
 bundle install
-createdb databases_1
-createdb databases_1_test
+createdb diagramming_databases
+createdb diagramming_databases_test
 ```
 
 ## Run the code
 
 ```
-cd path/to/databases_1/
+cd path/to/diagramming_databases_with_datamapper/
 ruby run.rb
 ```
 
 ## Run the tests
 
 ```
-cd path/to/databases_1/
+cd path/to/diagramming_databases_with_datamapper/
 rspec
 ```
 
