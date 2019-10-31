@@ -4,13 +4,13 @@
 
 For each piece of code below:
 
-1. Read the code
+1. Read the code.
 
-2. Write down your prediction of what would happen if you run it (what will appear on the console, and in what order)
+2. Write down your prediction of what would happen if you run it (what will appear on the console, and in what order).
 
-3. Run the code in the console of your browser (you should refresh the page between each piece of code)
+3. Run the code by pasting it in the console of your browser.
 
-4. Compare with your predictions
+4. Compare the actual result with your predictions.
 
 5. Using previous knowledge, given resources and the internet **explain what actually happened**.
 
@@ -31,7 +31,7 @@ setTimeout(function() {
 ---
 
 ```
-let callback = function() {
+var callback = function() {
 	console.log('hello')
 }
 setTimeout(callback, 1000)
@@ -42,7 +42,7 @@ setTimeout(callback, 1000)
 ```
 console.log('A')
 
-let callback = function() {
+var callback = function() {
 	console.log('B')
 }
 
@@ -58,7 +58,7 @@ console.log('D')
 ```
 console.log('A')
 
-let callback = function() {
+var callback = function() {
 	console.log('B')
 }
 
@@ -72,9 +72,9 @@ console.log('D')
 ---
 
 ```
-let a = 10
+var a = 10
 
-let callback = function() {
+var callback = function() {
 	a = 20
 }
 
@@ -86,9 +86,9 @@ console.log(a)
 ---
 
 ```
-let a = 10
+var a = 10
 
-let callback = function() {
+var callback = function() {
 	a = 20
 }
 setTimeout(callback, 0)
@@ -99,9 +99,9 @@ console.log(a)
 ---
 
 ```
-let a = 10
+var a = 10
 
-let callback = function() {
+var callback = function() {
 	a = 20
 	console.log(a)
 }
@@ -111,7 +111,7 @@ setTimeout(callback, 0)
 ---
 
 ```
-let callback = function() {
+var callback = function() {
 	return "hello"
 }
 setTimeout(callback, 2000)
