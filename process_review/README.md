@@ -1,7 +1,7 @@
 # Process Review
 _Get better at programming fluently_
 
-What skills and behaviours does a great dev have? Have a look [here](https://docs.google.com/spreadsheets/d/1a9gnKZ376g1VWPKl30JghqAfIEyNT5uUBJDKtFN90cc/edit#gid=0) to read through them. While not exhaustive, if you are able to exhibit these to a high standard, you should be confident of your skills.
+What skills and behaviours does a great dev have? Have a look [here](./observation_guidance.md) to read through them. While not exhaustive, if you are able to exhibit these to a high standard, you should be confident of your skills.
 
 So, you ask, how do I get better?
 
@@ -62,4 +62,3 @@ To make it the most useful, follow these steps:
 7. Repeat.
 
 Feel free to reach out to a coach during coaching hours to sit with you and give you feedback. (They'll watch it 3x-5x times the speed)
-
