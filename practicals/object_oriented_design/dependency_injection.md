@@ -192,7 +192,7 @@ end
 
 ## Exercise 3
 
-Amend `SayHelloToMyLittleFriend` to be testable in isolation, then write the tests for it.
+Amend `SayHello` to be testable in isolation, then write the tests for it.
 
 ```ruby
 class EmailClient
@@ -207,7 +207,7 @@ class Message
   end
 end
 
-class SayHelloToMyLittleFriend
+class SayHello
   def run
     email = EmailClient.new
     email.message.send(
