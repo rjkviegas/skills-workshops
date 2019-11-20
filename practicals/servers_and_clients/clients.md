@@ -7,7 +7,7 @@ Clients 1
 
 ## Introduction
 
-In [Servers 1](https://hackmd.io/KzDGBYA4BMDNgLQFNzXA8BOADLBAjScbBSfTUUba7ANgHZgg) we played around with a toy server. We used the terminal command `telnet` to connect to it. `telnet` was our client.
+In [Servers 1](servers.md) we played around with a toy server. We used the terminal command `telnet` to connect to it. `telnet` was our client.
 
 We're going to build our own client today.
 

@@ -45,6 +45,8 @@ Open up another terminal and type this:
 $ telnet localhost 2345
 ```
 
+> You may need to run `brew install telnet` to install `telnet` first.
+
 You should see something like:
 
 ```
