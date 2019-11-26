@@ -6,6 +6,8 @@
 2) Understand how information is sent between each component when a browser makes a request
 
 
+
+This is a diagram showing a very common way to structure web applications. 
 ![](mvc.png)
 
 What are each of the components on this diagram?
