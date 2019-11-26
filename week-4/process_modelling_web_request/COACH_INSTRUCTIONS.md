@@ -2,8 +2,8 @@
 
 #### Learning objectives
 
-1) Remember that a controller, model, view is a pattern for making websites
-2) Understand how information is sent between each component when a browser makes a requese
+1) Remember that a model, view, controller (MVC) is a pattern for making websites
+2) Understand how information is sent between each component when a browser makes a request
 
 ## Instructions
 
@@ -11,7 +11,16 @@
 
 * Show the diagram of MVC. Have a discussion about each thing the diagram shows
 * Assign roles for browser, controller, model, view and database to members of the cohort 
-and act out how information is passed between using post-its using an example scenario
+and act out how information is passed between using post-its using an example scenario.
+This should be specific about how each component queries another component and what  
+information is passed at each stage. 
+
+For example for a create operation:
+
+ - Browser sends an HTTP POST request with form fields to the Controller
+ - Controller calls Model method with arguments
+ - Model performs SQL query on database
+
 
 ### Main (40 minutes)
 
@@ -19,4 +28,4 @@ and act out how information is passed between using post-its using an example sc
 
 ### Plenary (10 minutes)
 
-Come together and ask everyone to draw a diagram of MVC. 
+Come together and ask everyone to draw a process model of MVC. 
