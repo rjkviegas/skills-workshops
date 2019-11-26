@@ -29,3 +29,12 @@ For example for a create operation:
 ### Plenary (10 minutes)
 
 Come together and ask everyone to draw a process model of MVC. 
+
+AND/OR Suggest this follow on activity
+
+Clone and run [this project](https://github.com/makersacademy/mvc-example)
+There are puts statements describing how information is passed between each component.
+
+Look at the code responsible for adding a new book into the database. 
+Add a puts statement at each stage of the request between model, view, controller
+and database. 
