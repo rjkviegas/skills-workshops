@@ -26,7 +26,7 @@ for sending responses).
 
 #### Scenaio 1
 
-User goes to a website that displays the latest Tweets
+User goes to the homepage that displays the latest Tweets
 
 #### Scenario 2
 
