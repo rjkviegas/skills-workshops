@@ -16,7 +16,8 @@
 * Show the diagram of MVC. Have a discussion about each thing the diagram shows
 * Assign roles for browser, controller, model, view and database to members of the cohort 
 and act out how information is passed between each component. Each member of the group should
-add to a process model the information in the request they are making.
+add to a process model on a sheet of paper the information  in the request they are making and 
+pass this around the group.
 
 This should be specific about how each component queries another component and what  
 information is passed at each stage. 
