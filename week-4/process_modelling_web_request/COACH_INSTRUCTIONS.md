@@ -1,17 +1,23 @@
-### Modelling a web request from browser to db and back again
+# Modelling a web request from browser to db and back again
 
-#### Learning objectives
+### Learning objectives
 
 1) Remember that a model, view, controller (MVC) is a pattern for making websites
 2) Understand how information is sent between each component when a browser makes a request
 
 ## Instructions
 
+### Equipment needed
+- Sheets of A4 paper
+- Sharpies
+
 ### Starter (15 minutes)
 
 * Show the diagram of MVC. Have a discussion about each thing the diagram shows
 * Assign roles for browser, controller, model, view and database to members of the cohort 
-and act out how information is passed between using post-its using an example scenario.
+and act out how information is passed between each component. Each member of the group should
+add to a process model the information in the request they are making.
+
 This should be specific about how each component queries another component and what  
 information is passed at each stage. 
 
