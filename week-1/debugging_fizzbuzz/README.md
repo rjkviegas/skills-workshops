@@ -26,11 +26,11 @@ Run the tests with `rspec`.
 
 2. Run `bundle install`
 
-3. Start with exercise 1, record your screen as you debug the program.
+3. Start with exercise 1
 
 4. Use `rspec` to run the tests.
 
-5. Watch your recording, making a note of anywhere you fail to apply a debugging process (you can watch it a x2 or even x5 speed!)
+5. use the `tighten the loop, get visibility` approach to debug this program.
 
 6. Repeat the above steps for exercise 2.
 
