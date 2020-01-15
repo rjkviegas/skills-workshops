@@ -21,8 +21,8 @@ What is the responsibility of the:
 
 Get into groups of 5 and assign each person a role of either browser, controller, model, view or database.
 
-Each person needs a pen a set of 2 different coloured post-its (one colour for making requests and one colour
-for sending responses).
+Each group needs a sharpie and a sheet of paper. Trace the flow of a request by passing the sheet of paper to 
+the relevant person when making a request and add on to the sheet the information you are sending.
 
 ### Scenario 1
 
@@ -30,8 +30,9 @@ User goes to the homepage that displays the latest Tweets
 
 ### Scenario 2
 
-User adds a new tweet to Twitter
+The user has already reached the homepage and this shows a form to add tweets. Model the interaction for a user adds a new tweet to Twitter
 
 ### Scenario 3
 
-User logs into Twitter
+The user has already reached the homepage and this shows a form to log in. This user has already signed up for Twitter. 
+Model the interaction for the user to log in
