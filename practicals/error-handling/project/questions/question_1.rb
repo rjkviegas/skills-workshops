@@ -1,2 +1,4 @@
 # print out helloworld
-puts "helloworld"
+if 3 > 0
+      puts "helloworld"
+end
