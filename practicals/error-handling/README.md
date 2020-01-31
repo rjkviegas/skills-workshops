@@ -18,6 +18,7 @@ Try running the examples with
 - `ruby example_1.rb`
 - `ruby example_2.rb`
 - `ruby example_3.rb`
+
 Each of these has a different type of ruby error you might encounter
 
 ### Main
