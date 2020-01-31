@@ -2,7 +2,7 @@ require 'mastery_answer_code_quality'
 
 describe "question_1" do
   it "prints out helloworld" do
-  expect { load "aaquestion_1.rb" }
+  expect { load "questions/question_1.rb" }
     .to output("helloworld\n").to_stdout
   end
   it "has acceptable code quality" do
