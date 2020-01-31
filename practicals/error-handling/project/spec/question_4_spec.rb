@@ -4,7 +4,7 @@ describe "question_4" do
     allow_any_instance_of(Object)
       .to receive(:gets).and_return("1")
 
-  expect { load "question_4.rb" }
+  expect { load "questions/question_4.rb" }
     .to output("6\n").to_stdout
   end
   it "has acceptable code quality" do

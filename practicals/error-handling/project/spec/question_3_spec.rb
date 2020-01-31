@@ -1,7 +1,7 @@
 require 'mastery_answer_code_quality'
 describe "question_3" do
   it "prints your location and age bracket" do
-  expect { load "question_3.rb" }
+  expect { load "questions/question_3.rb" }
     .to output("You live in London\nYou are younger than 35\n").to_stdout
   end
   it "has acceptable code quality" do
