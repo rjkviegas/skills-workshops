@@ -24,7 +24,7 @@ What pieces of information do the error messages provide to us?
 ### Main
 
 #### Setup
-1. Fork the `skills-workshop` repository
+1. Fork the `skills-workshops` repository
 2. Clone your forked repo
 3. `cd` into the `skills-workshops/practicals/error-handling/project` directory
 4. Run `bundle install` to install the dependencies. (You may have to run `gem install bundler` to install Bundler first.)
