@@ -1,4 +1,3 @@
-
 x = 3
 if x % 2 == 0
   puts "x is divisible by two"
