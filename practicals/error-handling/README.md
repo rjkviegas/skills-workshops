@@ -23,7 +23,7 @@ What pieces of information do the error messages provide to us?
 
 ### Main
 
-Have a go at running each of the code snippets within the `questions` directory e.g.
+Take a look at and have a go at running each of the code snippets within the `questions` directory e.g.
 `ruby questions/question_1.rb`
 
 Does the code run ok? If not can you find a syntax fix?
