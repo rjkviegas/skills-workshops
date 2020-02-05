@@ -35,8 +35,8 @@ Take a look at and have a go at running each of the code snippets within the `qu
 
 Does the code run ok? If not can you find a syntax fix?
 
-If the code is running ok, have a go at running the tests. This can be done with:
-`rspec`
+If the code is running ok, have a go at running the tests. This can be done with the
+`rspec` command.
 
 Does the code output what the test expects?
 Does the code pass expected standards?
