@@ -41,11 +41,11 @@ puts names_of_all_meat_items
 def total_cost_of_all_meat_items
 end
 
-puts "total_cost_of_all_meat_items of all meat items: "
+puts "total cost of all meat items of all meat items: "
 puts total_cost_of_all_meat_items
 
 def update_price_by_10_percent
 end
 
-puts "update_price_by_10_percent: "
+puts "update price by 10 percent: "
 puts update_price_by_10_percent

@@ -1,7 +1,7 @@
 ## Data structures
 
 ### Learning outcomes
-* Understand how that arrays and hashmaps
+* Understand how arrays and hashmaps
 are used to store information
 * Understand how to retrieve information from an array or a hashmap
 * Solve problems using arrays and hashmaps
@@ -35,7 +35,7 @@ It we wanted to find the item called burger how would we do that?
 Now imagine we wanted to know how much each of the items cost. How could we store this?
 
 We want to associate two variables together,
-so a key, value store like a `hash` could be useful to us.
+so a key-value store like a `hash` could be useful to us.
 
 Our menu could become:
 ```
