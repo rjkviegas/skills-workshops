@@ -1,9 +1,10 @@
 ## Data structures
 
 ### Learning outcomes
-* Use arrays and hashmaps to store and retrieve information
-* Compare and contrast arrays and hashmaps
-* Explain how arrays and hashmaps might be used in a novel context
+* Understand how arrays and hashmaps
+are used to store information
+* Understand how to retrieve information from an array or a hashmap
+* Solve problems using arrays and hashmaps
 
 ### Introduction
 
@@ -13,39 +14,30 @@ One approach would be to store the items in an `array`.
 ```
   menu = ["pizza", "burger", "chicken"]
 ```
+It we wanted to find the item called burger how would we do that?
 
-But surely we also want to keep track of the price for each item. A customer might, for example, want to know the cost of the pizza they're considering.
-
-We _could_ put the prices in another array, like so.
+##### Option 1
 ```
-  menu = ["pizza", "burger", "chicken"]
-  prices = [8, 9, 6]
+  menu["burger"]
 ```
-
-But, this is a dangerous approach – if someone wants to update the menu, they'd have to be careful to update our prices array as well.
-
-If you remain unconvinced that this is a poor solution, think back to the question "how much is the pizza?".  To answer that we would first need to find the position of "pizza" in our `menu` array and then find the corresponding element in the `prices` array.  **Try implementing that solution.**
-
-
-Alternatively we could use an array of arrays, like so.
-
+##### Option 2
 ```
-  menu = [["pizza",8],["burger",9],["chicken",6]]
+  menu[2]
 ```
-This _is_ definitely an improvement! Now the price and the dish are stored together.
-So... how much is the pizza?
+##### Option 3
+```
+  menu[1]
+```
+##### Option 4
+```
+  menu(1)
+```
+Now imagine we wanted to know how much each of the items cost. How could we store this?
 
-```
-    price = 0
-    menu.each { |item|
-      if item[0] == "pizza"
-        price = item[1]
-      end
-    }
-```
-An improvement, but definitely feels a bit clunky – we have to search through the entire menu and we are assuming that the array structure will _ALWAYS_ be [dish, price].  If it _ever_ changes, the program will break.
+We want to associate two variables together,
+so a key-value store like a `hash` could be useful to us.
 
-A further improvement would be to use a hashmap. A hashmap associates a key with a value.  In the example below, the key is the dish and the value is the price.
+Our menu could become:
 ```
   menu = {
     "pizza" => 8,
@@ -54,29 +46,29 @@ A further improvement would be to use a hashmap. A hashmap associates a key with
   }
 ```
 
-The major advantage of using a hashmap here is that we can access values using the keys.  So... how much does the pizza cost?
-```
-menu["pizza"]
-=> 8
-```
+If we wanted to find the price of burger how could we do that?
 
-As the menu evolves we may wish to store more data for each menu item.  So, the hashmap becomes more complex, like so.
-
-```  
-  menu = {
-    "pizza" => {
-      "price" => 8,
-      "vegetarian" => true
-    },
-    "burger" => {
-      "price" => 9,
-      "vegetarian" => false
-    },
-    "chicken" => {
-      "price" => 6,
-      "vegetarian" => false
-    }
-  }
+##### Option 1
+```
+  menu["burger"]
+```
+##### Option 2
+```
+  menu[2]
+```
+##### Option 3
+```
+  menu[1]
+```
+##### Option 4
+```
+  menu("burger")
 ```
 
-How would you access the price of the pizza now?
+### Exercise 1
+
+You'll be given some problems and possible solutions in cards. Take a look at each card and decide which are valid solutions to the problem and which are not.
+
+### Exercise 2
+
+Have a go at writing these solutions in code in the ruby scripts in this project.

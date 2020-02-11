@@ -1,51 +1,21 @@
-@menu = {
-  "pizza" => {
-    "price" => 8,
-    "vegetarian" => true
-  },
-  "burger" => {
-    "price" => 9,
-    "vegetarian" => false
-  },
-  "chicken" => {
-    "price" => 6,
-    "vegetarian" => false
-  }
-}
+@menu = ["pizza", "burger", "chicken"]
 
+def find_the_first_element_in_the_array
+  # todo - put your code here :)
+end
+puts "the first element in the array is: "
+puts find_the_first_element_in_the_array
 
-def find_the_price_of_chicken
+def make_menu_upper_case
+  # todo - put your code here :)
 end
 
-puts "price of chicken is: "
-puts find_the_price_of_chicken
+puts "the menu in upper case is: "
+puts make_menu_upper_case
 
-def calculate_the_total_cost_of_menu_items
+def add_chips_to_array
+
 end
 
-puts "total cost of menu items is: "
-puts calculate_the_total_cost_of_menu_items
-
-def names_of_all_vegetarian_items
-end
-
-puts "names of all vegetarian items: "
-puts names_of_all_vegetarian_items
-
-def names_of_all_meat_items
-end
-
-puts "names of all meat items: "
-puts names_of_all_meat_items
-
-def total_cost_of_all_meat_items
-end
-
-puts "total_cost_of_all_meat_items of all meat items: "
-puts total_cost_of_all_meat_items
-
-def update_price_by_10_percent
-end
-
-puts "update_price_by_10_percent: "
-puts update_price_by_10_percent
+puts "adding chips to the menu makes the menu: "
+puts @menu
