@@ -1,51 +1,26 @@
-@menu = {
-  "pizza" => {
-    "price" => 8,
-    "vegetarian" => true
-  },
-  "burger" => {
-    "price" => 9,
-    "vegetarian" => false
-  },
-  "chicken" => {
-    "price" => 6,
-    "vegetarian" => false
-  }
-}
+@menu = { "pizza" => 8,
+          "burger" => 9,
+          "chicken" => 6
+        }
+def find_price_of_pizza
+end
+puts "find price of pizza: "
+puts find_price_of_pizza
 
-
-def find_the_price_of_chicken
+def add_chips_with_price_2
 end
 
-puts "price of chicken is: "
-puts find_the_price_of_chicken
+puts "this is the menu after adding chips: "
+puts @menu
 
-def calculate_the_total_cost_of_menu_items
+def find_item_where_the_price_is_9
 end
 
-puts "total cost of menu items is: "
-puts calculate_the_total_cost_of_menu_items
+puts "find item whose price is 9"
+puts find_item_where_the_price_is_9
 
-def names_of_all_vegetarian_items
+def add_up_total_cost_of_menu
 end
 
-puts "names of all vegetarian items: "
-puts names_of_all_vegetarian_items
-
-def names_of_all_meat_items
-end
-
-puts "names of all meat items: "
-puts names_of_all_meat_items
-
-def total_cost_of_all_meat_items
-end
-
-puts "total cost of all meat items of all meat items: "
-puts total_cost_of_all_meat_items
-
-def update_price_by_10_percent
-end
-
-puts "update price by 10 percent: "
-puts update_price_by_10_percent
+puts "total cost of menu of the items"
+puts add_up_total_cost_of_menu
