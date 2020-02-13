@@ -95,7 +95,7 @@ Let's return to our initial example. Notice that the unit test is split into thr
 
 ```ruby
 describe BankAccount do
-  it 'can money to the balance' do
+  it 'can add money to the balance' do
     # Arrange
     bank_account = BankAccount.new
 
