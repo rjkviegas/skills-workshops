@@ -23,4 +23,9 @@ class Library
   def all_books_by_subject(subject)
     @books.select { |book| book[:subject] == subject }
   end
+  
+  def list_books
+    @books
+  end
+  
 end
