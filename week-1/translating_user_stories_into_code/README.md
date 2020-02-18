@@ -76,7 +76,6 @@ end
 ```
 
 ### Mapping a user story to the code
-
 ##### As a bank account user, so that I can save my money, I would like to be able to deposit money into my bank account
 
 In the other two user stories, pull out the nouns and the verbs and consider what role they play in the corresponding code.
@@ -89,7 +88,8 @@ Identify the common pieces of syntax in each of the three code examples. How do 
 Using the following user stories, complete the code to implement the user story.
 // TODO: remove some parts of the completed code
 ##### As a shop owner, so that I can open my shop for the day, I would like to be able to unlock the door.
-```class Door
+```
+class Door
   def initialize
     @locked = true
   end
@@ -103,7 +103,8 @@ end
 ```
 
 ##### As someone who struggles to sleep, so that I can fall asleep, I would like to be able to count sheep.
-```class Sheep
+```
+class Sheep
   def initialize
     @number = 0
   end
