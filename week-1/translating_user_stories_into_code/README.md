@@ -1,12 +1,12 @@
 ### Learning objectives
  - Understand how to manually test a user story
- - Understand the role of syntax in a class
  - Translate a user story into code and (manually) test it
+ - Understand the role of syntax in a class
 
 ### Introduction
 
 Getting started with a new problem can be one of the hardest
-part of the development process. Having a process which helps us take a brand new problem into code can help us overcome a mental block
+part of the development process. Having a process which helps us take a brand new problem into code can help us overcome a mental block.
 
 One thing we can do is analyse user stories and tease out the key ideas from this.
 
@@ -19,9 +19,10 @@ Our user story breaks down into 3 main parts
 - What the feature would enable them to do
 - What the feature should do
 
-A working example might look like:
+To help us understand the code we need to write we only need to consider the third part of the statement.
 
-`class BankAccount
+A working code example might look like:
+```class BankAccount
   def initialize
     @balance = 0
   end
@@ -32,21 +33,21 @@ A working example might look like:
   def balance
     @balance
   end
-end`
+end
+```
 
-How would we expect to happen for this feature to work?
-
+What would we expect to happen if this feature worked?
 
 ### Exercise 1
 
-Looking at the user stories and the code below, how would you verify that the user story has been implemented?
+Looking at the user stories and the code below, can you verify that the user story has been implemented?
 
-##### As a book reader, so that I can read my book, I want to be able to turn a page
+##### As a book reader, so that I can read my book, I want to be able to turn a page of my book
 ```class Book
   def initialize
     @page = 1
   end
-  def read_page
+  def turn_page
     @page = @page + 1
     return
   end
@@ -61,8 +62,8 @@ end
   def initialize
     @todos = []
   end
-  def add_item(todo)
-    @todos.push(todo)
+  def add(item)
+    @todos.push(item)
     return
   end
   def list
@@ -76,7 +77,50 @@ In each of the three examples, can you see how parts of the user stories map to 
 
 ##### As a bank account user, so that I can save my money, I would like to be able to deposit money into my bank account
 
-### Analysing user stories
+### Understanding class syntax
+Identify the common pieces of syntax in each of the three code examples. How do these pieces of syntax relate to classes, instance variables, and methods?
+
+### Exercise 2
+Using the following user stories, complete the code to implement the user story.
+// TODO: remove some parts of the completed code
+##### As a shop owner, so that I can open my shop for the day, I would like to be able to unlock the door.
+```class Door
+  def initialize
+    @locked = true
+  end
+  def unlock
+    @locked = false
+  end
+  def locked
+    @locked
+  end
+end
+```
+
+##### As someone who struggles to sleep, so that I can fall asleep, I would like to be able to count sheep.
+```class Sheep
+  def initialize
+    @number = 0
+  end
+  def count
+    @number = @number + 1
+  end
+  def number
+    @number
+  end
+end
+```
+
+
+
+
+
+
+
+
+
+
+
 
 ##### As a bank account user, so that I can save my money, I would like to be able to deposit money into my bank account
 
@@ -84,7 +128,6 @@ In each of the three examples, can you see how parts of the user stories map to 
 
 
 
-To help us understand the code we need to write we only need to consider the third part of the statement.
 
 Looking at the last statement in the 2 user stories we can find nouns and verbs
 
