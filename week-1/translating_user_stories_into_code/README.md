@@ -78,6 +78,7 @@ end
 ### Mapping a user story to the code
 ##### As a bank account user, so that I can save my money, I would like to be able to deposit money into my bank account
 
+### Exercise 2
 In the other two user stories, pull out the nouns and the verbs and consider what role they play in the corresponding code.
 
 
