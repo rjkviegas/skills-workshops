@@ -22,7 +22,8 @@ Our user story breaks down into 3 main parts
 To help us understand the code we need to write we only need to consider the third part of the statement.
 
 A working code example might look like:
-```class BankAccount
+```
+class BankAccount
   def initialize
     @balance = 0
   end
@@ -43,11 +44,12 @@ What would we expect to happen if this feature worked?
 Looking at the user stories and the code below, can you verify that the user story has been implemented?
 
 ##### As a book reader, so that I can read my book, I want to be able to turn a page of my book
-```class Book
+```
+class Book
   def initialize
     @page = 1
   end
-  def turn_page
+  def turn
     @page = @page + 1
     return
   end
@@ -58,7 +60,8 @@ end
 ```
 
 ##### As a busy person, so that I can keep track of my business, I want to be able to add an item to a list
-```class TodoList
+```
+class TodoList
   def initialize
     @todos = []
   end
@@ -73,9 +76,11 @@ end
 ```
 
 ### Mapping a user story to the code
-In each of the three examples, can you see how parts of the user stories map to the code?
 
 ##### As a bank account user, so that I can save my money, I would like to be able to deposit money into my bank account
+
+In the other two user stories, pull out the nouns and the verbs and consider what role they play in the corresponding code.
+
 
 ### Understanding class syntax
 Identify the common pieces of syntax in each of the three code examples. How do these pieces of syntax relate to classes, instance variables, and methods?
