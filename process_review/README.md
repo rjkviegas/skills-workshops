@@ -19,12 +19,15 @@ And then you switch - you’ll record your screen and TDD an exercise for 30 min
 
 Here are the possible programs to build - you'll find the details of them in the exercises repo above. Complete them in the following order:
 
-1. Middle letter
-2. Ten minute walk
-3. Scrabble solve
-4. Checkout
-5. Echo
-6. Bank
+1. Ten minute walk
+2. Middle letter
+3. Leap Years
+4. Scrabble solver
+5. Ten Green Bottles
+6. Checkout
+7. Change Converter
+8. Echo
+9. Bank
 
 #### Who should do this?
 
