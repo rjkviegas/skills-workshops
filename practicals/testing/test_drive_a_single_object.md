@@ -14,7 +14,7 @@ Apply what you have learned about TDD to building a single Dice object based on 
 * Rolling a dice should give me a number between 1 and 6
 ```
 ```
-* As a dice app developper,
+* As a dice app developer,
 * So that I give players a good game experience
 * I want the dice roll to be randomly picked
 ```
