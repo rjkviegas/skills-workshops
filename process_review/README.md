@@ -1,4 +1,5 @@
 # Process Review
+
 _Get better at programming fluently_
 
 What skills and behaviours does a great dev have? Have a look [here](./observation_guidance.md) to read through them. While not exhaustive, if you are able to exhibit these to a high standard, you should be confident of your skills.
@@ -50,6 +51,14 @@ It's helpful to bring the following
 - pen and paper for any planning you do
 - a timer for when you're observing someone write code.
 - a set of process cards.
+
+#### Process cards
+
+Ask a coach if you'd like a set of process cards.
+
+For reference, here is the outline shown on the back of the process cards:
+
+![process overview](./process_outline.png)
 
 ## Individual
 
