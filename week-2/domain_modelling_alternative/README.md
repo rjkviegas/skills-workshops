@@ -26,7 +26,7 @@ I would like to add a student to the cohort
 ```
 ```
 As a coach,
-So that I can deliver the course,
+So that I can see who is in my cohort,
 I would like to list students in the cohort
 ```
 ```
