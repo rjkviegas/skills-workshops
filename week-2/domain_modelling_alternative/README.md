@@ -43,8 +43,7 @@ Let's talk about how we could go about deciding our domain model for these requi
 
 Taking a look at these user stories:
 
-What would a class diagram look like?
-For the bottom two stories, what would a sequence diagram look like?
+What would a domain diagram for these user stories look like?
 
 ```
 As a librarian
