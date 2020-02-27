@@ -118,7 +118,7 @@ class Cohort
       @students.push(student)
   end
 
-  def student
+  def students
      @students
   end
 
