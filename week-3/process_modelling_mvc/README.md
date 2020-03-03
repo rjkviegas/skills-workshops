@@ -45,3 +45,10 @@ If you'd like to create a similar diagram, you can do so using [Mermaid](https:/
 server, model, view and controller
 - Use `httpie` to make a request on the command line and make a note of any additional insights that yields.
 - Explain how data is passed from browser to server and back
+
+## Extension
+What would be the sequence if the app implemented OAuth in the case where:
+- the user is not already logged in
+- the user is logged in
+
+You might find this resource helpful https://developers.google.com/identity/protocols/OAuth2
