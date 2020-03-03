@@ -38,9 +38,9 @@ If you'd like to create a similar diagram, you can do so using [Mermaid](https:/
 
 ## Exercises
 * For each of the following user interactions
-  - Typing in `http://localhost:4567/`
-  - Adding a new todolist item
-  - Filtering todolist items by category
+  - Typing in `http://localhost:4567/` to visit the home page
+  - From the home page clicking on 'Add a todo list item', filling in the form and clicking submit
+  - From the home page clicking on 'View to do list by category'
 - Draw a sequence diagram that includes user, browser,
 server, model, view and controller
 - Use `httpie` to make a request on the command line and make a note of any additional insights that yields.
