@@ -1,7 +1,9 @@
 # Process modelling, applied to HTTP request/response cycle and mvc
 
 
-## Learning objectives
+## Learning outcomes
+
+By the end of this session you will be able to
 
 - Define process modelling as a tool to describe and understand a process.
 - Use process modelling to further your understanding of HTTP requests and responses.
@@ -9,16 +11,19 @@
 
 
 
-## Instructions
+## Set up
 Run the [to do list app](https://github.com/makersacademy/todo-list-web) on your machine by:
 - Fork the repo onto your github repo
 - Clone the repo onto your machine
-- cd todo-list-web
-- ruby app.rb
+- To run the application
+  - `cd todo-list-web`
+  - `ruby app.rb`
 
-Looking at the to do list:
+## Example: Listing all todo items
+![to do list sequence diagram](todolist.png)
 
-Mermaid code:
+If you'd like to create a similar diagram, you can do so using [Mermaid](https://medium.com/better-programming/mermaid-create-charts-and-diagrams-with-markdown-88a9e639ab14).  The code we used to create this one is below :point_down:
+
 ```
  sequenceDiagram
 	User->>+Browser: clicks `todolist`
@@ -29,35 +34,14 @@ Mermaid code:
   View->>-Controller: HTML
   Controller->>-Browser: 200 OK, body HTML
   Browser->>-User: see to list
-```
- ![to do list sequence diagram](todolist.png)
-  
+```  
 
-## Processes to model
-For each of the following
-- draw a diagram of the interaction between the user, browser,
+## Exercises
+* For each of the following user interactions
+  - Typing in `http://localhost:4567/`
+  - Adding a new todolist item
+  - Filtering todolist items by category
+- Draw a sequence diagram that includes user, browser,
 server, model, view and controller
-- Use `httpie` to make a request on the command line.
-What additional information does this tell you? 
-- How does data get based from the browser to the server
-
-### Home page
-
-- User types in `http://localhost:4567/`
-
-
-### Add item
-
-- User clicks on `Add a todo list item` link.
-- User types information into the form and presses submit
-
-
-### Todo list by categeory
-
-Go back to the index page
-
-- User clicks on `View to do list by category` link
-- User modifies the url to say `http://localhost:4567/bycategory?category=Domestic`
-
-
-
+- Use `httpie` to make a request on the command line and make a note of any additional insights that yields.
+- Explain how data is passed from browser to server and back
