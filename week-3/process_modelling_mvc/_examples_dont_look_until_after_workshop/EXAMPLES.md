@@ -30,6 +30,7 @@ sequenceDiagram
 	Browser->>-User: see form
 	User->>+Browser: types in form boxes,presses submit
     Browser->>+Controller: POST /add-item formdata
+    Controller->>+Model: Todolist.add_item('item','cat')
     Controller->>-Browser: 303 Redirect '/todolist'
     Browser->>+Controller: GET /todolist
     Controller->>+Model: Todolist.items
