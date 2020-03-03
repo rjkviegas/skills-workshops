@@ -1,34 +1,35 @@
 ## Starter
 
-Facilitate a group discussion about what learners understands of a 
-client, server, http and model, view, controller pattern
+* Facilitate a group discussion about what learners understand of the terms
 
-Demo the to do list application and draw a diagram of the 
-sequence of events from the user typing in the url to 
-the browser to items being displayed on the page. 
+  - Client
+  - Server
+  - HTTP
+  - Model
+  - View
+  - Controller
 
-Demo dev tools in chrome and point out the network tab
 
-Demo using `httpie` on the command line to make a request
-and understand more about the response.
-
-Show the code and label which part of the code is the model, 
-controller and view in this case. 
+* Demonstrate some basic feature of the to do list application.
+* Diagram the of the sequence of events that occur when a user navigates to the home page by typing in the URL
+* Demonstrate the following chrome dev tools
+  - The network tab
+* Demonstrate how `httpie` can be used to investigate the structure of an HTTP response.
+* Talk through the todolist app codebase and label the
+  - Model
+  - View
+  - Controller
 
 ## Main
 
-Get into groups of 3 or 4 and ask to draw a diagram of each 
-of the following scenarios
+* Create groups of 3 or 4
+* Ask each group to do the exercises described in the README
 
 ## Plenary
 
-Ask learners to demo their process model
-
-Some potential follow on questions:
-What is the difference between get/post
-
-What is the difference between how data is sent 
-using a get or a post?
-
-What does a redirect do? Why use one after a post?
-
+* Ask learners to demonstrate their process model/s
+* Some potential follow on questions:
+  - What is the difference between get/post
+  - What is the difference between how data is sent
+using a get or a post request?
+  - What does a redirect do? Why does the creator of the todolist app use one in when handling the post request?
