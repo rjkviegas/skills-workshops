@@ -8,14 +8,16 @@ The Mermaid code used to generate the images is captured here, so that these dia
 
 ## Home page
 
-![home page sequence diagram](home_page.svg)
+![home page sequence diagram](home.png)
 
 Mermaid code:
 ```
 sequenceDiagram
 	User->>+Browser: enter home page URL
-	Browser->>+Server: GET /
-	Server->>-Browser: 200 OK, HTML
+	Browser->>+Controller: GET /
+    Controller->>+View: render :index
+    View->>+Controller: HTML
+	Controller->>-Browser: 200 OK, HTML
 	Browser->>-User: see home page
 ```
 
