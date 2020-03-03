@@ -30,6 +30,7 @@ Mermaid code:
   Controller->>-Browser: 200 OK, body HTML
   Browser->>-User: see to list
 ```
+ ![to do list sequence diagram](todolist.png)
   
 
 ## Processes to model
@@ -56,7 +57,7 @@ What additional information does this tell you?
 Go back to the index page
 
 - User clicks on `View to do list by category` link
-- User modifies the url to say `http://localhost:4567/todolistbycategory?category=Domestic`
+- User modifies the url to say `http://localhost:4567/bycategory?category=Domestic`
 
 
 

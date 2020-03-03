@@ -21,7 +21,7 @@ sequenceDiagram
 
 ## Add item
 
-Memaid code:
+Mermaid code:
 ```
 sequenceDiagram
 	User->>+Browser: clicks `Add a todo list item`
@@ -39,3 +39,22 @@ sequenceDiagram
     Controller->>-Browser: 200 OK, body HTML
     Browser->>-User: see to list
  ```
+ ![add item sequence diagram](add_item.png)
+ 
+ ## By category
+ 
+ Mermaid code:
+ 
+``` sequenceDiagram
+   User->>+Browser: clicks `View to do list by category`
+   Browser->>+Controller: GET /bycategory?category=Finance
+   Controller->>+Model: Todolist.by_category("Finance")
+   Model->>-Controller: Array of item objects
+   Controller->>+View: render :todos with @items
+   View->>-Controller: HTML
+   Controller->>-Browser: 200 OK, body HTML
+   Browser->>-User: see to list
+  
+   ```
+   
+![by category](by_category.png)
