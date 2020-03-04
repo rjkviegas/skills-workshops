@@ -28,6 +28,11 @@ As a busy person, so that I can keep track of my business
 I want to be able to see my to do list by category
 ```
 
+```
+As a busy person, so that I can keep track of my business 
+I want to be able to be able to select a category from a drop down list
+```
+
 For each user story we can take a step by step approach to writing a feature test
 
 - Manually test the web app
