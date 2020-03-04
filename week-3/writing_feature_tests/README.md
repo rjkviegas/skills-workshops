@@ -35,6 +35,10 @@ For each user story we can take a step by step approach to writing a feature tes
 - Translate each step into capybara syntax
 - Run the test to check we got the syntax correct
 
+## Useful Resources
+[Capybara Cheatsheet](https://devhints.io/capybara)
+[Html forms](https://www.w3schools.com/html/html_forms.asp)
+
 
 ## Exercise 1
 
