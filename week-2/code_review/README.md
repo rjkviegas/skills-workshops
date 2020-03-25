@@ -32,7 +32,8 @@ these are called _pull requests_. Typically a developer works on some code and
 asks another developer to review it.
 
 In pair programming, code review is done continuously by the pair as they work
-together. Change requests are rare.
+together. Therefore, teams that pair program can skip pull requests, but they
+still need to share context with the rest of their team in other ways.
 
 ### Let's help others improve
 
@@ -41,8 +42,8 @@ together. Change requests are rare.
 >
 > —Google Engineering
 
-Let's focus on helping others improve. This is a key skill for all developers
-working as part of a team.
+Let's focus on helping others improve collaboratively. This is a key skill for
+all developers working as part of a team.
 
 The better everyone in your team is, the better work everyone can do,
 the better your code becomes, the more value you can deliver to customers.
@@ -52,27 +53,30 @@ the better your code becomes, the more value you can deliver to customers.
 ### 1. Prepare for code review (solo)
 
 1. Create a pull request for your weekend challenge
-1. Describe **why** you are proposing the change
-1. Summarise **what** is included in the change
-1. Point out any parts that are incomplete
-1. Draw attention to parts you'd like to improve
-1. Send the link to your pair
+1. Summarise what user stories are included in the pull request
+1. Point out anything incomplete
+1. Draw attention to anything you'd like to improve
+1. Send the pull request link to your pair
 
 ### 2. Do a code review (solo)
 
-First, read this :pill: [guide to code review](https://github.com/makersacademy/course/blob/master/how-to/code-review.md).
+First, read this :pill:
+[guide to code review](https://github.com/makersacademy/course/blob/master/how-to/code-review.md).
 
 Review your pair's code **without referring to the challenge rubric**. Stretch
 yourself to see how much feedback you can think of before you move on.
 
-Write your feedback as comments on their pull request. Use [line comments](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request#adding-line-comments-to-a-pull-request)
+Write your feedback as comments on their pull request. Use
+[line comments](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request#adding-line-comments-to-a-pull-request)
 to give feedback in context.
 
-1. **Appreciate** at least one thing you like in the pull request. For example: a
-clear name, something easy to understand, or a good test case.
+1. **Appreciate** at least one thing you like in the pull request. For example:
+a clear name, something easy to understand, or a good test case.
 1. **Suggest** at least one thing that might improve the code. Try to give a
 reason why your suggestion would be an improvement.
-1. **Respond** to any questions the author has asked. Illustrate your answers using code snippets and links to relevant resources. If you don't know, then say so.
+1. **Respond** to any questions the author has asked. Illustrate your answers
+using code snippets and links to relevant resources. If you don't know, then say
+so.
 
 ### 3. Improve your code (in pairs)
 
