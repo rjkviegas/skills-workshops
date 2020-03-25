@@ -10,12 +10,22 @@
 
 ### What is high quality code?
 
-Code is high quality when it is **easy to change** and **easy to enhance** with
-new features.
+Code is high quality when it is **easy to change**. Some common changes are:
+- **fix** a bug
+- **enhance** with a new feature
+- **expand** an existing feature
 
 You might think that the quality of your code does not matter to your customers,
-because they cannot see it. But customers do care that you can release new
-features quickly.
+because they cannot see it. But customers _do_ care that you can fix bugs and
+release new features quickly.
+
+In order to change some code, the first task is to understand it.
+
+> "Code is read many more times than it is written. Writing code costs something, but over time the cost of reading is often higher. Anyone who ever looks at a piece of code has to invest brain-power into figuring out what it does."
+>
+> —Sandi Metz
+
+What attributes of code make it easier to change?
 
 ### How can we improve our code?
 
@@ -24,16 +34,12 @@ We can use tools to help us improve code quality:
 - write tests
 - check the tests pass
 
-However, these tools have limitations, so the next step is ask another developer
-to do a code review.
+However, these tools have limitations. What can't the tools tell us about our
+code?
 
-Most development teams perform code review using _change requests_. On GitHub
-these are called _pull requests_. Typically a developer works on some code and
-asks another developer to review it.
-
-In pair programming, code review is done continuously by the pair as they work
-together. Therefore, teams that pair program can skip pull requests, but they
-still need to share context with the rest of their team in other ways.
+To address these limitations most development teams perform code review using
+_change requests_. On GitHub these are called _pull requests_. Typically a
+developer works on some code and asks another developer to review it.
 
 ### Let's help others improve
 
@@ -101,5 +107,5 @@ And let's reflect on our code review feedback:
 
 - [Code Review Developer Guide](https://google.github.io/eng-practices/review/),
 Google Engineering
-- [Is High Quality Software Worth the Cost?
-](https://martinfowler.com/articles/is-quality-worth-cost.html), Martin Fowler
+- [The Half Life of Code](https://www.sandimetz.com/blog/2017/6/1/the-half-life-of-code), Sandi Metz
+- [Is High Quality Software Worth the Cost?](https://martinfowler.com/articles/is-quality-worth-cost.html), Martin Fowler
