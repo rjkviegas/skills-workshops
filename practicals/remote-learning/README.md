@@ -25,13 +25,15 @@ Let's generate ideas in small groups using a remote collaboration tool.
 
 ### Video conferencing & screen sharing
 - [Zoom](https://zoom.us)
-- [Slack video conferencing](https://slack.com/intl/en-gb/video-conferencing)
+- [Slack](https://slack.com/intl/en-gb/video-conferencing)
 
 ### Collaboration
 - [Google Docs](https://docs.google.com/)
-- [Miro aka Realtimeboard](https://miro.com)
+- [Miro](https://miro.com) (formerly Realtimeboard)
 
-### Drawing
+### Diagrams
+- [Creately](https://creately.com)
+- [DotUML](https://dotuml.com/playground.html)
 - [Diagram.codes](https://www.diagram.codes)
 - [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor)
 
@@ -39,3 +41,4 @@ Let's generate ideas in small groups using a remote collaboration tool.
 - Makers' Postfacto.
     - Your coach can create a retro board for your cohort or team: `https://makers-postfacto.herokuapp.com/retros/BOARD-NAME`
 - [Retrium](https://www.retrium.com)
+- [FunRetro](https://funretro.io)
