@@ -54,7 +54,7 @@ I want to filter the list of students by cohort name
 ```
 As a coach
 So I can learn students' names
-I want each student name's name to link to the URL of a picture of the student
+I want each student's name to link to the URL of a picture of the student
 ```
 
 ```
