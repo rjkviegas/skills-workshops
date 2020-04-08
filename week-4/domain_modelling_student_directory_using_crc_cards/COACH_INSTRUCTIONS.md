@@ -16,7 +16,7 @@ See [the student readme](README.md) for instructions.
 
 ### Plenary (15 minutes)
 
-Collaboratively review students' suggested structures. See the suggested solution belowe.
+Collaboratively review students' suggested structures. See the suggested solution below.
 
 > Focus more on the database structures than on the CRC modelling.
 
