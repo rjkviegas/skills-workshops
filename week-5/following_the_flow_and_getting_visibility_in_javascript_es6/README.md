@@ -43,26 +43,7 @@ class Airport {
 }
 ```
 
-#### Using a step debugger
 
-A debugger is a program that runs your program and lets you step through your program line by line.  Some people really love using a debugger.  Others don't.  Give one a try and see how you feel.
-
-Add `debugger;` to a line in your program that you **know** runs e.g.:
-
-```javascript
-function sayHi() {
-  debugger;
-  console.log("hi!");
-};
-
-sayHi();
-```
-
-Run the program and go to the Sources tab of the Chrome dev tools.  To move through your code line by line, click on the Step Over, Step Into and Step Out Of buttons on the far right hand side (they look like little arrows).
-
-### Ways of getting visibility
-
-#### `console.log()`
 
 ##### `this`
 
@@ -110,7 +91,22 @@ class Airport {
 
 #### Using a step debugger
 
-When you run a debugger, you can hover over variables to see their values.
+A debugger is a program that runs your program and lets you step through your program line by line.  Some people really love using a debugger.  Others don't.  Give one a try and see how you feel.
+
+Add `debugger;` to a line in your program that you **know** runs e.g.:
+
+```javascript
+function sayHi() {
+  var x = "hi";
+  debugger;
+  x = "howdy";
+  console.log(x);
+};
+
+sayHi();
+```
+
+Run the program and go to the Sources tab of the Chrome dev tools.  To move through your code line by line, click on the Step Over, Step Into and Step Out Of buttons on the far right hand side (they look like little arrows). When you run a debugger, you can hover over variables to see their values.
 
 ## Instructions (30 minutes)
 
