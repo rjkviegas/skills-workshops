@@ -18,6 +18,8 @@ Very similar to tightening the loop, but with a different goal.  Instead of tryi
 
 Looking at the data contained in the variables in the code you're trying to understand.
 
+## The techniques
+
 ### `console.log`
 
 #### console.logging recognisable strings to follow the flow
@@ -45,7 +47,7 @@ class Airport {
 
 
 
-##### `this`
+#### Find out what `this` is
 
 Really handy to know what value `this` has in a piece of code.  It changes!
 
@@ -53,7 +55,7 @@ Really handy to know what value `this` has in a piece of code.  It changes!
 console.log(this);
 ```
 
-##### Variables
+#### Variables
 
 Does this variable contain what I expect?
 
@@ -61,7 +63,7 @@ Does this variable contain what I expect?
 console.log(airport);
 ```
 
-##### Functions
+#### Functions
 
 Am I calling the right function?
 
@@ -69,7 +71,7 @@ Am I calling the right function?
 console.log(airport.land);
 ```
 
-##### Function return values
+#### Function return values
 
 Is this function returning what I expect?
 
@@ -77,7 +79,7 @@ Is this function returning what I expect?
 console.log(airport.land());
 ```
 
-##### Function parameters
+#### Function parameters
 
 Does this parameter contain what I expect? What does this parameter even contain?
 
@@ -89,7 +91,7 @@ class Airport {
 }
 ```
 
-#### Using a step debugger
+### Using a step debugger
 
 A debugger is a program that runs your program and lets you step through your program line by line.  Some people really love using a debugger.  Others don't.  Give one a try and see how you feel.
 
