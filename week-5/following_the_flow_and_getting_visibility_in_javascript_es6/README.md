@@ -106,7 +106,7 @@ function sayHi() {
 sayHi();
 ```
 
-Run the program and go to the Sources tab of the Chrome dev tools.  To move through your code line by line, click on the Step Over, Step Into and Step Out Of buttons on the far right hand side (they look like little arrows). When you run a debugger, you can inspect the value of variables in the box labeled 'Scope'.
+Run the program and go to the Sources tab of the Chrome dev tools.  To move through your code line by line, click on the Step Over, Step Into and Step Out Of buttons on the far right hand side (they look like little arrows). An overview of what these steps mean can be found [here](https://developers.google.com/web/tools/chrome-devtools/javascript/reference#stepping). When you run a debugger, you can inspect the value of variables in the box labeled 'Scope'.
 
 ## Instructions (30 minutes)
 
