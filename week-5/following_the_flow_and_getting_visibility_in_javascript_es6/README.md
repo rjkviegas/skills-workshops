@@ -18,9 +18,9 @@ Very similar to tightening the loop, but with a different goal.  Instead of tryi
 
 Looking at the data contained in the variables in the code you're trying to understand.
 
-### Ways of following the flow
+### `console.log`
 
-#### console.logging recognisable strings
+#### console.logging recognisable strings to follow the flow
 
 A great way of following the flow is to `console.log()` little strings that you recognise.  You can see which ones are printed in which order to figure out what code is running and in which order.
 
