@@ -114,7 +114,8 @@ var getReturnValue = $.get("https://async-workshops-api.herokuapp.com/people", f
 
 ### Question 4
 
-`console.log` a number in each part of the code which represents your guess as to what order the code will be executed in.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
+1. `console.log` a number in each part of the code which represents your guess as to what order the code will be executed in.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
+2. Where do the values for `person` come from?
 
 ```js
 $.get("https://async-workshops-api.herokuapp.com/people", function(peopleResponse) {
