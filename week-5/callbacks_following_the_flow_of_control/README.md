@@ -59,7 +59,9 @@ document.addEventListener('click', function() {
 
 * Pair up.
 
-* Clone this repo. Navigate into this workshop's directory.
+* Clone this repo. 
+
+* Navigate into this workshop's directory.
 
 * Open the `index.html` file in your web browser.
 
