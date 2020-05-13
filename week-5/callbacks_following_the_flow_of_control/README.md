@@ -59,7 +59,7 @@ document.addEventListener('click', function() {
 
 * Pair up.
 
-* Clone this repo.
+* Clone this repo. Navigate into this workshop's directory.
 
 * Open the `index.html` file in your web browser.
 
@@ -69,15 +69,11 @@ document.addEventListener('click', function() {
 
 * Open `index.js` in your text editor.
 
-* Paste the code for question 1 (below) into `index.js`.
+* For each question, paste the provided code into `index.js`. The code for question 1 (below) is currently in `index.js`.
 
-* Follow the process outlined in the demo to understand the flow of control of the code in the questions.
+* Follow the process outlined in the demo to understand the flow of control of the code in the questions. Research anything you are unsure about.
 
 * Swap driver and navigator.  Continue with the next question.
-
-### Plenary (10 mins)
-
-We'll come back together for a short plenary to discuss our understanding of following the flow of control.
 
 ## Questions
 
@@ -85,7 +81,7 @@ Follow the process for understanding the flow of control that we used in the dem
 
 ### Question 1
 
-`console.log` a number in each part of the code.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, read and experiment with the code to figure out why.  Correct the `console.log`s.
+`console.log` a number in each part of the code which represents your guess as to what order the code will be executed in.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, read and experiment with the code to figure out why.  Correct the `console.log`s.
 
 ```js
 $(document).click(function(clickEvent) {
@@ -95,7 +91,8 @@ $(document).click(function(clickEvent) {
 
 ### Question 2
 
-`console.log` a number in each part of the code.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
+1. `console.log` a number in each part of the code which represents your guess as to what order the code will be executed in.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
+2. Explain what is happening in the code to your pair partner(s).
 
 ```js
 $.get("https://async-workshops-api.herokuapp.com/people", function(peopleResponse) {
@@ -105,7 +102,7 @@ $.get("https://async-workshops-api.herokuapp.com/people", function(peopleRespons
 
 ### Question 3
 
-1. `console.log` a number in each part of the code.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
+1. `console.log` a number in each part of the code which represents your guess as to what order the code will be executed in.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
 
 2. What value does `getReturnValue` have? What value does `peopleResponse` have? Why are they different?
 
@@ -117,7 +114,8 @@ var getReturnValue = $.get("https://async-workshops-api.herokuapp.com/people", f
 
 ### Question 4
 
-`console.log` a number in each part of the code.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
+1. `console.log` a number in each part of the code which represents your guess as to what order the code will be executed in.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
+2. Where do the values for `person` come from?
 
 ```js
 $.get("https://async-workshops-api.herokuapp.com/people", function(peopleResponse) {
@@ -126,6 +124,20 @@ $.get("https://async-workshops-api.herokuapp.com/people", function(peopleRespons
   });
 });
 ```
+
+### Question 5
+`console.log` a number in each part of the code which represents your guess as to what order the code will be executed in.  Run the code.  The numbers should be logged in order: 1, 2, 3, 4... If they aren't, follow the flow of control to figure out why.  Correct the `console.log`s.
+
+```js
+setTimeout(function hiThere(){
+  console.log("Hi there!");
+}, 0)
+```
+
+### Plenary (10 mins)
+
+We'll come back together for a short plenary to discuss our understanding of following the flow of control.
+
 
 ## Resources
 
