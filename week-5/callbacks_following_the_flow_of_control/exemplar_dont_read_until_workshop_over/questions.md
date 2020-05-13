@@ -94,3 +94,21 @@ $.get("https://async-workshops-api.herokuapp.com/people", function(peopleRespons
 
 console.log(2) // after callback set up, program stops work (for now)
 ```
+
+## Question 5
+
+```javascript
+console.log(1) // program starts
+
+// hiThere is set up to run 0 milliseconds after we finish executing console.log(2)
+setTimeout(function hiThere(){
+  // callback starts executing
+  console.log(3)
+
+  console.log("Hi there!");
+
+  console.log(4) // callback finishes running
+}, 0)
+
+console.log(2) // after setTimeout is set up
+```
