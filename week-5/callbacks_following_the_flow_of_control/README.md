@@ -61,7 +61,7 @@ document.addEventListener('click', function() {
 
 * Clone this repo. 
 
-* Navigate into this workshop's directory.
+* Navigate into this workshop's directory and do a `git pull` to ensure you have the latest copy of the workshop.
 
 * Open the `index.html` file in your web browser.
 
