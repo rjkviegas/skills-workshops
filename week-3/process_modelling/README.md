@@ -11,7 +11,7 @@ A process model is a diagram/performance/[something else] that demonstrates how 
 
 * It's a quick way to figure out and cement your understanding of how a process works.  It's much quicker than writing the code that enacts the process.
 
-* It's much easier to iterate on a process model that the code that enacts the process.
+* It's much easier to iterate on a process model than the code that enacts the process.
 
 * It's much easier to add detail to a process model than to add it to code.
 

@@ -19,23 +19,10 @@ Let's practice using Zoom for video conferencing.
 
 ## Practical: group collaboration
 
-Let's generate ideas in small groups using a remote collaboration tool.
+Let's generate ideas in small groups using a collaboration tool.
 
 ## Resources
 
-### Video conferencing & screen sharing
-- [Zoom](https://zoom.us)
-- [Slack video conferencing](https://slack.com/intl/en-gb/video-conferencing)
-
-### Collaboration
-- [Google Docs](https://docs.google.com/)
-- [Miro aka Realtimeboard](https://miro.com)
-
-### Drawing
-- [Diagram.codes](https://www.diagram.codes)
-- [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor)
-
-### Retrospectives
-- Makers' Postfacto.
-    - Your coach can create a retro board for your cohort or team: `https://makers-postfacto.herokuapp.com/retros/BOARD-NAME`
-- [Retrium](https://www.retrium.com)
+- :pill: [Working from home](https://github.com/makersacademy/course/blob/master/pills/working-from-home.md)
+- :pill: [Remote pairing](https://github.com/makersacademy/course/blob/master/pills/remote-pairing.md)
+- :pill: [Collaboration tools](https://github.com/makersacademy/course/blob/master/pills/collaboration-tools.md)

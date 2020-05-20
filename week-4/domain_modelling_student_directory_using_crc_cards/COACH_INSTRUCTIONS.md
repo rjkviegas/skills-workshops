@@ -16,7 +16,7 @@ See [the student readme](README.md) for instructions.
 
 ### Plenary (15 minutes)
 
-Collaboratively review students' suggested structures. See the suggested solution belowe.
+Collaboratively review students' suggested structures. See the suggested solution below.
 
 > Focus more on the database structures than on the CRC modelling.
 
@@ -35,11 +35,11 @@ Table: students
 
 ```
 Table: cohorts
-|------|------------|
-|  id  |    name    |
-|------|------------|
-|   1  | "May 2016" |
-|------|------------|
+|------|------------|-------------|---------------|
+|  id  |    name    |  start_date | demo_day_date |
+|------|------------|-------------|---------------|
+|   1  | "May 2016" | 20160402:00 |  20160722:00  |
+|------|------------|-------------|---------------|
 ```
 
 ```

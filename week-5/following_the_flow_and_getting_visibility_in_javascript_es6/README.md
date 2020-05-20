@@ -18,9 +18,11 @@ Very similar to tightening the loop, but with a different goal.  Instead of tryi
 
 Looking at the data contained in the variables in the code you're trying to understand.
 
-### Ways of following the flow
+## The techniques
 
-#### console.logging recognisable strings
+### `console.log`
+
+#### console.logging recognisable strings to follow the flow
 
 A great way of following the flow is to `console.log()` little strings that you recognise.  You can see which ones are printed in which order to figure out what code is running and in which order.
 
@@ -43,28 +45,9 @@ class Airport {
 }
 ```
 
-#### Using a step debugger
 
-A debugger is a program that runs your program and lets you step through your program line by line.  Some people really love using a debugger.  Others don't.  Give one a try and see how you feel.
 
-Add `debugger;` to a line in your program that you **know** runs e.g.:
-
-```javascript
-function sayHi() {
-  debugger;
-  console.log("hi!");
-};
-
-sayHi();
-```
-
-Run the program and go to the Sources tab of the Chrome dev tools.  To move through your code line by line, click on the Step Over, Step Into and Step Out Of buttons on the far right hand side (they look like little arrows).
-
-### Ways of getting visibility
-
-#### `console.log()`
-
-##### `this`
+#### Find out what `this` is
 
 Really handy to know what value `this` has in a piece of code.  It changes!
 
@@ -72,7 +55,7 @@ Really handy to know what value `this` has in a piece of code.  It changes!
 console.log(this);
 ```
 
-##### Variables
+#### Variables
 
 Does this variable contain what I expect?
 
@@ -80,7 +63,7 @@ Does this variable contain what I expect?
 console.log(airport);
 ```
 
-##### Functions
+#### Functions
 
 Am I calling the right function?
 
@@ -88,7 +71,7 @@ Am I calling the right function?
 console.log(airport.land);
 ```
 
-##### Function return values
+#### Function return values
 
 Is this function returning what I expect?
 
@@ -96,7 +79,7 @@ Is this function returning what I expect?
 console.log(airport.land());
 ```
 
-##### Function parameters
+#### Function parameters
 
 Does this parameter contain what I expect? What does this parameter even contain?
 
@@ -108,9 +91,24 @@ class Airport {
 }
 ```
 
-#### Using a step debugger
+### Using a step debugger
 
-When you run a debugger, you can hover over variables to see their values.
+A debugger is a program that runs your program and lets you step through your program line by line.  Some people really love using a debugger.  Others don't.  Give one a try and see how you feel.
+
+Add `debugger;` to a line in your program that you **know** runs e.g.:
+
+```javascript
+function sayHi() {
+  var x = "hi";
+  debugger;
+  x = "howdy";
+  console.log(x);
+};
+
+sayHi();
+```
+
+Run the program and go to the Sources tab of the Chrome dev tools.  To move through your code line by line, click on the Step Over, Step Into and Step Out Of buttons on the far right hand side (they look like little arrows). An overview of what these steps mean can be found [here](https://developers.google.com/web/tools/chrome-devtools/javascript/reference#stepping). When you run a debugger, you can inspect the value of variables by hovering over the variables or lookin in the box labeled 'Scope'.
 
 ## Instructions (30 minutes)
 
