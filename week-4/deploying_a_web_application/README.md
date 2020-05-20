@@ -68,7 +68,9 @@ The new remote repo is called `heroku` and you can push your code there using Gi
     - Now you need to do it on Heroku's machine!
       <details>
       <summary style="color:green;"><b>Click here if you're really stuck</b></summary>
-      The Heroku platform allows you to open a terminal session on their machine, via your browser.  To do this, find out how to 'Run console' on your Heroku application, via the Heroku platform.  Once you've found out how to do that, use the `bash` command to open a bash session and do `bundle exec rake db:migrate`.  If this completes without error, you should now be able to navigate to `/widgets` and CRUD widgets to you hearts content.
+      You can either `Run console` on your Heroku app, on the Heroku platform, which is exciting.
+
+      Or you can research the `heroku run` command, which you can execute in your own termninal on your own machine, and use that to do the necessary things.
       </details>
 
 ## Plenary
