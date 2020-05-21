@@ -9,40 +9,32 @@ A process model is a diagram/performance/[something else] that demonstrates how 
 
 ## Why model a process?
 
-* It's a quick way to figure out and cement your understanding of how a process works.
-
-* It's a great way to communicate and discuss a process with another person.
+- It's a quick way to figure out and cement your understanding of how a process works.
+- It's a great way to communicate and discuss a process with another person.
 
 ## What forms can a process model take?
 
 Many forms!
 
-* A boxes and arrows diagram.
-
-* An interpretive dance.
-
-* A performance where each person is a thing in the process (a server, the API, javascript..).
-
-* A form of your own invention.
+- A boxes and arrows diagram.
+- An interpretive dance.
+- A performance where each person is a thing in the process (a server, the API, javascript..).
+- A form of your own invention.
 
 ## Instructions
 
-* Choose one of the forms above.
+- Choose one of the forms above.
+- Use it to model each of the processes in the [processes to model](README.md#processes-to-model) section below.
+- Prioritize the clarity and detail of your model over getting through all the processes listed below.
+- Make sure that your models include the following:
+    - The order that things happen in.
+    - Which parts of the code sends and receive requests.
+    - The HTTP requests and the data they carry.
+    - The HTTP responses and the data they carry. 
+    - The movement of requests between front-end and back-end.
+    - What is displayed or changed in the browser.
 
-* Use it to model each of the processes in the [processes to model](README.md#processes-to-model) section below.
-
-* Prioritize the clarity and detail of your model over getting through all the processes listed below.
-
-* Make sure that your models include the following:
-
-  * The order that things happen in.
-  * Which parts of the code sends and receive requests.
-  * The HTTP requests and the data they carry.
-  * The HTTP responses and the data they carry. 
-  * The movement of requests between front-end and back-end.
-  * What is displayed or changed in the browser.
-
-You should **use the network tab of the chrome dev-tools** to monitor what is happening on the network. You may also want to get visibility in both ruby and javascript to understand the order in which things happen.
+You should **use the network tab of the chrome dev-tools** to monitor what is happening on the network. You may also want to **get visibility in both ruby and javascript** to understand the order in which things happen.
 
 ## Install the app
 
@@ -54,19 +46,19 @@ git clone git@github.com:makersacademy/thermostat-example.git
 
 cd thermostat-example
 ```
-1. Switch to the sinatra-api branch
+2. Switch to the sinatra-api branch
 ```
 git checkout sinatra-api
 ```
-1. Install dependencies
+3. Install dependencies
 ```
 bundle install
 ```
-1. Start the server
+4. Start the server
 ```
 ruby app.rb
 ```
-1. Open the app by navigating to http://localhost:4567/
+5. Open the app by navigating to http://localhost:4567/
 
 ## Processes to model
 ### Home page
