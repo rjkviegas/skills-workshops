@@ -1,7 +1,7 @@
 Object Oriented Code 1, Encapsulation & Cohesion
 ================================================
 
-*There is a Diode project for this practical. [Find it here.](https://diode.makersacademy.com/students/neoeno/projects/370)*
+*There is a project plan for this practical. [Find it here.](object_oriented_1.md)*
 
 ## Learn to
 

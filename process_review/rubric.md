@@ -2,7 +2,7 @@
 
 ## Developer
 Before you start work, remember to set yourself a 
-[learning goal](https://diode.makersacademy.com/students/dearshrewdwit/projects/4692).
+[learning goal](process_recording.md).
 
 You are responsible for three things.
 
