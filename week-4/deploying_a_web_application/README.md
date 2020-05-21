@@ -55,6 +55,11 @@ The new remote repo is called `heroku` and you can push your code there using Gi
 `git push heroku master`
 
 ### Challenges
+
+The application you just deployed was built using a Ruby framework called Rails.  You won't understand everything in the codebase, but that's OK – you don't need to change it!
+
+When you get to step 4, focus on what happens, or should happen, during deployment.  What does the application rely on?
+
 1. Read the output from `git push heroku master` and try to figure out what Heroku is doing.
 2. If deployment went smoothly (i.e. there was no error message) you should see the URL of your deployed app in the output.  Go there in your browser!
 3. Try navigating to `<your url>/widgets` (you'll see an error message).  How can you find more information?  Maybe there's something on the Heroku platform that will help!

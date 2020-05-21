@@ -17,11 +17,9 @@ The learners deploy an app by going through the process described [here](https:/
 
 The Heroku guide is not shared at the start, so that the learners have to think about what's going on.  It's included in 'Further Reading'
 
-> When this workshop was first created, following the guide from Heroku does not properly set up the database (the migration is not run).  This leaves the learners with an interesting problem to investigate but we're relying on Heroku not fixing this!
+The deployment appears to go smoothly but the migration is not run so when the learners go to `/widgets` they see an error.
 
-Run through the process of deploying the app to check that Heroku have not fixed it before you run the workshop.
-
-Further down the line we should fork this repo and refactor it so that we can maintain our own set of interesting bugs!
+To find the cause of this error they need to look in the application logs either on the Heroku platform or using the Heorku CLI.
 
 ## Plenary ( 20 minutes )
 
