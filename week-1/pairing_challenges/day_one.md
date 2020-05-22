@@ -7,7 +7,7 @@ To achieve these goals:
   - Find your pair
   - Agree when you'll swap over driver/navigator
   - Set a timer for that long
-  - Follow these instructions: https://github.com/makersacademy/skills-workshops/tree/master/week-1/pairing_challenges
+  - [Follow these instructions](https://github.com/makersacademy/skills-workshops/tree/master/week-1/pairing_challenges)
 
 ## Evidence Plan
   - Ask my pair the following:
