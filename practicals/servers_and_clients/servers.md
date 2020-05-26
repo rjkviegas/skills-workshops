@@ -70,7 +70,7 @@ Try the following challenges, in any order you like:
 
 1. At the moment the server simply quits after the first user disconnects. Make so the server stays running so that the user can reconnect.
 2. Make it so the user can stay connected and typing stuff until they type 'quit'
-3. Connect to your pair's laptop from your laptop. You'll need the network IP address of the laptop with the server on it for this. See below
+3. Connect to your pair's laptop from your laptop. You'll need the network IP address of the laptop with the server on it for this. See below. Note that this will not work if you are in a remote cohort.
 4. Create a separate `NoteList` class and make a notes app you can control over the network.
 
 Or anything you like! What do you want to know about how it works? How can you play around with this simple server to find out?
