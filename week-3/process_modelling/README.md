@@ -55,7 +55,9 @@ You can use chrome dev-tools to monitor what is happenning on the network.
 ### Home page
 (The code for the app we'll use in the workshop is here: https://github.com/makersacademy/process_modelling)
 
-A user visits `https://makers-cats.herokuapp.com/` in their browser and is shown this HTML:
+A user tries to visit `https://makers-cats.herokuapp.com/`, but mistypes the url as `https://makers-rats.herokuapp.com/` in their browser.
+
+When they don't see the page they expect and fix their typo, they are shown this HTML:
 
 ```
 <!DOCTYPE html>
@@ -73,8 +75,6 @@ A user visits `https://makers-cats.herokuapp.com/` in their browser and is shown
 </html>
 
 ```
-
-What if the user mistyped this url? Try to include more details into your model.
 
 ### Cat page
 
