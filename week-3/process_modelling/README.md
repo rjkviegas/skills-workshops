@@ -52,12 +52,34 @@ You can use chrome dev-tools to monitor what is happenning on the network.
 
 ## Processes to model
 
-### Home page
+### Visiting the home page
 (The code for the app we'll use in the workshop is here: https://github.com/makersacademy/process_modelling)
+
+A user visits `https://makers-cats.herokuapp.com/` and they are shown this HTML:
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Req/Res</title>
+  </head>
+  <body>
+    <ul>
+      <a href="list.html">a list</a>
+      <a href="cats.html">a cat pic</a>
+    </ul>
+  </body>
+</html>
+
+```
+
+
+### Home page with typo
 
 A user tries to visit `https://makers-cats.herokuapp.com/`, but mistypes the url as `https://makers-rats.herokuapp.com/` in their browser.
 
-When they don't see the page they expect and fix their typo, they are shown this HTML:
+When they don't see the page they expect and fix their typo to the correct home page URL, they are shown this HTML:
 
 ```
 <!DOCTYPE html>
