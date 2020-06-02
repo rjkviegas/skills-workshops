@@ -33,9 +33,9 @@ Table: cohorts
 > You will probably need to use foreign keys and associations. There may be one or more 'join' tables involved too, in order to implement many-to-many relationships.
 
 ## Resources
-
-- [ELI5: Relational Databases](https://www.reddit.com/r/explainlikeimfive/comments/3qqm9h/eli5_relational_databases/)
 - [ActiveRecord guide: Database Associations](http://guides.rubyonrails.org/association_basics.html#the-types-of-associations) (with diagrams!)
+- [ELI5: Relational Databases](https://www.reddit.com/r/explainlikeimfive/comments/3qqm9h/eli5_relational_databases/)
+
 
 ## User Stories
 
