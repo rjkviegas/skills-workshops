@@ -19,7 +19,7 @@ I want to dock a bicycle back at a docking station
 ```
 As a customer
 So I can have the best cycling experience
-I want to only get good bikes from the docking station
+I want to only get working bikes from the docking station
 ```
 
 ```
