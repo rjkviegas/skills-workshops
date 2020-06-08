@@ -26,7 +26,6 @@ Here are the possible programs to build. Complete them in the following order:
 1. [Leap Years](./exercises/leap_years)
 1. [Ten minute walk](./exercises/10_minute_walk)
 1. [Scrabble solver](./exercises/scrabble_solver)
-1. [Ten Green Bottles](./exercises/ten_green_bottles)
 1. [Checkout](./exercises/checkout)
 1. [Change Converter](./exercises/change_converter)
 1. [Echo](./exercises/echo)
