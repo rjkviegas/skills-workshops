@@ -4,11 +4,11 @@ An exercise to help with understanding and practicing mocking by writing "useful
 
 ### Learning Objectives
 
-I understand that mock objects are objects that mimic behaviour of real objects in your program in a way that you dictate and therefore have full control over.
+* I understand that mock objects are objects that mimic behaviour of real objects in your program in a way that you dictate and therefore have full control over.
 
-I understand how to use mocks to isolate your tests and check the interaction between 2 objects
+* I understand how to use mocks to isolate my tests and check the interaction between 2 objects.
 
-I understand how to use mocking to test randomness
+* I understand how to use mocking to test randomness.
 
 ### Setup
 
@@ -30,12 +30,13 @@ I understand how to use mocking to test randomness
 
 ### Instructions
 
-Start with filling in the tests in the Airport Spec. The Airport class is tightly couples to Weather class.
+Start with filling in the tests in the Airport Spec. The Airport class is tightly coupled to Weather class.
 
-1. Remove this tight coupling.
+1. **Remove this tight coupling.**
 
-2. Once this has been done, write the missing tests. The tests should be isolated using doubles.
+2. **Once this has been done, write the missing tests. The tests should be isolated using doubles.**
 
-3. Make sure the tests are actually verifying your Airport class is handling what is returned from the weather object's method in the way you expect.
+3. **Make sure the tests are actually verifying your Airport class is handling what is returned from the weather object's method in the way you expect.**
 
-4. Once you have finished with the Airport Spec move onto the Weather Spec and fill in the tests for that too. 
+4. **Once you have finished with the Airport Spec move onto the Weather Spec and fill in the tests for that too.**
+
