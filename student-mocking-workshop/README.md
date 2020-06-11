@@ -40,3 +40,8 @@ Start with filling in the tests in the Airport Spec. The Airport class is tightl
 
 4. **Once you have finished with the Airport Spec move onto the Weather Spec and fill in the tests for that too.**
 
+
+### Additional Resources 
+
+[Test Doubles](https://martinfowler.com/bliki/TestDouble.html)
+
