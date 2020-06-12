@@ -3,7 +3,7 @@ OO Relationships 2: Testing
 
 ## Learn to
 
-* Test relationships between classes
+* Test relationships between classes using mocking
 
 ## Exercise 1 (and only)
 
