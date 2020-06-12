@@ -59,7 +59,7 @@ the better your code becomes, the more value you can deliver to customers.
 ### 1. Prepare for code review (solo)
 
 1. Create a pull request for your weekend challenge
-1. Summarise what user stories are included in the pull request
+1. Summarise what user stories are included in the pull request description
 1. Point out anything incomplete
 1. Draw attention to anything you'd like to improve
 1. Send the pull request link to your pair
