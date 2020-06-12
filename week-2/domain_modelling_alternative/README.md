@@ -16,9 +16,7 @@ I would like a student to have a name
 As a coach,
 So that I can track attendance,
 I would like a student to be able to sign in and sign out
-
 ```
-
 ```
 As a coach,
 So that I can deliver the course,
