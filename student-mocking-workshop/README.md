@@ -14,6 +14,8 @@ An exercise to help with understanding and practicing mocking by writing "useful
 
 * If you don't already have it, clone the skills workshop repo.
 
+* Do a `git pull` to make sure you have an up-to-date version of the repo.
+
 * `cd` into the `student-mocking-workshop` directory.
 
 * Run `bundle install`.
@@ -41,7 +43,6 @@ Start with filling in the tests in the Airport Spec. The Airport class is tightl
 4. **Once you have finished with the Airport Spec move onto the Weather Spec and fill in the tests for that too.**
 
 
-### Additional Resources 
+### Additional Resources
 
 [Test Doubles](https://martinfowler.com/bliki/TestDouble.html)
-
