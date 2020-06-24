@@ -10,7 +10,7 @@ You'll need to
 
 For a student named `Ed` in a cohort named `july2020`
 
-one possible implementation:
+one possible implementation: (not currently live yet)
 ```sh
 $ gem install cipherworld-edjuly2020
 $ cipher -charset character_set2.txt ll -e example.txt
