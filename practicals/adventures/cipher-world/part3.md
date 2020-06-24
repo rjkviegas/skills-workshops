@@ -1,7 +1,7 @@
 
 ### Details
 
-For this challenge use [character_set1.txt](./char_sets.character_set1.txt)
+For this challenge use [character_set1.txt](./char_sets/character_set1.txt)
 
 Your implementation should use your character set file and be agnostic to the values.
 
