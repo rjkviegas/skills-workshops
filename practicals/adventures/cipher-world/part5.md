@@ -6,10 +6,10 @@ We have a new requirement!
 
 Let's take this opportunity to refactor to take advantage of OOP's polymorphism. The public interface to all our ciphers should be methods #encrypt and #decrypt.
 
-NB: Ciphers should assume a valid character set
-NB: Individual ciphers use the Cipher namespace
-NB: Use your testing framework of choice to automate running tests
-NB: Create more tests to help you develop your program and cover different code paths.
+- NB: Ciphers should assume a valid character set
+- NB: Individual ciphers use the Cipher namespace
+- NB: Use your testing framework of choice to automate running tests
+- NB: Create more tests to help you develop your program and cover different code paths.
 
 Hint: start with updating your Letter Number cipher.
 
