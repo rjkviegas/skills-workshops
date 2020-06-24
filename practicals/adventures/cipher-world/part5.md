@@ -6,6 +6,7 @@ We have a new requirement!
 
 Let's take this opportunity to refactor to take advantage of OOP's polymorphism. The public interface to all our ciphers should be methods #encrypt and #decrypt.
 
+- NB: Use [character_set1](./char_sets/character_set1.txt) for the Letter Number cipher and [character_set2](./char_sets/character_set2.txt) for the Letter Letter cipher
 - NB: Ciphers should assume a valid character set
 - NB: Individual ciphers use the Cipher namespace
 - NB: Use your testing framework of choice to automate running tests
