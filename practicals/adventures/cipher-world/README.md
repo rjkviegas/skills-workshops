@@ -8,4 +8,4 @@ If you're feeling like a real challenge, start with the Acceptance Criteria in t
 
 ### Character Sets
 
-You'll need the character set text files in the directory [character_sets](./character_sets).
+You'll need the character set text files in the directory [char_sets](./char_sets).
