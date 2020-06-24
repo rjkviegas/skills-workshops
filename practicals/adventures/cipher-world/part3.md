@@ -3,15 +3,11 @@
 
 For this challenge use [character_set1.txt](./char_sets/character_set1.txt)
 
-Your implementation should use your character set file and be agnostic to the values.
-
-The charset mappings have changed slightly
-
-plaintext = starting string. ciphertext = encrypted string
-
-Each encrypted plaintext character should never be more than two ciphertext characters. If the evaluation of the encrypted character value is > 99, then reset from 0 and continue adding. See below for test cases.
-
-Each encrypted character should always be two ciphertext characters: if the encrypted plaintext character is '8'  it should be '08' in ciphertext characters
+- NB: Your implementation should use your character set file and be agnostic to the values.
+- NB: The charset mappings have changed slightly
+- NB: plaintext = starting string. ciphertext = encrypted string
+- NB: Each encrypted plaintext character should never be more than two ciphertext characters. If the evaluation of the encrypted character value is > 99, then reset from 0 and continue adding. See below for test cases.
+- NB: Each encrypted character should always be two ciphertext characters: if the encrypted plaintext character is '8'  it should be '08' in ciphertext characters
 
 Keep in mind the constraints from the previous step.
 
