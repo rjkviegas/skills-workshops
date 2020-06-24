@@ -11,7 +11,7 @@ For this challenge use [character_set1.txt](./char_sets/character_set1.txt)
 
 Keep in mind the constraints from the previous step.
 
-### Acceptance Criteira
+### Acceptance Criteria
 ```ruby
 Secret.new('0').encrypt(45) #=> '43'
 Secret.new('Look over there!').encrypt(2374) #=> "37141410981421041798190704170452"
