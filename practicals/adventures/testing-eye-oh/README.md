@@ -27,10 +27,10 @@ Remember: have fun!
 
 ### Experiments need feedback
 
-This challenge is borrowed from [blog](https://dearshrewdwit.github.io/blog/teaching-programming/experiment-to-learn-about-testing-stdout-in-ruby/) I need your thoughts! As you progress through this project, whenever you feel like it, leave a comment [here](https://github.com/dearshrewdwit/dearshrewdwit.github.io/issues/13) or [there]([here](https://github.com/dearshrewdwit/dearshrewdwit.github.io/issues/13)) with your thoughts.
+This challenge is borrowed from [Ed](https://github.com/dearshrewdwit/)'s [blog](https://dearshrewdwit.github.io/blog/teaching-programming/experiment-to-learn-about-testing-stdout-in-ruby/) As you progress through this project, whenever you feel like it, leave him a comment [here](https://github.com/dearshrewdwit/dearshrewdwit.github.io/issues/13) or [there](https://github.com/dearshrewdwit/dearshrewdwit.github.io/issues/13) with your thoughts.
 
 #### If you got to the end - nice job!
-I'm keen to know any/all of the following - I'll read everything.
+How'd it go? - everything you share will be read.
 
 - did you achieve the [project goal](#project-goals)?
 - the sub goals? Which ones?
@@ -72,11 +72,11 @@ Subgoals:
 ### Project Map
 Use these links to jump to different steps:
 
-- [what is puts doing - part1](./1-what-does-puts-do?)
-- [what is puts doing - part2](./2-what-does-puts-do-continued)
-- [what is puts doing - part3](./3-what-does-puts-do-continued)
-- [replacing output](./4-replacing-output)
-- [testing output](./5-testing-output)
-- [refactoring step](./6-refactoring-step)
+- [what is puts doing - part1](./1-what-does-puts-do.md)
+- [what is puts doing - part2](./2-what-does-puts-do-continued.md)
+- [what is puts doing - part3](./3-what-does-puts-do-continued.md)
+- [replacing output](./4-replacing-output.md)
+- [testing output](./5-testing-output.md)
+- [refactoring step](./6-refactoring-step.md)
 
 [Back to map](./README.md#project-map)
