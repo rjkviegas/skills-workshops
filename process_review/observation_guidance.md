@@ -7,9 +7,9 @@ When observing your pair, keep in mind the following indicators of good process.
 - Writing a test and watching it fail before writing code
 - Only write code to fix the test fail message you can see
 - Testing the behaviour of a function, not state of a class
-- Including edge cases in tests
 - Looking for an opportunity to refactor the code after getting to green
 - Refactoring verbose tests after the code is working
+- Including edge cases in tests
 
 ## Programming Fluently
 - Sets up a project with only the tools they require e.g. git and a test library for a small project
