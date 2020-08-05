@@ -8,14 +8,14 @@ describe('Sheep', function() {
   })
   describe('say()', function() {
     it("it's name", function() {
-      expect(sheep.sayName()).toBe('My name is Gary.');
+      expect(sheep.sayName()).toBe('Gary');
     })
   })
   describe('enter()', function() {
     it('a pen', function() {
       pen = new Pen();
       sheep.enter(pen);
-      expect(pen.list()).toContain(sheep);
+      expect(pen.listNames()).toContain('Gary');
     })
   })
 })
