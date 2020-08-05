@@ -5,7 +5,7 @@ describe('Feature Test', function() {
   describe('a sheep can say', function() {
     it("it's name", function() {
       sheep = new Sheep('Gary');
-      expect(sheep.say(name)).toBe('Gary');
+      expect(sheep.sayName()).toBe('My name is Gary.');
     })
   })
 })

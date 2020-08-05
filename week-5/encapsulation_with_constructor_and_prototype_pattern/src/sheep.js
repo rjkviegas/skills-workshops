@@ -2,6 +2,9 @@
 
 class Sheep {
   constructor(name) {
-    this.name = name;
+    this._name = name;
+  }
+  sayName() {
+    return 'My name is ' + this._name +'.';
   }
 }

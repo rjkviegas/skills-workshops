@@ -2,10 +2,10 @@
 
 describe('Sheep', function() {
   var sheep;
-  describe('name', function() {
-    it('has a name', function() {
+  describe('say()', function() {
+    it("it's name", function() {
       sheep = new Sheep('Gary');
-      expect(sheep.name).toBe('Gary');
+      expect(sheep.sayName()).toBe('My name is Gary.');
     })
   })
 })
