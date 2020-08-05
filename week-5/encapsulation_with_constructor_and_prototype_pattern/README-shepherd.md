@@ -6,12 +6,12 @@ Javascript and Jasmine for testing.
 
 ```
 As a shepherd
-So my sheep can be safe
-I want to have a pen they can go into
-
-As a shepherd
 So my sheep can be friends
 I want them to be able to say their names
+
+As a shepherd
+So my sheep can be safe
+I want to have a pen they can go into
 
 As a shepherd
 So I can know all my sheep are home

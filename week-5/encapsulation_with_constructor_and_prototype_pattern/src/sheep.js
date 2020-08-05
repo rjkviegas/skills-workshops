@@ -7,4 +7,7 @@ class Sheep {
   sayName() {
     return 'My name is ' + this._name +'.';
   }
+  enter(pen) {
+    pen.add(this);
+  }
 }
