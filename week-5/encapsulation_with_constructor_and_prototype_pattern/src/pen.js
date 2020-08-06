@@ -8,10 +8,14 @@ class Pen {
     this._occupants.push(sheep);
   }
   listNames() {
-    var sheepNames = []
-    this._occupants.forEach(function(sheep){
-      sheepNames.push((sheep.sayName()));
-    });
-    return sheepNames;
+    // var sheepNames = []
+    // this._occupants.forEach(function(sheep){
+    //   sheepNames.push((sheep.sayName()));
+    // });
+    // return sheepNames;
+    return this._occupants
+    .map(function(sheep) {
+      return sheep.sayName();
+    })
   }
 }

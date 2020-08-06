@@ -43,7 +43,7 @@
 // console.log("count is", countModel.count());
 
 // Answer: has no effect on output/behaviour of the code
-// but shouldn't it because it's madr a private method(?)
+// as the underscore is simply a convention in JavaScript, not a rule
 
 // // Question 3
 
@@ -70,8 +70,11 @@
 
 // // Answer: "Uncaught TypeError: countModel.set is not a function at index.js:68"
 // // I think because of line 56 (return {}') this makes CountModel 
-// // an Object without the properties of the CountModel class, as debugging show
-// // it has not _count property after executing line 56
+// // an Object without the properties of the CountModel class, as debugging shows
+// // it does not have _count property after executing line 56.
+
+// // The return{} stops the implicit return defined on the constructed function's prototype
+// // error thrown as set function is not on the empty object
 
 // // Question 4
 
@@ -99,8 +102,8 @@
 
 // console.log("count is", countModel.count());
 
-// // Answer: The output is "count is 0" and using debugger it shows that the method on line 94 
-// // overwrites the prototype method on line 86 and means the method executed on line 98
+// // Answer: The output is "count is 0" and using debugger it shows that the method on line 97 
+// // overwrites the prototype method on line 89 and means the method executed on line 97
 // // makes no use of the 5 passed as an argument. The _count property is uneffected by the set method 
 // // and is 0
 
